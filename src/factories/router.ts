@@ -1,7 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router'
 
 import Home from '@/views/HomeView.vue'
-import Test from '@/views/TestRouting.vue'
 import Lit from '@/views/LiteratureList.vue'
 
 const routes = [
@@ -11,13 +10,8 @@ const routes = [
     component: Home,
   },
   {
-    path: '/test',
-    name: 'test',
-    component: Test,
-  },
-  {
     path: '/literature',
-    name: 'literaryReferences',
+    name: 'sources',
     component: Lit,
   },
 ]
