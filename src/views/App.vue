@@ -1,10 +1,10 @@
 <template>
-  <NavigationMenu />
+  <ButtonList />
   <router-view />
   <BackgroundCanvas />
 </template>
 
 <script setup lang="ts">
 import BackgroundCanvas from '@/components/BackgroundCanvas.vue'
-import NavigationMenu from '@/components/NavigationMenu.vue'
+import ButtonList from '@/components/ButtonList.vue'
 </script>
