@@ -37,13 +37,13 @@ function noise(x: number, y: number) {
   const u = fade(xf)
   const v = fade(yf)
 
-  const aa = p[p[X] + Y]
-  const ab = p[p[X] + Y + 1]
-  const ba = p[p[X + 1] + Y]
-  const bb = p[p[X + 1] + Y + 1]
+  const aa = p[p[X]! + Y]
+  const ab = p[p[X]! + Y + 1]
+  const ba = p[p[X + 1]! + Y]
+  const bb = p[p[X + 1]! + Y + 1]
 
-  const x1 = lerp(grad(aa, xf, yf), grad(ba, xf - 1, yf), u)
-  const x2 = lerp(grad(ab, xf, yf - 1), grad(bb, xf - 1, yf - 1), u)
+  const x1 = lerp(grad(aa!, xf, yf), grad(ba!, xf - 1, yf), u)
+  const x2 = lerp(grad(ab!, xf, yf - 1), grad(bb!, xf - 1, yf - 1), u)
 
   return (lerp(x1, x2, v) + 1) / 2
 }
