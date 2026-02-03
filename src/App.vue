@@ -1,5 +1,7 @@
 <template>
-  <BackgroundCanvas />
+  <div id="app">
+    <BackgroundCanvas />
+  </div>
 </template>
 
 <script setup lang="ts">
