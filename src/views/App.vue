@@ -51,4 +51,8 @@ import DetailSection from '@/components/DetailSection.vue';
   z-index: 1;
 }
 
+.divider {
+  color: #41ff41;
+  margin: 10px 0;
+}
 </style>
