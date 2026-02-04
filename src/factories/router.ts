@@ -1,7 +1,5 @@
 import { createRouter, createWebHistory } from 'vue-router'
 
-import Home from '@/views/HomeView.vue'
-import Lit from '@/views/LiteratureList.vue'
 
 export const routes = [
   {
@@ -9,15 +7,16 @@ export const routes = [
     name: 'forside',
     color: '#ff7493',
     inMenu: true,
-    component: Home,
+    component: () => import('@/views/HomeView.vue'),
   },
   {
     path: '/literature',
     name: 'litteratur',
     color: '#DCBB00',
     inMenu: true,
-    component: Lit,
+    component: () => import('@/views/LiteratureList.vue'),
   },
+
 
 // Handle literally anything that isn't listed here.
   {
