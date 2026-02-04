@@ -37,3 +37,8 @@ __screenshots__/
 
 # Vite
 *.timestamp-*-*.mjs
+public/goated status.png
+
+
+# environment variables
+.env
