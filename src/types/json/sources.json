@@ -8,7 +8,19 @@
         "accessed": "2026-02-04",
         "note": "Officiel dokumentationsside for Vue.js, indeholder vejledninger, API-reference og eksempler.",
         "validity": 10,
-        "validityNote": "Officiel dokumentationsside for Vue.js"
+        "validityNote": "Officiel dokumentationsside for Vue.js",
+        "type": "Dokumentation"
+      }, 
+      {
+        "id": 2,
+        "title": "Vue.js Explained in 100 Seconds",
+        "author": "Fireship",
+        "url": "https://www.youtube.com/watch?v=nhBVL41-_Cw",
+        "accessed": "2026-02-04",
+        "note": "Kort video der forklarer de grundlæggende koncepter i Vue.js på en hurtig og overskuelig måde.",
+        "validity": 7,
+        "validityNote": "Videoen giver en præcis introduktion, men er ikke officiel dokumentation.",
+        "type": "Video"
       }
     ]
   }
