@@ -6,7 +6,7 @@ import Lit from '@/views/LiteratureList.vue'
 export const routes = [
   {
     path: '/',
-    name: 'start',
+    name: 'forside',
     color: '#ff7493',
     component: Home,
   },
