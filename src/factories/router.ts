@@ -6,13 +6,13 @@ import Lit from '@/views/LiteratureList.vue'
 export const routes = [
   {
     path: '/',
-    name: 'home',
+    name: 'start',
     color: '#ff7493',
     component: Home,
   },
   {
     path: '/literature',
-    name: 'sources',
+    name: 'litteratur',
     color: '#DCBB00',
     component: Lit,
   },
