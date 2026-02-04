@@ -14,7 +14,8 @@
 <script setup lang="ts">
 import { ref } from 'vue'
 import { useRouter } from 'vue-router'
-import { validRoutedItems } from '@/types/availableRoutes'
+import { routes } from '@/factories/router'
+
 
 const router = useRouter()
 
@@ -29,7 +30,7 @@ function fontSizeForLabel(label: string) {
 }
 
 const styledItems = ref(
-  validRoutedItems.map((item) => ({
+  routes.map((item) => ({
     ...item,
     style: {
       background: `linear-gradient(180deg, ${item.color}, black)`,
