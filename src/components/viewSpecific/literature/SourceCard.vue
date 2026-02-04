@@ -1,6 +1,7 @@
 <template>
   <div class="source-card">
     <h3>{{ title }}</h3>
+    <p><strong>Type af kilde:</strong> {{ type }}</p>
     <p><strong>Forfatter/Organisation:</strong> {{ author }}</p>
     <p v-if="note"><strong>Note:</strong> {{ note }}</p>
     <p>
@@ -47,7 +48,8 @@ const validityColor = computed(() => {
 
 .source-card h3 {
   margin-top: 0;
-  color: slateblue;
+  margin-bottom: 15px;
+  color: steelblue;
 }
 
 .source-card strong,
@@ -63,7 +65,6 @@ const validityColor = computed(() => {
 }
 
 .source-card a {
-  color: slateblue;
   text-decoration: none;
   display: inline-block;
   margin-top: 6px;
