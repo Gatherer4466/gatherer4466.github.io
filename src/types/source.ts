@@ -7,4 +7,5 @@ export interface Source {
   note?: string;
   validity: number;
   validityNote: string;
+  type: string;
 }
