@@ -25,7 +25,7 @@
 <script setup lang="ts">
 import BackgroundCanvas from '@/components/BackgroundCanvas.vue'
 // import ButtonList from '@/components/ButtonList.vue'
-import HeaderComponent from '@/components/viewSpecific/HeaderComponent.vue';
+import HeaderComponent from '@/components/HeaderComponent.vue';
 </script>
 
 <style>
