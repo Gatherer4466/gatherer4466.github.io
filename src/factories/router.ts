@@ -8,14 +8,24 @@ export const routes = [
     path: '/',
     name: 'forside',
     color: '#ff7493',
+    inMenu: true,
     component: Home,
   },
   {
     path: '/literature',
     name: 'litteratur',
     color: '#DCBB00',
+    inMenu: true,
     component: Lit,
   },
+
+// Handle literally anything that isn't listed here.
+  {
+    path: '/:pathMatch(.*)*',
+    name: 'NotFound',
+    inMenu: false,
+    component: () => import('@/views/NotFound.vue')
+  }
 ]
 
 const router = createRouter({
