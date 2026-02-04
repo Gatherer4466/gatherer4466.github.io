@@ -11,11 +11,11 @@
   </div>
 </template>
 
+
 <script setup lang="ts">
-import { ref } from 'vue'
+import { computed } from 'vue'
 import { useRouter } from 'vue-router'
 import { routes } from '@/factories/router'
-
 
 const router = useRouter()
 
@@ -29,39 +29,42 @@ function fontSizeForLabel(label: string) {
   return `${Math.max(size, MIN_SIZE)}rem`
 }
 
-const styledItems = ref(
-  routes.map((item) => ({
-    ...item,
-    style: {
-      background: `linear-gradient(180deg, ${item.color}, black 90%)`,
-      color: 'white',
-      fontFamily: 'Mario, sans-serif',
-      WebkitTextFillColor: 'white',
-      WebkitTextStroke: '1px black',
+const styledItems = computed(() =>
+  routes
+    .filter(route => route.inMenu)
+    .map(item => ({
+      ...item,
+      style: {
+        background: `linear-gradient(180deg, ${item.color}, black 90%)`,
+        color: 'white',
+        fontFamily: 'Mario, sans-serif',
+        WebkitTextFillColor: 'white',
+        WebkitTextStroke: '1px black',
 
-      width: '100px',
-      height: '56px',
-      padding: '12px 20px',
+        width: '100px',
+        height: '56px',
+        padding: '12px 20px',
 
-      borderRadius: '8px',
-      border: 'none',
-      cursor: 'pointer',
+        borderRadius: '8px',
+        border: 'none',
+        cursor: 'pointer',
 
-      fontSize: fontSizeForLabel(item.name),
+        fontSize: fontSizeForLabel(item.name),
 
-      display: 'flex',
-      alignItems: 'center',
-      justifyContent: 'center',
-      whiteSpace: 'nowrap',
-      overflow: 'hidden',
-    },
-  })),
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'center',
+        whiteSpace: 'nowrap',
+        overflow: 'hidden',
+      },
+    }))
 )
 
 function goToRoute(name: string) {
   router.push({ name })
 }
 </script>
+
 
 <style scoped>
 @font-face {
