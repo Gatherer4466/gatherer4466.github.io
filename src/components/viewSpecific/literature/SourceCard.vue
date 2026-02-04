@@ -3,6 +3,7 @@
     <h3>{{ title }}</h3>
     <p><strong>Forfatter/Organisation:</strong> {{ author }}</p>
     <p v-if="note"><strong>Note:</strong> {{ note }}</p>
+    <p><strong>Validitets vurdering:</strong> {{ validity }}</p>
     <p><strong>Sidst tilgået:</strong> {{ accessed }}</p>
     <a :href="url" target="_blank" rel="noopener">Gå til kilde</a>
   </div>
