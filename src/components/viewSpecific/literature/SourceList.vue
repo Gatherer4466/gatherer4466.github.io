@@ -21,8 +21,6 @@ import type { Source } from '@/types/source'
 import list from '@/types/json/sources.json'
 
 const sources: Source[] = list.sources
-
-console.log(sources)
 </script>
 
 <style scoped>
