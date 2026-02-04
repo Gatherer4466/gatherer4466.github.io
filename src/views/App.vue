@@ -4,28 +4,35 @@
 
     <main class="content">
       <table class="mainBox">
-        <tbody>
-          <tr>
-            <th>
-               <HeaderComponent/>
-            </th>
-          </tr>
+  <tbody>
+    <tr>
+      <th class="contentCell">
+        <HeaderComponent />
+      </th>
 
-          <tr>
-            <th>
-              <router-view />
-            </th>
-          </tr>
-        </tbody>
-      </table>
+      <th class="buttonColumn" rowspan="2">
+        <ButtonList />
+      </th>
+    </tr>
+
+    <tr>
+      <th class="contentCell">
+        <DetailSection />
+        <router-view />
+      </th>
+    </tr>
+  </tbody>
+</table>
+
     </main>
   </div>
 </template>
 
 <script setup lang="ts">
 import BackgroundCanvas from '@/components/BackgroundCanvas.vue'
-// import ButtonList from '@/components/ButtonList.vue'
+import ButtonList from '@/components/ButtonList.vue'
 import HeaderComponent from '@/components/HeaderComponent.vue';
+import DetailSection from '@/components/DetailSection.vue';
 </script>
 
 <style>
