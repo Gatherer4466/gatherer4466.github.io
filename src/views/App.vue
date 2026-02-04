@@ -4,26 +4,24 @@
 
     <main class="content">
       <table class="mainBox">
-  <tbody>
-    <tr>
-      <th class="contentCell">
-        <HeaderComponent />
-      </th>
+        <tbody>
+          <tr>
+            <th class="contentCell">
+              <HeaderComponent />
+            </th>
 
-      <th class="buttonColumn" rowspan="2">
-        <ButtonList />
-      </th>
-    </tr>
-
-    <tr>
-      <th class="contentCell">
-        <DetailSection />
-        <router-view />
-      </th>
-    </tr>
-  </tbody>
-</table>
-
+            <th class="buttonColumn" rowspan="2">
+              <ButtonList />
+            </th>
+          </tr>
+          <tr>
+            <th class="contentCell">
+              <DetailSection />
+              <router-view />
+            </th>
+          </tr>
+        </tbody>
+      </table>
     </main>
   </div>
 </template>
@@ -37,13 +35,20 @@ import DetailSection from '@/components/DetailSection.vue';
 
 <style>
 #app {
-  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   min-height: 100vh;
+  width: 100%;
   position: relative;
 }
 
 .content {
-  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   z-index: 1;
 }
+
 </style>
