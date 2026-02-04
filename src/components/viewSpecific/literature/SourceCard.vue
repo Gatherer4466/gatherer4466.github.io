@@ -3,16 +3,33 @@
     <h3>{{ title }}</h3>
     <p><strong>Forfatter/Organisation:</strong> {{ author }}</p>
     <p v-if="note"><strong>Note:</strong> {{ note }}</p>
-    <p><strong>Validitets vurdering:</strong> {{ validity }}</p>
+    <p>
+      <strong>Validitets vurdering: </strong>
+      <span :style="{ color: validityColor }">
+        {{ validity }}
+      </span>
+      <span>/10</span> - {{ validityNote }}
+    </p>
+
+
     <p><strong>Sidst tilgået:</strong> {{ accessed }}</p>
     <a :href="url" target="_blank" rel="noopener">Gå til kilde</a>
   </div>
 </template>
 
 <script setup lang="ts">
-import type { Source } from '@/types/source';
+import { computed } from 'vue'
+import type { Source } from '@/types/source'
 
-const props = defineProps<Source>();
+const props = defineProps<Source>()
+
+const validityColor = computed(() => {
+  const value = Math.min(10, Math.max(0, props.validity))
+
+  const hue = (value / 10) * 120
+
+  return `hsl(${hue}, 70%, 45%)`
+})
 </script>
 
 <style scoped>
@@ -33,9 +50,11 @@ const props = defineProps<Source>();
   color: slateblue;
 }
 
-.source-card strong {
+.source-card strong,
+.source-card span {
   color: slateblue;
 }
+
 
 .source-card p {
   margin: 4px 0;
