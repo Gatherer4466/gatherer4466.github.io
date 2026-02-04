@@ -33,7 +33,7 @@ const styledItems = ref(
   routes.map((item) => ({
     ...item,
     style: {
-      background: `linear-gradient(180deg, ${item.color}, black)`,
+      background: `linear-gradient(180deg, ${item.color}, black 90%)`,
       color: 'white',
       fontFamily: 'Mario, sans-serif',
       WebkitTextFillColor: 'white',
