@@ -7,7 +7,7 @@ export const routes = [
   {
     path: '/',
     name: 'home',
-    color: '#ff4493',
+    color: '#ff7493',
     component: Home,
   },
   {
