@@ -5,4 +5,5 @@ export interface Source {
   url: string;
   accessed: string;
   note?: string;
+  validity: string;
 }
