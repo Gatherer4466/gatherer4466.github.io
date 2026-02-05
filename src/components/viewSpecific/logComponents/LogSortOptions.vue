@@ -27,15 +27,14 @@
     </span>
   </div>
 </template>
-
-
-
 <script setup lang="ts">
 import { ref } from 'vue'
 
+export type MonthKey = 'all' | 'feb' | 'mar' | 'apr' | 'may' | 'jun'
+
 const emit = defineEmits<{
   (e: 'update:sort', value: 'newest' | 'oldest'): void
-  (e: 'update:month', value: string | null): void
+  (e: 'update:month', value: MonthKey | null): void
 }>()
 
 const sortOptions = [
@@ -50,23 +49,21 @@ const monthOptions = [
   { label: 'Apr', value: 'apr' },
   { label: 'May', value: 'may' },
   { label: 'Jun', value: 'jun' },
-]
+] as const
 
 const activeSort = ref<'newest' | 'oldest'>('newest')
-const activeMonth = ref<string | null>(null)
+const activeMonth = ref<MonthKey | null>(null)
 
 function setSort(value: 'newest' | 'oldest') {
   activeSort.value = value
   emit('update:sort', value)
 }
 
-function setMonth(value: string) {
+function setMonth(value: MonthKey | null) {
   activeMonth.value = value
-  emit('update:month', value === 'all' ? null : value)
+  emit('update:month', value)
 }
-
 </script>
-
 
 
 <style scoped>
