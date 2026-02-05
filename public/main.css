@@ -83,14 +83,6 @@ th {
   overflow-wrap: anywhere;
   word-break: break-word;
 
-  transition: box-shadow 0.2s ease, transform 0.2s ease;
-}
-
-.card:hover {
-  box-shadow:
-    0 0 14px rgba(65, 255, 65, 0.35),
-    inset 0 0 16px rgba(65, 255, 65, 0.08);
-  transform: translateY(-1px);
 }
 
 
