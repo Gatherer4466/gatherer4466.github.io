@@ -35,10 +35,11 @@ const props = defineProps<{ log: LogEntry }>()
 .content-block {
   margin-top: 0.5rem;
 }
-
 .content-block img {
+  display: block;
   max-width: 100%;
-  margin-top: 0.5rem;
+  margin: 0.5rem auto;
   border-radius: 4px;
 }
+
 </style>
