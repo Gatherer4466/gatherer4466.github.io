@@ -1,12 +1,12 @@
 <template>
-  <div class="source-card">
+  <div class="card source-card">
     <h3>{{ title }}</h3>
     <p><strong>Type af kilde:</strong> {{ type }}</p>
     <p><strong>Forfatter/Organisation:</strong> {{ author }}</p>
     <p v-if="note"><strong>Note:</strong> {{ note }}</p>
     <p>
       <strong>Validitets vurdering: </strong>
-      <span :style="{ color: validityColor }">
+      <span class="validity-score" :style="{ color: validityColor }">
         {{ validity }}
       </span>
       <span>/10</span> - {{ validityNote }}
@@ -34,36 +34,6 @@ const validityColor = computed(() => {
 </script>
 
 <style scoped>
-.source-card {
-  border: 1px solid #ccc;
-  border-radius: 8px;
-  padding: 12px 16px;
-  margin-bottom: 12px;
-  background-color: #f9f9ff;
-
-  text-align: left;
-  overflow-wrap: anywhere;
-  word-break: break-word;
-}
-
-.source-card h3 {
-  margin-top: 0;
-  margin-bottom: 15px;
-  color: steelblue;
-}
-
-.source-card strong,
-.source-card span {
-  color: slateblue;
-}
-
-
-.source-card p {
-  margin: 4px 0;
-  overflow-wrap: anywhere;
-  text-wrap: wrap;
-}
-
 .source-card a {
   text-decoration: none;
   display: inline-block;
@@ -74,6 +44,18 @@ const validityColor = computed(() => {
 
 .source-card a:hover {
   text-decoration: underline;
+}
+
+.validity-score {
+  transition: text-shadow 0.2s ease, filter 0.2s ease;
+}
+
+.source-card:hover .validity-score {
+  text-shadow:
+    0 0 4px currentColor,
+    0 0 8px currentColor,
+    0 0 14px currentColor;
+  filter: brightness(1.2);
 }
 
 </style>

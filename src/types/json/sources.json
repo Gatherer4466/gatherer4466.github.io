@@ -5,7 +5,7 @@
         "title": "Vue.js - The Progressive JavaScript Framework",
         "author": "Vue.js Team",
         "url": "https://vuejs.org/",
-        "accessed": "2026-02-04",
+        "accessed": "2026-02-05",
         "note": "Officiel dokumentationsside for Vue.js, indeholder vejledninger, API-reference og eksempler.",
         "validity": 10,
         "validityNote": "Officiel dokumentationsside for Vue.js",
@@ -21,7 +21,18 @@
         "validity": 7,
         "validityNote": "Videoen giver en præcis introduktion, men er ikke officiel dokumentation.",
         "type": "Video"
-      }
+      },
+      {
+        "id": 3,
+        "title": "text-wrap - CSS",
+        "author": "MDN Web Docs",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/text-wrap",
+        "accessed": "2026-02-05",
+        "note": "MDN-dokumentation for CSS-egenskaben text-wrap, brugt til styling af tekstombrydning. (Det som du ser her faktisk :)",
+        "validity": 9,
+        "validityNote": "MDN er en anerkendt og pålidelig kilde for webstandarder og CSS-dokumentation.",
+        "type": "Dokumentation"
+      }      
     ]
   }
   
