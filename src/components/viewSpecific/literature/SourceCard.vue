@@ -6,7 +6,7 @@
     <p v-if="note"><strong>Note:</strong> {{ note }}</p>
     <p>
       <strong>Validitets vurdering: </strong>
-      <span :style="{ color: validityColor }">
+      <span class="validity-score" :style="{ color: validityColor }">
         {{ validity }}
       </span>
       <span>/10</span> - {{ validityNote }}
@@ -92,6 +92,18 @@ const validityColor = computed(() => {
 
 .source-card a:hover {
   text-decoration: underline;
+}
+
+.validity-score {
+  transition: text-shadow 0.2s ease, filter 0.2s ease;
+}
+
+.source-card:hover .validity-score {
+  text-shadow:
+    0 0 4px currentColor,
+    0 0 8px currentColor,
+    0 0 14px currentColor;
+  filter: brightness(1.2);
 }
 
 </style>
