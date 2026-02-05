@@ -1,4 +1,8 @@
 <template>
+  <h2 id="infoTitle" class="titleMargin">
+    <b style="color: slateblue; margin-bottom: 25px">Blog:</b>
+  </h2>
+  <p style="color: #00ffc8; margin-bottom: 10px;">&gt; Denne blog vil som minimum blive opdateret ugentligt, men kan være sporadisk.</p>
   <LogSortOptions
     @update:sort="sort = $event"
     @update:month="month = $event"
