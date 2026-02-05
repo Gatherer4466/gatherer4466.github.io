@@ -24,14 +24,6 @@ const props = defineProps<{ log: LogEntry }>()
 </script>
 
 <style scoped>
-.card {
-  background-color: #111;
-  color: #00ffc8;
-  padding: 1rem;
-  margin: 0.5rem 0;
-  border-radius: 8px;
-}
-
 .content-block {
   margin-top: 0.5rem;
 }
