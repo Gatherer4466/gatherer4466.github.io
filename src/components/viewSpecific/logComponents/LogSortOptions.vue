@@ -43,7 +43,7 @@ const sortOptions = [
 ] as const
 
 const monthOptions = [
-  { label: 'All', value: 'all' },
+  { label: 'Alle', value: 'all' },
   { label: 'Feb', value: 'feb' },
   { label: 'Mar', value: 'mar' },
   { label: 'Apr', value: 'apr' },
