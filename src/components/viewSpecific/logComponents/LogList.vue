@@ -30,7 +30,7 @@ const logs: LogEntry[] = rawList.logs as LogEntry[]
   display: flex;
   flex-direction: column;
   /* width: 95%; */
-  max-width: 20%;
+  max-width: 95%;
   margin: auto;
   overflow-y: scroll;
   overflow-x: hidden;
