@@ -1,11 +1,14 @@
 <template>
-  <p class="about-text" v-if="logs.length === 0">
+  <p v-if="allLogs.length === 0" class="about-text">
     Jeg har slacket hårdt... ingen logs tilgængelige
+  </p>
+  <p v-if="sortedLogs.length === 0" class="about-text">
+    Du har valgt en månede, som er ude i fremtiden... ellers har jeg slacket.
   </p>
 
   <div class="cardContainer">
     <LogContainer
-      v-for="log in logs"
+      v-for="log in sortedLogs"
       :key="log.id"
       :log="log"
     />
@@ -13,23 +16,55 @@
 </template>
 
 <script setup lang="ts">
-// components
-import LogContainer from './LogContainer.vue';
-// types
-import type { LogEntry } from '@/types/log.ts'
-
-// data
+import { computed } from 'vue'
+import LogContainer from '@/components/viewSpecific/logComponents/LogContainer.vue'
+import type { LogEntry } from '@/types/log'
 import rawList from '@/types/json/logs.json'
 
-const logs: LogEntry[] = rawList.logs as LogEntry[]
+const props = defineProps<{
+  sort: 'newest' | 'oldest'
+  month: string | null
+}>()
 
+const allLogs: LogEntry[] = rawList.logs as LogEntry[]
+
+const monthIndexMap = {
+  feb: 1,
+  mar: 2,
+  apr: 3,
+  may: 4,
+  jun: 5,
+} as const
+
+const sortedLogs = computed(() => {
+  let logs = [...allLogs]
+
+  if (props.month && props.month in monthIndexMap) {
+    const targetMonth =
+      monthIndexMap[props.month as keyof typeof monthIndexMap]
+
+    logs = logs.filter(log => {
+      return new Date(log.date).getMonth() === targetMonth
+    })
+  }
+
+  logs.sort((a, b) => {
+    const aTime = new Date(a.date).getTime()
+    const bTime = new Date(b.date).getTime()
+
+    return props.sort === 'newest'
+      ? bTime - aTime
+      : aTime - bTime
+  })
+
+  return logs
+})
 </script>
 
 <style scoped>
 .cardContainer {
   display: flex;
   flex-direction: column;
-  /* width: 95%; */
   max-width: 95%;
   margin: auto;
   overflow-y: scroll;
@@ -39,9 +74,7 @@ const logs: LogEntry[] = rawList.logs as LogEntry[]
 .about-text {
   color: #00ffc8;
   margin-bottom: 10px;
-
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  justify-content: center;
 }
 </style>
