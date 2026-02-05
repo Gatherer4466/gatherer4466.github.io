@@ -42,3 +42,4 @@ public/goated status.png
 
 # environment variables
 .env
+src/types/json/logstemplate.json
