@@ -42,10 +42,10 @@ const styledItems = computed(() =>
         WebkitTextStroke: '1px black',
 
         width: '100px',
-        height: '56px',
+        height: '40px',
         padding: '12px 20px',
 
-        borderRadius: '8px',
+        borderRadius: '2px',
         border: 'none',
         cursor: 'pointer',
 
