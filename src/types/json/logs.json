@@ -1,7 +1,25 @@
 {
     "logs":
         [ 
-          
+            {
+                "id": "log-2025-week-6-day2",
+                "title": "Log opsætning.",
+                "date": "2025-02-05",
+                "content": [
+                {
+                    "type": "text",
+                    "value": "I dag har jeg for det meste kun arbejdet på at få sat denne side, som du lige nu sidder og læser på, op. Øhh ja, jeg skriver først nu her hvor jeg er færdig såååå."
+                },
+                {
+                    "type": "image",
+                    "src": "https://cdn.7tv.app/emote/01FC1B04XR000E3W5GESZFF1AY/4x.png"
+                },
+                {
+                    "type": "text",
+                    "value": "De næste indslag på denne blog vil højst sandsynlig have mere struktur, samt potentielle skitseringer. Dette indslag er mere bare en test for at sige det sådan."
+                }
+                ]
+            }
         ]
     }
     
