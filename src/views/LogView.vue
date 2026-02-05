@@ -19,5 +19,5 @@ import LogSortOptions from '@/components/viewSpecific/logComponents/LogSortOptio
 import LogList from '@/components/viewSpecific/logComponents/LogList.vue'
 
 const sort = ref<'newest' | 'oldest'>('newest')
-const month = ref<string | null>(null)
+const month = ref<'all' | 'feb' | 'mar' | 'apr' | 'may' | 'jun'>('all')
 </script>
