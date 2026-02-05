@@ -1,0 +1,32 @@
+{
+"logs":
+    [ 
+        {
+            "id": "log-2025-week-6",
+            "title": "Portfolio Setup & Experiments",
+            "date": "2025-02-05",
+            "content": [
+            {
+                "type": "text",
+                "value": "I denne uge har jeg for det meste arbejdet på at sætte denne hjemmeside op. Lidt forgævs tids-prioritering? Ja!"
+            },
+            {
+                "type": "image",
+                "src": "https://cdn.7tv.app/emote/01GDG3Q74R000CF58E0FY6XQSP/3x.png"
+            },
+            {
+                "type": "text",
+                "value": "Men til gengæld er jeg kommet til et punkt, hvor dette portfølje både kan navigeres, og ser"
+            },
+            {
+                "type": "gif",
+                "src": "https://cdn.7tv.app/emote/01HRCZ32S0000BXPQ8F998NT06/3x.gif"
+            },
+            {
+                "type": "text",
+                "value": "lidt spændende ud."
+            }
+            ]
+        }
+    ]
+}
