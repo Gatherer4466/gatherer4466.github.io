@@ -34,12 +34,12 @@ export type MonthKey = 'all' | 'feb' | 'mar' | 'apr' | 'may' | 'jun'
 
 const emit = defineEmits<{
   (e: 'update:sort', value: 'newest' | 'oldest'): void
-  (e: 'update:month', value: MonthKey | null): void
+  (e: 'update:month', value: MonthKey): void
 }>()
 
 const sortOptions = [
-  { label: 'Newest', value: 'newest' },
-  { label: 'Oldest', value: 'oldest' },
+  { label: 'Nyeste', value: 'newest' },
+  { label: 'Ældste', value: 'oldest' },
 ] as const
 
 const monthOptions = [
@@ -52,14 +52,14 @@ const monthOptions = [
 ] as const
 
 const activeSort = ref<'newest' | 'oldest'>('newest')
-const activeMonth = ref<MonthKey | null>(null)
+const activeMonth = ref<MonthKey>('all')
 
 function setSort(value: 'newest' | 'oldest') {
   activeSort.value = value
   emit('update:sort', value)
 }
 
-function setMonth(value: MonthKey | null) {
+function setMonth(value: MonthKey) {
   activeMonth.value = value
   emit('update:month', value)
 }
