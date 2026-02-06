@@ -65,7 +65,7 @@ const sortedLogs = computed(() => {
 .cardContainer {
   display: flex;
   flex-direction: column;
-  max-width: 95%;
+  width: 95%;
   margin: auto;
   overflow-y: scroll;
   overflow-x: hidden;

@@ -29,7 +29,7 @@ const props = defineProps<{ log: LogEntry }>()
 }
 .content-block img {
   display: block;
-  max-width: 100%;
+  max-width: 100ch;
   margin: 0.5rem auto;
   border-radius: 4px;
 }

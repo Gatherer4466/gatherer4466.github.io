@@ -40,7 +40,10 @@ const filteredPlans = computed(() => {
 .cardContainer {
   display: flex;
   flex-direction: column;
-  gap: 14px;
+  width: 95%;
+  margin: auto;
+  overflow-y: scroll;
+  overflow-x: hidden;
 }
 
 .about-text {
