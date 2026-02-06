@@ -32,7 +32,41 @@
         "validity": 9,
         "validityNote": "MDN er en anerkendt og pålidelig kilde for webstandarder og CSS-dokumentation.",
         "type": "Dokumentation"
-      }      
+      },
+      {
+        "id": 4,
+        "title": "Vue.js - Wikipedia",
+        "author": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Vue.js",
+        "accessed": "2026-02-06",
+        "note": "Wikipedia artikel, som forklarer de basele viden omkring Vuejs frameworket.",
+        "validity": 7,
+        "validityNote": "Wikipedia er generelt set en fornuftig kilde for sig selv, men da alle kan redigere i de forskellige artikler, mister den en lille smule validitet.",
+        "type": "Artikel"
+      },
+      {
+        "id": 5,
+        "title": "Vue Developer Roadmap",
+        "author": "roadmap.sh",
+        "url": "https://roadmap.sh/vue",
+        "accessed": "2026-02-06",
+        "note": "Visuel roadmap over kompetencer og teknologier relevante for Vue-udvikling, brugt som inspiration til strukturering af læringsmål.",
+        "validity": 8,
+        "validityNote": "Roadmap.sh er bredt anerkendt og kurateret af erfarne udviklere, men er ikke officiel dokumentation.",
+        "type": "Roadmap"
+      },
+      {
+        "id": 6,
+        "title": "DevOps Roadmap",
+        "author": "roadmap.sh",
+        "url": "https://roadmap.sh/devops",
+        "accessed": "2026-02-06",
+        "note": "Overordnet roadmap for DevOps-kompetencer, anvendt som inspiration til opdeling af DevOps-læringsmål og progression.",
+        "validity": 8,
+        "validityNote": "Roadmap.sh giver et solidt overblik over DevOps-feltet, men bør suppleres med officiel dokumentation.",
+        "type": "Roadmap"
+      }
+
     ]
   }
   

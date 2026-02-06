@@ -17,7 +17,9 @@
           <tr>
             <th class="contentCell">
               <DetailSection />
-              <router-view />
+              <div class="routedContent">
+                <router-view />
+              </div>
             </th>
           </tr>
         </tbody>

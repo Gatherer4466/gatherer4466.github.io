@@ -8,7 +8,7 @@
     @update:month="month = $event"
   />
 
-  <div id="scrollable-content">
+  <div class="scrollable-content">
     <LogList :sort="sort" :month="month" />
   </div>
 </template>

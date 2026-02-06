@@ -19,7 +19,38 @@
                     "value": "De næste indslag på denne blog vil højst sandsynlig have mere struktur, samt potentielle skitseringer. Dette indslag er mere bare en test for at sige det sådan."
                 }
                 ]
+            },
+            {
+                "id": "log-2026-week-6-day4",
+                "title": "Læringsmål, planer og over-engineering.",
+                "date": "2026-02-06",
+                "content": [
+                {
+                    "type": "text",
+                    "value": "I dag har jeg for det meste arbejdet på, at få sat nogle læringsmål, samt planer op.\nDerudover har jeg brugt det meste af dagen på, at skulle være tilstæde til en workshop vi afholdte i XR Lab. Så jeg har dermed ikke kunne lave så meget arbejde.\n\nEn af grundidéerne er at genbruge den filtrering og sortering, der findes på blogsiden, og implementere den tilsvarende på kildesiden."
+                },
+                {
+                    "type": "image",
+                    "src": "/images/blogImages/week6/friday/sortImage.png"
+                },
+                {
+                    "type": "text",
+                    "value": "Dog er jeg usikker på, om jeg når det i dag.\n\nMen det grundlæggende, som jeg skal have op og køre i dag, er mine lærings planer. Især fordi at dem har jeg overhovedet ikke tænkt over at udarbejde, før nu."
+                },
+                {
+                    "type": "image",
+                    "src": "https://cdn.7tv.app/emote/01GQF7KXJ8000ERT2YB38Q65VR/3x.gif"
+                },
+                {
+                    "type": "text",
+                    "value": "Det bliver dog lidt mere besværligt at få sortering udarbejdet for mine kilder...\nHvad skal der kunne filtreres for? Hvordan skal man kunne sorterer dem?\nBliver dette portfølje over-engineered? (det er det fanme allerede)"
+                },
+                {
+                    "type": "image",
+                    "src": "https://cdn.7tv.app/emote/01FC1B04XR000E3W5GESZFF1AY/4x.png"
+                }
+                ]
             }
-        ]
-    }
+    ]
+}
     
