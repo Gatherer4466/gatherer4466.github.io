@@ -27,7 +27,7 @@
     </section>
 
     <section class="section" v-else>
-      <h4>Læringsplan</h4>
+      <h4  style="color:aquamarine; font-size: 20px; margin-top: 30px; margin-bottom: 20px;">Læringsplan</h4>
 
       <div
         v-for="(goals, key) in plan.plan"
@@ -58,8 +58,8 @@ const props = defineProps<{
 }>()
 
 const horizonMap: Record<TimeHorizon, string> = {
-  short: 'Kort sigt (0–1 måned)',
-  mid: 'Mellemlang sigt (1–3 måneder)',
+  short: 'Kort sigt (0-1 måned)',
+  mid: 'Mellemlang sigt (1-3 måneder)',
   long: 'Lang sigt (3+ måneder)',
 }
 
