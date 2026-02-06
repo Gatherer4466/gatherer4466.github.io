@@ -32,7 +32,19 @@
         "validity": 9,
         "validityNote": "MDN er en anerkendt og pålidelig kilde for webstandarder og CSS-dokumentation.",
         "type": "Dokumentation"
-      }      
+      },
+      {
+        "id": 4,
+        "title": "Vue.js - Wikipedia",
+        "author": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Vue.js",
+        "accessed": "2026-02-06",
+        "note": "Wikipedia artikel, som forklarer de basele viden omkring Vuejs frameworket.",
+        "validity": 7,
+        "validityNote": "Wikipedia er generelt set en fornuftig kilde for sig selv, men da alle kan redigere i de forskellige artikler, mister den en lille smule validitet.",
+        "type": "Artikel"
+      }
+
     ]
   }
   
