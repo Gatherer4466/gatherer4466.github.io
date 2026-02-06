@@ -6,10 +6,12 @@
     @update:horizon="horizon = $event"
   />
 
-  <LearningList
-    :category="category"
-    :horizon="horizon"
-  />
+  <div class="scrollable-content">
+    <LearningList
+      :category="category"
+      :horizon="horizon"
+    />
+  </div>
 </template>
 
 <script setup lang="ts">
