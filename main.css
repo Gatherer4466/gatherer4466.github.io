@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scrollbar-width: none;
 }
 
 body {
@@ -106,14 +107,26 @@ th {
   text-wrap: wrap;
 }
 
+/* .contentCell {
+  max-height: 6px;
+} */
+
 .scrollable-content {
-  max-height: 60vh;
+  max-height: 50vh;
   overflow-y: auto;
   padding-right: 10px;
 
   scrollbar-width: none; /* Firefox */
   -ms-overflow-style: none; /* IE and Edge */
 }
+
+.routedContent {
+  max-height: 65vh;
+  /* padding: 0 10px 20px 10px; bottom padding ensures last card is visible */
+  overflow-y: hidden;
+  box-sizing: border-box;
+}
+
 
 .mainBox {
   display: flex;
