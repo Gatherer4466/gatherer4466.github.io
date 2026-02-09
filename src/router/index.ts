@@ -34,7 +34,7 @@ export const routes = [
     name: 'planer',
     color: '#26A69A',
     inMenu: true,
-    component: () => import('@/views/LearningView.vue'),
+    component: () => import('@/components/features/learning/LearningView.vue'),
   },
   {
     path: '/log',
