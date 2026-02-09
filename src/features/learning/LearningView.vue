@@ -1,5 +1,7 @@
 <template>
-  <h2>Læringsplaner</h2>
+  <h2 id="infoTitle" class="titleMargin">
+    <b style="color: slateblue; margin-bottom: 25px">Læringsplaner:</b>
+  </h2>
 
   <LearningFilter
     @update:category="category = $event"
