@@ -24,7 +24,7 @@ let rainbowInterval: ReturnType<typeof setInterval> | null = null
 onMounted(() => {
   rainbowInterval = setInterval(() => {
     rainbowColor.value = getRandomColor()
-  }, 1000)
+  }, props.interval)
 
 })
 
