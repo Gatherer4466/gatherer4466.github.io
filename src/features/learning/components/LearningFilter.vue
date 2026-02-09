@@ -30,7 +30,7 @@
 
 <script setup lang="ts">
 import { ref } from 'vue'
-import type { TimeHorizon } from '@/types/learning'
+import type { TimeHorizon } from '../types.ts'
 
 const emit = defineEmits<{
   (e: 'update:category', value: 'all' | 'vue' | 'devops'): void

@@ -3,6 +3,7 @@
 </template>
 
 <script setup lang="ts">
+//TODO: split this component up further, move the noise generation into a utils folder mayhaps
 import { ref, onMounted, onUnmounted } from 'vue'
 
 const canvas = ref<HTMLCanvasElement | null>(null)

@@ -1,5 +1,7 @@
 <template>
-  <h2>Læringsplaner</h2>
+  <h2 id="infoTitle" class="titleMargin">
+    <b style="color: slateblue; margin-bottom: 25px">Læringsplaner:</b>
+  </h2>
 
   <LearningFilter
     @update:category="category = $event"
@@ -16,8 +18,8 @@
 
 <script setup lang="ts">
 import { ref } from 'vue'
-import LearningFilter from '@/components/viewSpecific/learning/GoalSortOptions.vue'
-import LearningList from '@/components/viewSpecific/learning/GoalList.vue'
+import LearningFilter from '@/features/learning/components/LearningFilter.vue'
+import LearningList from '@/features/learning/components/LearningList.vue'
 
 const category = ref<'all' | 'vue' | 'devops'>('all')
 const horizon = ref<'all' | 'short' | 'mid' | 'long'>('all')

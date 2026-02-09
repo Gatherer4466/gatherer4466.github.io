@@ -15,7 +15,7 @@
 <script setup lang="ts">
 import { computed } from 'vue'
 import { useRouter } from 'vue-router'
-import { routes } from '@/factories/router'
+import { routes } from '@/router'
 
 const router = useRouter()
 

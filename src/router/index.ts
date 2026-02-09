@@ -34,21 +34,21 @@ export const routes = [
     name: 'planer',
     color: '#26A69A',
     inMenu: true,
-    component: () => import('@/views/LearningView.vue'),
+    component: () => import('@/features/learning/LearningView.vue'),
   },
   {
     path: '/log',
     name: 'log',
     color: '#8D6E63',
     inMenu: true,
-    component: () => import('@/views/LogView.vue'),
+    component: () => import('@/features/blog/LogView.vue'),
   },
   {
     path: '/literature',
     name: 'kilder',
     color: '#DCBB00',
     inMenu: true,
-    component: () => import('@/views/LiteratureList.vue'),
+    component: () => import('@/features/literature/LiteratureList.vue'),
   },
 
   // Handle literally anything that isn't listed here.

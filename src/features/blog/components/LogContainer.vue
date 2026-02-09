@@ -6,11 +6,7 @@
     <div v-for="(block, index) in log.content" :key="index" class="content-block">
       <p v-if="block.type === 'text'">{{ block.value }}</p>
       <img
-        v-else-if="block.type === 'image'"
-        :src="block.src"
-      />
-      <img
-        v-else-if="block.type === 'gif'"
+        v-else-if="block.type === 'image' || block.type === 'gif'"
         :src="block.src"
       />
     </div>
@@ -18,7 +14,7 @@
 </template>
 
 <script setup lang="ts">
-import type { LogEntry } from '@/types/log.ts'
+import type { LogEntry } from '../types.ts'
 
 const props = defineProps<{ log: LogEntry }>()
 </script>
