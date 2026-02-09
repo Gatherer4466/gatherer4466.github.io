@@ -14,9 +14,9 @@
 
 <script setup lang="ts">
 import { computed } from 'vue'
-import LearningCard from '@/components/viewSpecific/learning/GoalCard.vue'
-import type { LearningPlan } from '@/types/learning'
-import rawData from '@/types/json/learning-plans.json'
+import LearningCard from './GoalCard.vue'
+import type { LearningPlan } from '../types'
+import rawData from '../data.json'
 
 const props = defineProps<{
   category: 'all' | 'vue' | 'devops'
