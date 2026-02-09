@@ -65,6 +65,17 @@
         "validity": 8,
         "validityNote": "Roadmap.sh giver et solidt overblik over DevOps-feltet, men bør suppleres med officiel dokumentation.",
         "type": "Roadmap"
+      },
+      {
+        "id":7,
+        "title": "Official vue style guide",
+        "author": "Vue.js Team",
+        "url":"https://vuejs.org/style-guide/",
+        "accessed": "2026-02-09",
+        "note": "Officiel guide for, hvordan man kan strukturere, sin vue kodebase. Såsom hvordan man giver en god navngivning af komponenter.",
+        "validity":9,
+        "validityNote": "Igen, er dette en officiel kilde fra dem, der maintainer Vuejs frameworket. Dog, mister den et point, da, som de selv påpeger, er den outdated.",
+        "type": "Dokumentation/Arkitektur guide"
       }
 
     ]

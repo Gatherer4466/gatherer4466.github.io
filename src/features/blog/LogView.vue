@@ -15,8 +15,8 @@
 
 <script setup lang="ts">
 import { ref } from 'vue'
-import LogSortOptions from '@/components/viewSpecific/logComponents/LogSortOptions.vue'
-import LogList from '@/components/viewSpecific/logComponents/LogList.vue'
+import LogSortOptions from './components/LogSortOptions.vue'
+import LogList from './components/LogList.vue'
 
 const sort = ref<'newest' | 'oldest'>('newest')
 const month = ref<'all' | 'feb' | 'mar' | 'apr' | 'may' | 'jun'>('all')

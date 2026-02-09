@@ -20,7 +20,7 @@
 
 <script setup lang="ts">
 import { computed } from 'vue'
-import type { Source } from '@/types/source'
+import type { Source } from '../types.ts'
 
 const props = defineProps<Source>()
 

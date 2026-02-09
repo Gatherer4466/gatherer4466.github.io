@@ -15,10 +15,10 @@
 import SourceCard from './SourceCard.vue'
 
 // types
-import type { Source } from '@/types/source'
+import type { Source } from '../types.ts'
 
 // data
-import list from '@/types/json/sources.json'
+import list from '../data.json'
 
 const sources: Source[] = list.sources
 </script>

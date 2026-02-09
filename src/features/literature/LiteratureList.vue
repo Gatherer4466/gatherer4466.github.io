@@ -10,5 +10,5 @@
 
 
 <script setup lang="ts">
-import SourceList from '@/components/viewSpecific/literature/SourceList.vue';
+import SourceList from './components/SourceList.vue';
 </script>
