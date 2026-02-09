@@ -41,7 +41,7 @@ export const routes = [
     name: 'log',
     color: '#8D6E63',
     inMenu: true,
-    component: () => import('@/views/LogView.vue'),
+    component: () => import('@/features/blog/LogView.vue'),
   },
   {
     path: '/literature',
