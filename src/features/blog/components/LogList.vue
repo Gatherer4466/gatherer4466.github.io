@@ -19,7 +19,7 @@
 import { computed } from 'vue'
 import LogContainer from './LogContainer.vue'
 import type { LogEntry } from '../types.ts'
-import rawList from '@/types/json/logs.json'
+import rawList from '../data.json'
 
 const props = defineProps<{
   sort: 'newest' | 'oldest'
