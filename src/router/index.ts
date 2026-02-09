@@ -48,7 +48,7 @@ export const routes = [
     name: 'kilder',
     color: '#DCBB00',
     inMenu: true,
-    component: () => import('@/views/LiteratureList.vue'),
+    component: () => import('@/features/literature/LiteratureList.vue'),
   },
 
   // Handle literally anything that isn't listed here.
