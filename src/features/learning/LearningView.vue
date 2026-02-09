@@ -18,8 +18,8 @@
 
 <script setup lang="ts">
 import { ref } from 'vue'
-import LearningFilter from '@/features/learning/components/GoalSortOptions.vue'
-import LearningList from '@/features/learning/components/GoalList.vue'
+import LearningFilter from '@/features/learning/components/Learningfilter.vue'
+import LearningList from '@/features/learning/components/LearningList.vue'
 
 const category = ref<'all' | 'vue' | 'devops'>('all')
 const horizon = ref<'all' | 'short' | 'mid' | 'long'>('all')

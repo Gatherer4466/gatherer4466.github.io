@@ -50,7 +50,7 @@
 
 <script setup lang="ts">
 import { computed } from 'vue'
-import type { LearningPlan, TimeHorizon } from '@/types/learning'
+import type { LearningPlan, TimeHorizon } from '../types.ts'
 
 const props = defineProps<{
   plan: LearningPlan

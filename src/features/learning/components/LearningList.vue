@@ -14,7 +14,7 @@
 
 <script setup lang="ts">
 import { computed } from 'vue'
-import LearningCard from './GoalCard.vue'
+import LearningCard from './LearningsCard.vue'
 import type { LearningPlan } from '../types'
 import rawData from '../data.json'
 
