@@ -18,7 +18,7 @@
 </template>
 
 <script setup lang="ts">
-import type { LogEntry } from '@/types/log.ts'
+import type { LogEntry } from '../types.ts'
 
 const props = defineProps<{ log: LogEntry }>()
 </script>
