@@ -13,6 +13,10 @@
 <script setup lang="ts">
 import { ref, onMounted, onUnmounted } from 'vue'
 
+const props = defineProps({
+  interval: {type:Number, default:1000}
+})
+
 const rainbowColor = ref<string>(getRandomColor())
 
 let rainbowInterval: ReturnType<typeof setInterval> | null = null
