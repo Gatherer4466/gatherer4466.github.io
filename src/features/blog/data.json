@@ -50,7 +50,39 @@
                     "src": "https://cdn.7tv.app/emote/01FC1B04XR000E3W5GESZFF1AY/4x.png"
                 }
                 ]
+            },
+            {
+                "id": "log-2026-week-7-day1",
+                "title": "Refaktorering af arkitektur og struktur.",
+                "date": "2026-02-09",
+                "content": [
+                    {
+                        "type": "text",
+                        "value": "I dag lå jeg desværre syg, så jeg havde ikke overskud til at gå i dybden med at læse. Jeg havde dog fået nogle tilbagemeldinger fra venner, som også arbejder med Vue.js, om at den generelle struktur for mit porteføljeprojekt var uoverskuelig og hurtigt kunne gå galt."
+                    },
+                    {
+                        "type": "image",
+                        "src": "/images/blogImages/week7/monday/codeFeedback.png"
+                    },
+                    {
+                        "type": "text",
+                        "value": "Derfor valgte jeg at bruge det meste af dagen på at arbejde med projektets struktur. Det gav mig samtidig en bedre idé og et stærkere grundlag for, hvordan jeg fremadrettet kan strukturere selve projektet i min projektgruppe."
+                    },
+                    {
+                        "type": "image",
+                        "src": "/images/blogImages/week7/monday/fixedCode.png"
+                    },
+                    {
+                        "type": "text",
+                        "value": "Efter refaktoreringen lever arkitekturen i langt højere grad op til principper som high cohesion og low coupling. Samtidig er der kommet mere fokus på separation of concerns, hvilket gør at projektet bedre følger Single Responsibility Principle."
+                    },
+                    {
+                        "type": "image",
+                        "src": "https://cdn.7tv.app/emote/01G9JW7WY80003SW3KYSMQE9YY/2x.gif"
+                    }
+                ]
             }
+            
     ]
 }
     
