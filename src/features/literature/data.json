@@ -1,0 +1,83 @@
+{
+    "sources": [
+      {
+        "id": 1,
+        "title": "Vue.js - The Progressive JavaScript Framework",
+        "author": "Vue.js Team",
+        "url": "https://vuejs.org/",
+        "accessed": "2026-02-05",
+        "note": "Officiel dokumentationsside for Vue.js, indeholder vejledninger, API-reference og eksempler.",
+        "validity": 10,
+        "validityNote": "Officiel dokumentationsside for Vue.js",
+        "type": "Dokumentation"
+      }, 
+      {
+        "id": 2,
+        "title": "Vue.js Explained in 100 Seconds",
+        "author": "Fireship",
+        "url": "https://www.youtube.com/watch?v=nhBVL41-_Cw",
+        "accessed": "2026-02-04",
+        "note": "Kort video der forklarer de grundlæggende koncepter i Vue.js på en hurtig og overskuelig måde.",
+        "validity": 7,
+        "validityNote": "Videoen giver en præcis introduktion, men er ikke officiel dokumentation.",
+        "type": "Video"
+      },
+      {
+        "id": 3,
+        "title": "text-wrap - CSS",
+        "author": "MDN Web Docs",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/text-wrap",
+        "accessed": "2026-02-05",
+        "note": "MDN-dokumentation for CSS-egenskaben text-wrap, brugt til styling af tekstombrydning. (Det som du ser her faktisk :)",
+        "validity": 9,
+        "validityNote": "MDN er en anerkendt og pålidelig kilde for webstandarder og CSS-dokumentation.",
+        "type": "Dokumentation"
+      },
+      {
+        "id": 4,
+        "title": "Vue.js - Wikipedia",
+        "author": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Vue.js",
+        "accessed": "2026-02-06",
+        "note": "Wikipedia artikel, som forklarer de basele viden omkring Vuejs frameworket.",
+        "validity": 7,
+        "validityNote": "Wikipedia er generelt set en fornuftig kilde for sig selv, men da alle kan redigere i de forskellige artikler, mister den en lille smule validitet.",
+        "type": "Artikel"
+      },
+      {
+        "id": 5,
+        "title": "Vue Developer Roadmap",
+        "author": "roadmap.sh",
+        "url": "https://roadmap.sh/vue",
+        "accessed": "2026-02-06",
+        "note": "Visuel roadmap over kompetencer og teknologier relevante for Vue-udvikling, brugt som inspiration til strukturering af læringsmål.",
+        "validity": 8,
+        "validityNote": "Roadmap.sh er bredt anerkendt og kurateret af erfarne udviklere, men er ikke officiel dokumentation.",
+        "type": "Roadmap"
+      },
+      {
+        "id": 6,
+        "title": "DevOps Roadmap",
+        "author": "roadmap.sh",
+        "url": "https://roadmap.sh/devops",
+        "accessed": "2026-02-06",
+        "note": "Overordnet roadmap for DevOps-kompetencer, anvendt som inspiration til opdeling af DevOps-læringsmål og progression.",
+        "validity": 8,
+        "validityNote": "Roadmap.sh giver et solidt overblik over DevOps-feltet, men bør suppleres med officiel dokumentation.",
+        "type": "Roadmap"
+      },
+      {
+        "id":7,
+        "title": "Official vue style guide",
+        "author": "Vue.js Team",
+        "url":"https://vuejs.org/style-guide/",
+        "accessed": "2026-02-09",
+        "note": "Officiel guide for, hvordan man kan strukturere, sin vue kodebase. Såsom hvordan man giver en god navngivning af komponenter.",
+        "validity":9,
+        "validityNote": "Igen, er dette en officiel kilde fra dem, der maintainer Vuejs frameworket. Dog, mister den et point, da, som de selv påpeger, er den outdated.",
+        "type": "Dokumentation/Arkitektur guide"
+      }
+
+    ]
+  }
+  
