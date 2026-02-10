@@ -1,5 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router'
 
+export const notFoundView = () => import('@/views/NotFound.vue')
+
 export const routes = [
   {
     path: '/',
@@ -13,21 +15,21 @@ export const routes = [
     name: 'prod',
     color: '#4CAF50',
     inMenu: true,
-    component: () => import('@/views/NotFound.vue'),
+    component: notFoundView,
   },
   {
     path: '/eksperimenter',
     name: 'eksper',
     color: '#FF7043',
     inMenu: true,
-    component: () => import('@/views/NotFound.vue'),
+    component: notFoundView,
   },
   {
     path: '/refleksioner',
     name: 'reflek',
     color: '#EC407A',
     inMenu: true,
-    component: () => import('@/views/NotFound.vue'),
+    component: notFoundView,
   },
   {
     path: '/laering',
@@ -56,7 +58,7 @@ export const routes = [
     path: '/:pathMatch(.*)*',
     name: 'NotFound',
     inMenu: false,
-    component: () => import('@/views/NotFound.vue'),
+    component: notFoundView,
   },
 ]
 
