@@ -15,7 +15,7 @@
 <script setup lang="ts">
 import { computed } from 'vue'
 import { useRouter } from 'vue-router'
-import { routes } from '@/router'
+import { routes, notFoundView } from '@/router'
 
 const router = useRouter()
 
@@ -32,38 +32,46 @@ function fontSizeForLabel(label: string) {
 const styledItems = computed(() =>
   routes
     .filter(route => route.inMenu)
-    .map(item => ({
-      ...item,
-      style: {
-        background: `linear-gradient(180deg, ${item.color}, black 90%)`,
-        color: 'white',
-        fontFamily: 'Mario, sans-serif',
-        WebkitTextFillColor: 'white',
-        WebkitTextStroke: '1px black',
+    .map(item => {
+      const isPlaceholder = item.component === notFoundView
+      const baseColor = isPlaceholder ? '#ccc' : item.color
 
-        width: '100px',
-        height: '40px',
-        padding: '12px 20px',
+      return {
+        ...item,
+        style: {
+          background: `linear-gradient(180deg, ${baseColor}, black 90%)`,
+          color: 'white',
+          fontFamily: 'Mario, sans-serif',
+          WebkitTextFillColor: 'white',
+          WebkitTextStroke: '1px black',
 
-        borderRadius: '2px',
-        border: 'none',
-        cursor: 'pointer',
+          width: '100px',
+          height: '40px',
+          padding: '12px 20px',
 
-        fontSize: fontSizeForLabel(item.name),
+          borderRadius: '2px',
+          border: 'none',
+          cursor: 'pointer',
 
-        display: 'flex',
-        alignItems: 'center',
-        justifyContent: 'center',
-        whiteSpace: 'nowrap',
-        overflow: 'hidden',
-      },
-    }))
+          fontSize: fontSizeForLabel(item.name),
+
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'center',
+          whiteSpace: 'nowrap',
+          overflow: 'hidden',
+
+          opacity: isPlaceholder ? 0.6 : 1,
+        },
+      }
+    })
 )
 
 function goToRoute(name: string) {
   router.push({ name })
 }
 </script>
+
 
 
 <style scoped>
