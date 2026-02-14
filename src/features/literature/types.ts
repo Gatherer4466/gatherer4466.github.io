@@ -11,7 +11,7 @@ export interface Source {
   subjectKey: SubjectKey;
 }
 
-enum SubjectKey {
-  web,
-  devOps
+export enum SubjectKey {
+  WebDevelopment = "web",
+  devOps = "devOps"
 }
