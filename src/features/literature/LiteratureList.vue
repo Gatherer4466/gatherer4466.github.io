@@ -7,7 +7,7 @@
     @update:subject="subject = $event"/>
 
   <div class="scrollable-content">
-    <SourceList />
+    <SourceList :sort="sort" :subject="subject"/>
     </div>
 
 </template>
