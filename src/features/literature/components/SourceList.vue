@@ -3,7 +3,7 @@
 <p class="about-text" v-if="sources.length == 0">Jeg har tydligvis ikke brug for at læse... ellers vil der jo være noget her.</p>
 
 <div class="cardContainer">
-  <SourceCard v-for="source in sources"
+  <SourceCard v-for="source in filteredSources"
   :key="source.id"
   v-bind="source"/>
 </div>
@@ -11,6 +11,10 @@
 
 
 <script setup lang="ts">
+//dependencies
+import { computed } from 'vue';
+
+
 // components
 import SourceCard from './SourceCard.vue'
 
@@ -20,7 +24,38 @@ import type { Source } from '../types.ts'
 // data
 import list from '../data.json'
 
+const props = defineProps<{
+  sort: 'best' | 'worse' | 'id'
+  subject: 'web' | 'devOps' | 'both'
+}>()
+
+
 const sources: Source[] = list.sources
+
+const filteredSources =  computed(() => {
+  let rawSources = [...sources]
+
+  if (props.subject !== 'both') {
+    rawSources = rawSources.filter(source => {
+      return source.subjectKey === props.subject
+    })
+  }
+
+
+  rawSources.sort((a,b) => {
+    if (props.sort == 'best')
+      return b.validity - a.validity
+
+    if (props.sort == 'worse')
+      return a.validity - b.validity
+
+    return a.id -b.id
+  })
+  return rawSources
+
+
+})
+
 </script>
 
 <style scoped>

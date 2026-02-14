@@ -9,7 +9,8 @@
         "note": "Officiel dokumentationsside for Vue.js, indeholder vejledninger, API-reference og eksempler.",
         "validity": 10,
         "validityNote": "Officiel dokumentationsside for Vue.js",
-        "type": "Dokumentation"
+        "type": "Dokumentation",
+        "subjectKey": "web"
       }, 
       {
         "id": 2,
@@ -20,7 +21,8 @@
         "note": "Kort video der forklarer de grundlæggende koncepter i Vue.js på en hurtig og overskuelig måde.",
         "validity": 7,
         "validityNote": "Videoen giver en præcis introduktion, men er ikke officiel dokumentation.",
-        "type": "Video"
+        "type": "Video",
+        "subjectKey": "web"
       },
       {
         "id": 3,
@@ -31,7 +33,8 @@
         "note": "MDN-dokumentation for CSS-egenskaben text-wrap, brugt til styling af tekstombrydning. (Det som du ser her faktisk :)",
         "validity": 9,
         "validityNote": "MDN er en anerkendt og pålidelig kilde for webstandarder og CSS-dokumentation.",
-        "type": "Dokumentation"
+        "type": "Dokumentation",
+        "subjectKey": "web"
       },
       {
         "id": 4,
@@ -42,7 +45,8 @@
         "note": "Wikipedia artikel, som forklarer de basele viden omkring Vuejs frameworket.",
         "validity": 7,
         "validityNote": "Wikipedia er generelt set en fornuftig kilde for sig selv, men da alle kan redigere i de forskellige artikler, mister den en lille smule validitet.",
-        "type": "Artikel"
+        "type": "Artikel",
+        "subjectKey": "web"
       },
       {
         "id": 5,
@@ -53,7 +57,8 @@
         "note": "Visuel roadmap over kompetencer og teknologier relevante for Vue-udvikling, brugt som inspiration til strukturering af læringsmål.",
         "validity": 8,
         "validityNote": "Roadmap.sh er bredt anerkendt og kurateret af erfarne udviklere, men er ikke officiel dokumentation.",
-        "type": "Roadmap"
+        "type": "Roadmap",
+        "subjectKey": "web"
       },
       {
         "id": 6,
@@ -64,7 +69,8 @@
         "note": "Overordnet roadmap for DevOps-kompetencer, anvendt som inspiration til opdeling af DevOps-læringsmål og progression.",
         "validity": 8,
         "validityNote": "Roadmap.sh giver et solidt overblik over DevOps-feltet, men bør suppleres med officiel dokumentation.",
-        "type": "Roadmap"
+        "type": "Roadmap",
+        "subjectKey": "devOps"
       },
       {
         "id":7,
@@ -75,9 +81,33 @@
         "note": "Officiel guide for, hvordan man kan strukturere, sin vue kodebase. Såsom hvordan man giver en god navngivning af komponenter.",
         "validity":9,
         "validityNote": "Igen, er dette en officiel kilde fra dem, der maintainer Vuejs frameworket. Dog, mister den et point, da, som de selv påpeger, er den outdated.",
-        "type": "Dokumentation/Arkitektur guide"
+        "type": "Dokumentation/Arkitektur guide",
+        "subjectKey": "web"
+      },
+      {
+        "id":8,
+        "title": "TypeScript: Handbook - Enums",
+        "author": "Microsoft",
+        "url": "https://www.typescriptlang.org/docs/handbook/enums.html#string-enums",
+        "accessed": "2026-02-14",
+        "note": "Officiel guide til hvordan man sætter enums op i TypeScript, mere specifikt omkring string enums og deres sammenkobling med JSON (se næste kilde)",
+        "validity": 10,
+        "validityNote": "Officielt dokumentationsside for TypeScript sproget af Microsoft",
+        "type":"Dokumentation",
+        "subjectKey":"web"
+      },
+      {
+        "id": 9,
+        "title": "JSON Schema - Enumerated values",
+        "author": "JSON Schema",
+        "url": "https://json-schema.org/understanding-json-schema/reference/enum",
+        "accessed": "2026-02-14",
+        "note": "Dokumentation for, hvordan man kan gøre brug af enums i JSON",
+        "validity": 9,
+        "validityNote": "Officiel dokumentation fra JSON Schema-projektet og derfor en meget pålidelig kilde.",
+        "type": "Dokumentation",
+        "subjectKey": "web"
       }
-
     ]
   }
   

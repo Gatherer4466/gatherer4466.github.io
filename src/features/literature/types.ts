@@ -8,4 +8,6 @@ export interface Source {
   validity: number;
   validityNote: string;
   type: string;
+  subjectKey: string;
 }
+
