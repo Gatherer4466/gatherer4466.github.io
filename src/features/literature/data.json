@@ -83,7 +83,32 @@
         "validityNote": "Igen, er dette en officiel kilde fra dem, der maintainer Vuejs frameworket. Dog, mister den et point, da, som de selv påpeger, er den outdated.",
         "type": "Dokumentation/Arkitektur guide",
         "subjectKey": "web"
+      },
+      {
+        "id":8,
+        "title": "TypeScript: Handbook - Enums",
+        "author": "Microsoft",
+        "url": "https://www.typescriptlang.org/docs/handbook/enums.html#string-enums",
+        "accessed": "2026-02-14",
+        "note": "Officiel guide til hvordan man sætter enums op i TypeScript, mere specifikt omkring string enums og deres sammenkobling med JSON (se næste kilde)",
+        "validity": 10,
+        "validityNote": "Officielt dokumentationsside for TypeScript sproget af Microsoft",
+        "type":"Dokumentation",
+        "subjectKey":"web"
+      },
+      {
+        "id": 9,
+        "title": "JSON Schema - Enumerated values",
+        "author": "JSON Schema",
+        "url": "https://json-schema.org/understanding-json-schema/reference/enum",
+        "accessed": "2026-02-14",
+        "note": "Dokumentation for, hvordan man kan gøre brug af enums i JSON",
+        "validity": 9,
+        "validityNote": "Officiel dokumentation fra JSON Schema-projektet og derfor en meget pålidelig kilde.",
+        "type": "Dokumentation",
+        "subjectKey": "web"
       }
+
 
     ]
   }
