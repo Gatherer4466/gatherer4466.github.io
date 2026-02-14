@@ -8,10 +8,6 @@ export interface Source {
   validity: number;
   validityNote: string;
   type: string;
-  subjectKey: SubjectKey;
+  subjectKey: string;
 }
 
-export enum SubjectKey {
-  WebDevelopment = "web",
-  devOps = "devOps"
-}
