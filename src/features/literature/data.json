@@ -5,7 +5,7 @@
         "title": "Vue.js - The Progressive JavaScript Framework",
         "author": "Vue.js Team",
         "url": "https://vuejs.org/",
-        "accessed": "2026-02-05",
+        "accessed": "2026-02-18",
         "note": "Officiel dokumentationsside for Vue.js, indeholder vejledninger, API-reference og eksempler.",
         "validity": 10,
         "validityNote": "Officiel dokumentationsside for Vue.js",
@@ -53,7 +53,7 @@
         "title": "Vue Developer Roadmap",
         "author": "roadmap.sh",
         "url": "https://roadmap.sh/vue",
-        "accessed": "2026-02-06",
+        "accessed": "2026-02-18",
         "note": "Visuel roadmap over kompetencer og teknologier relevante for Vue-udvikling, brugt som inspiration til strukturering af læringsmål.",
         "validity": 8,
         "validityNote": "Roadmap.sh er bredt anerkendt og kurateret af erfarne udviklere, men er ikke officiel dokumentation.",
@@ -65,7 +65,7 @@
         "title": "DevOps Roadmap",
         "author": "roadmap.sh",
         "url": "https://roadmap.sh/devops",
-        "accessed": "2026-02-06",
+        "accessed": "2026-02-18",
         "note": "Overordnet roadmap for DevOps-kompetencer, anvendt som inspiration til opdeling af DevOps-læringsmål og progression.",
         "validity": 8,
         "validityNote": "Roadmap.sh giver et solidt overblik over DevOps-feltet, men bør suppleres med officiel dokumentation.",
@@ -119,7 +119,32 @@
         "validityNote": "Igen, officiel kilde fra vue.js, der er ellers ikke så meget at sige omkring det.",
         "type": "Kursus",
         "subjectKey": "web"
+      },
+      {
+        "id": 11,
+        "title": "How to use Prism.js with Vue",
+        "author": "Ashcroft",
+        "url": "https://ashcroft.dev/blog/how-use-prism-js-vue/",
+        "accessed": "2026-02-18",
+        "note": "Blogindlæg der gennemgår, hvordan man integrerer Prism.js i et Vue-projekt for at opnå syntax highlighting af kodeblokke.",
+        "validity": 7,
+        "validityNote": "Personligt blogindlæg med praktisk guide. Relevans og indhold virker troværdigt, men det er ikke officiel dokumentation.",
+        "type": "Blogindlæg",
+        "subjectKey": "web"
+      },
+      {
+        "id": 12,
+        "title": "TypeScript: JavaScript With Syntax For Types",
+        "author": "Microsoft",
+        "url": "https://www.typescriptlang.org/",
+        "accessed": "2026-02-18",
+        "note": "Officiel hjemmeside for TypeScript, indeholder dokumentation, guides og generel information om sproget.",
+        "validity": 10,
+        "validityNote": "Officiel kilde fra Microsoft og den primære dokumentation for TypeScript.",
+        "type": "Dokumentation",
+        "subjectKey": "web"
       }
+      
     ]
   }
   
