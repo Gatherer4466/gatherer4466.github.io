@@ -27,7 +27,7 @@ export const routes = [
     path: '/produkter/devops',
     name: 'prod-devops',
     inMenu: false,
-    component: () => import('@/features/products/devops/DevOpsProductsView.vue'),
+    component: () => import('@/features/products/devops/DevopsProductsView.vue'),
   },
 
   {
