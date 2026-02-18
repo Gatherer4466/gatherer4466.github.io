@@ -107,6 +107,18 @@
         "validityNote": "Officiel dokumentation fra JSON Schema-projektet og derfor en meget pålidelig kilde.",
         "type": "Dokumentation",
         "subjectKey": "web"
+      },
+      {
+        "id":10,
+        "title": "Tutorial | Vue.js",
+        "author":"Vue.js Team",
+        "url": "https://vuejs.org/tutorial/",
+        "accessed":"2026-02-18",
+        "note": "Kort vue.js kursus, for at kunne få hånd omkring de basalle vue principper, samt syntax.",
+        "validity": "10",
+        "validityNote": "Igen, officiel kilde fra vue.js, der er ellers ikke så meget at sige omkring det.",
+        "type": "Kursus",
+        "subjectKey": "web"
       }
     ]
   }
