@@ -1,0 +1,12 @@
+{
+    "products": [
+      {
+        "id": 1,
+        "title": "placeholder thing",
+        "description": "bla bla bla lorem ipsum or something like that",
+        "link": "",
+        "gif": "/images/vue-course.gif"
+      }
+    ]
+  }
+  
