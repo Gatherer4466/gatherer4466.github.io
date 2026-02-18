@@ -1,41 +1,45 @@
 <template>
   <h2 id="infoTitle" class="titleMargin">
-    <b style="color: #4CAF50;">Produkter:</b>
+    <b style="color: slateblue;">Produkter:</b>
   </h2>
 
-  <div class="category-container">
-    <router-link class="category-card" to="/produkter/web">
+  <div class="cardContainer">
+    <router-link class="card categoryBtn" to="/produkter/web">
       Webudvikling
     </router-link>
 
-    <router-link class="category-card" to="/produkter/devops">
+    <router-link class="card categoryBtn" to="/produkter/devops">
       DevOps
     </router-link>
   </div>
 </template>
 
 <style scoped>
-.category-container {
+.cardContainer {
   display: flex;
   flex-direction: column;
-  gap: 20px;
   width: 95%;
   margin: auto;
+  overflow-y: scroll;
+  overflow-x: hidden;
 }
 
-.category-card {
-  display: block;
+.categoryBtn {
+  display:block;
   padding: 20px;
-  border: 1px solid #41ff41;
-  text-decoration: none;
-  color: #41ff41;
-  font-family: monospace;
-  text-align: center;
-  transition: 0.2s ease;
+  text-align: center !important;
 }
 
-.category-card:hover {
-  background: rgba(65, 255, 65, 0.1);
-  text-shadow: 0 0 8px rgba(65, 255, 65, 0.6);
+
+.categoryBtn:hover {
+  background: rgba(0, 0, 0, 0.75);
+
+  box-shadow:
+    0 0 14px rgba(65, 255, 65, 0.35),
+    inset 0 0 18px rgba(65, 255, 65, 0.12);
+
+    text-shadow: 0 0 8px rgba(255, 0, 149, 0.8);
 }
+
+
 </style>
