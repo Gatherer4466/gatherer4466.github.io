@@ -115,7 +115,7 @@
         "url": "https://vuejs.org/tutorial/",
         "accessed":"2026-02-18",
         "note": "Kort vue.js kursus, for at kunne få hånd omkring de basalle vue principper, samt syntax.",
-        "validity": "10",
+        "validity": 10,
         "validityNote": "Igen, officiel kilde fra vue.js, der er ellers ikke så meget at sige omkring det.",
         "type": "Kursus",
         "subjectKey": "web"
