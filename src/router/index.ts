@@ -15,8 +15,21 @@ export const routes = [
     name: 'prod',
     color: '#4CAF50',
     inMenu: true,
-    component: notFoundView,
+    component: () => import('@/features/products/ProductsView.vue'),
   },
+  {
+    path: '/produkter/web',
+    name: 'prod-web',
+    inMenu: false,
+    component: () => import('@/features/products/web/WebProductsView.vue'),
+  },
+  {
+    path: '/produkter/devops',
+    name: 'prod-devops',
+    inMenu: false,
+    component: () => import('@/features/products/devops/DevopsProductsView.vue'),
+  },
+
   {
     path: '/eksperimenter',
     name: 'eksper',
