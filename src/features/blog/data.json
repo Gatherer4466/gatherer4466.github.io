@@ -81,6 +81,50 @@
                         "src": "https://cdn.7tv.app/emote/01G9JW7WY80003SW3KYSMQE9YY/2x.gif"
                     }
                 ]
+            },
+            {
+                "id": "log-2026-week-8-day3",
+                "title": "Følgning af officielt vue.js kursus",
+                "date": "2026-02-18",
+                "content": [
+                    {
+                        "type":"text",
+                        "value": "I dag har jeg stort set ikke lavet andet, end at følge det officielle intro-kursus, som vue.js tilbyder. Dette er bådet godt, og skidt på samme tid. Lidt mere om det senere."
+                    },
+                    {
+                        "type":"image",
+                        "src":"/images/blogImages/week8/wednesday/vueCourseCompletion.png"
+                    },
+                    {
+                        "type":"text",
+                        "value": "I mens jeg fulgte dette kursus, kom jeg dog i tanke om, at jeg kunne gøre det endelige resultat, til et produkt, som form for fremvisning af min process. Så det gik jeg i gang med, på samme tid med at følge kurset. \nAlstå, personligt vil jeg dog sige, at det har været en enorm fordel at gøre dette, da jeg har fået lidt mere øvelse i, hvordan man opsætter en hjemmeside med vue noget mere."
+                    },
+                    {
+                        "type": "image",
+                        "src":"/images/blogImages/week8/wednesday/vueCourseSiteDemo.png"
+                    },
+                    {
+                        "type":"text",
+                        "value":"Grunden til, at jeg siger dette både kan være godt og skidt, er som følgenden:"
+                    },                    
+                    {
+                        "type":"text",
+                        "value":"Det har været en god ting, da jeg har fået meget mere viden omkring vue frameworket, hvilket får mig til at tænke, at jeg ligge lidt fremad, ift mit emne på nuværende tidspunkt"
+                    },
+                    {
+                        "type":"text",
+                        "value":"Men på samme tid, kan det også være en dårlig ting. Jeg har nemlig STADIG ikke, fået udarbejdet grundige læringsmål/læringsplaner, udover de helt helt ukonkrete og basale mål, som jeg har nu:"
+                    },
+                    {
+                        "type":"image",
+                        "src":"/images/blogImages/week8/wednesday/terribleGoals.png"
+                    },
+                    {
+                        "type":"text",
+                        "value":"Det er nemlig, af den årsag, at jeg først og fremmest vil fjerne lidt fokus fra webudvikling til at gå i gang med noget DevOps, så de kan stå på nogle lunde lige fod. Men dernæst vil planen for i morgen dermed også være, at jeg SKAL få fokuseret på at få udarbejdet nogle ordentlige læringsmål, samt at få dem fremvist her."
+                    }
+                ]
+                
             }
             
     ]
