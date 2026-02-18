@@ -20,10 +20,16 @@ export const routes = [
   {
     path: '/produkter/web',
     name: 'prod-web',
-    color: '#4CAF50',
     inMenu: false,
-    component: () => import('@/features/products/WebProductsView.vue'),
+    component: () => import('@/features/products/web/WebProductsView.vue'),
   },
+  {
+    path: '/produkter/devops',
+    name: 'prod-devops',
+    inMenu: false,
+    component: () => import('@/features/products/devops/DevOpsProductsView.vue'),
+  },
+
   {
     path: '/eksperimenter',
     name: 'eksper',
