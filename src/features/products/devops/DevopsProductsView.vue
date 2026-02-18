@@ -1,6 +1,6 @@
 <template>
   <h2 id="infoTitle" class="titleMargin">
-    <b style="color: orange;">DevOps:</b>
+    <b style="color: slateblue;">DevOps:</b>
   </h2>
 
   <div class="cardContainer">
