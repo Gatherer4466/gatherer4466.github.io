@@ -164,7 +164,7 @@
 		  "accessed": "2026-02-20",
 		  "note": "Bog der giver en struktureret og praktisk gennemgang af centrale DevOps-værktøjer og -principper såsom Git, Docker, Kubernetes og CI/CD. Bruges som teoretisk og praktisk fundament for DevOps-forståelse.",
 		  "validity": 9,
-		  "validityNote": "Fagbog udgivet af etableret forlag (Packt). Skrevet af erfaren DevOps-ingeniør. Ikke officiel dokumentation, men en dybdegående og kurateret sekundær kilde.",
+		  "validityNote": "Skrevet af erfaren DevOps-ingeniør. Ikke officiel dokumentation, men en dybdegående og kurateret sekundær kilde.",
 		  "type": "Bog",
 		  "subjectKey": "devOps"
 		}
