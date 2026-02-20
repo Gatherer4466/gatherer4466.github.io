@@ -143,7 +143,19 @@
         "validityNote": "Officiel kilde fra Microsoft og den primære dokumentation for TypeScript.",
         "type": "Dokumentation",
         "subjectKey": "web"
-      }
+      },
+			{
+				"id": 13,
+				"title": "LearnShell.org - Bash Tutorial",
+				"author": "LearnShell.org",
+				"url": "https://www.learnshell.org/en/Welcome",
+				"accessed": "2026-02-20",
+				"note": "Interaktivt online kursus i Bash scripting, brugt til at opbygge grundlæggende forståelse for shell-kommandoer og scripting i relation til DevOps-arbejde.",
+				"validity": 7,
+				"validityNote": "Praktisk og pædagogisk læringsplatform. Ikke officiel dokumentation, men velegnet til grundlæggende Bash-forståelse.",
+				"type": "Kursus",
+				"subjectKey": "devOps"
+			}
       
     ]
   }
