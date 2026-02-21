@@ -175,7 +175,7 @@
 			"url": "https://earthly.dev/blog/linux-text-processing-commands/",
 			"accessed": "2026-02-21",
 			"note": "Blog, der giver et indblik i nogle linux kommandoer man kan bruge til tekst manipulation, såsom grep",
-			"validity": "6",
+			"validity": 6,
 			"validityNote": "Personlig blog, dog meget grundig, men stadig ikke officiel dokumentation. Forfatteren er selv studerende, så pålideligheden falder lidt.",
 			"type":"Blogindlæg",
 			"subjectKey": "devOps"
