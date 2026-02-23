@@ -1,3 +1,5 @@
+export type Category = 'vue' | 'devops'
+
 export interface LearningBlock {
   id: string
   title: string
@@ -9,8 +11,7 @@ export interface LearningBlock {
 
 export interface LearningPlan {
   id: string
-  category: 'vue' | 'devops'
+  category: Category
   title: string
   blocks: LearningBlock[]
 }
-
