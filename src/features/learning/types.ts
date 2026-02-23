@@ -1,19 +1,17 @@
-export type TimeHorizon = 'short' | 'mid' | 'long'
+export type Category = 'vue' | 'devops'
 
-export interface LearningGoal {
+export interface LearningBlock {
   id: string
   title: string
-  description?: string
+  type: 'week' | 'long'
+  knowledge: string
+  skills: string
+  competencies: string
 }
 
 export interface LearningPlan {
   id: string
-  category: 'vue' | 'devops'
+  category: Category
   title: string
-  longTermGoals: LearningGoal[]
-  plan: {
-    short: LearningGoal[]
-    mid: LearningGoal[]
-    long: LearningGoal[]
-  }
+  blocks: LearningBlock[]
 }

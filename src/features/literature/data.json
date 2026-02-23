@@ -162,11 +162,23 @@
       "author": "Mikael Krief",
       "url": "https://www.packtpub.com/en-us/product/learning-devops-9781801813464",
       "accessed": "2026-02-20",
-      "note": "Bog der giver en struktureret og praktisk gennemgang af centrale DevOps-værktøjer og -principper såsom Git, Docker, Kubernetes og CI/CD. Bruges som teoretisk og praktisk fundament for DevOps-forståelse.",
+      "note": "Bog der giver en struktureret og praktisk gennemgang af centrale DevOps-værktøjer og -principper såsom Git, Docker, Kubersnetes og CI/CD. Bruges som teoretisk og praktisk fundament for DevOps-forståelse.",
       "validity": 9,
       "validityNote": "Skrevet af erfaren DevOps-ingeniør. Ikke officiel dokumentation, men en dybdegående og kurateret sekundær kilde.",
       "type": "Bog",
       "subjectKey": "devOps"
-    }
+    },
+    {
+      "id": 15,
+      "title": "Linux Text Processing Commands - Earthly Blog",
+      "author": "Anurag Kumar",
+      "url": "https://earthly.dev/blog/linux-text-processing-commands/",
+      "accessed": "2026-02-21",
+      "note": "Blog, der giver et indblik i nogle linux kommandoer man kan bruge til tekst manipulation, såsom grep",
+      "validity": 6,
+      "validityNote": "Personlig blog, dog meget grundig, men stadig ikke officiel dokumentation. Forfatteren er selv studerende, så pålideligheden falder lidt.",
+      "type":"Blogindlæg",
+      "subjectKey": "devOps"
+		}
   ]
 }
