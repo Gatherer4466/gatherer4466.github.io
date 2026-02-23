@@ -6,6 +6,14 @@
       "title": "Webudvikling med Vue.js (TypeScript)",
       "blocks": [
         {
+          "id": "vue-long",
+          "title": "Langsigtet perspektiv",
+          "type": "long",
+          "knowledge": "Den studerende har dybdegående viden om Vue’s arkitektur, reaktivitetssystem og rolle i moderne webapplikationer.",
+          "skills": "Den studerende kan udvikle skalerbare og vedligeholdelsesvenlige Vue-applikationer, foretage litteratursøgning om frontend-arkitektur og diskutere design- og arkitekturvalg på et fagligt niveau.",
+          "competencies": "Den studerende kan selvstændigt sætte sig ind i nye Vue-relaterede teknologier og perspektivere frontendudvikling i forhold til systemarkitektur, backend og DevOps."
+        },
+        {
           "id": "vue-8-9",
           "title": "Uge 8-9",
           "type": "week",
@@ -60,14 +68,6 @@
           "knowledge": "Den studerende har viden om test af Vue-applikationer, komponenttest og kvalitetssikring i frontend-udvikling.",
           "skills": "Den studerende kan skrive og udføre tests af Vue-komponenter samt dokumentere arkitektur og tekniske beslutninger.",
           "competencies": "Den studerende kan perspektivere Vue-baseret frontendudvikling i forhold til backend (fx C#-baserede systemer), DevOps og uddannelsens øvrige fagområder."
-        },
-        {
-          "id": "vue-long",
-          "title": "Langsigtet perspektiv",
-          "type": "long",
-          "knowledge": "Den studerende har dybdegående viden om Vue’s arkitektur, reaktivitetssystem og rolle i moderne webapplikationer.",
-          "skills": "Den studerende kan udvikle skalerbare og vedligeholdelsesvenlige Vue-applikationer, foretage litteratursøgning om frontend-arkitektur og diskutere design- og arkitekturvalg på et fagligt niveau.",
-          "competencies": "Den studerende kan selvstændigt sætte sig ind i nye Vue-relaterede teknologier og perspektivere frontendudvikling i forhold til systemarkitektur, backend og DevOps."
         }
       ]
     },
@@ -76,6 +76,14 @@
       "category": "devops",
       "title": "DevOps og automatisering",
       "blocks": [
+        {
+          "id": "devops-long",
+          "title": "Langsigtet perspektiv",
+          "type": "long",
+          "knowledge": "Den studerende har dybdegående viden om automatiseringens rolle i moderne softwareudvikling, herunder samspillet mellem CI/CD, containerisering, infrastruktur og cloud-miljøer.",
+          "skills": "Den studerende kan designe, implementere og evaluere komplette automatiserede pipelines samt foretage litteratursøgning om DevOps-praksis og værktøjer.",
+          "competencies": "Den studerende kan selvstændigt sætte sig ind i nye DevOps-teknologier og vurdere deres anvendelighed i forhold til skalerbarhed, sikkerhed og organisatoriske behov."
+        },
         {
           "id": "devops-8-9",
           "title": "Uge 8-9",
@@ -131,14 +139,6 @@
           "knowledge": "Den studerende har viden om den samlede automatiserede værdikæde fra kodecommit til kørende system i produktion.",
           "skills": "Den studerende kan dokumentere en fuld CI/CD-opsætning og formidle arkitektur- og automatiseringsvalg på et fagligt niveau.",
           "competencies": "Den studerende kan perspektivere DevOps-praksis i forhold til organisation, samarbejde mellem udvikling og drift samt forretningsmæssige mål."
-        },
-        {
-          "id": "devops-long",
-          "title": "Langsigtet perspektiv",
-          "type": "long",
-          "knowledge": "Den studerende har dybdegående viden om automatiseringens rolle i moderne softwareudvikling, herunder samspillet mellem CI/CD, containerisering, infrastruktur og cloud-miljøer.",
-          "skills": "Den studerende kan designe, implementere og evaluere komplette automatiserede pipelines samt foretage litteratursøgning om DevOps-praksis og værktøjer.",
-          "competencies": "Den studerende kan selvstændigt sætte sig ind i nye DevOps-teknologier og vurdere deres anvendelighed i forhold til skalerbarhed, sikkerhed og organisatoriske behov."
         }
       ]
     }
