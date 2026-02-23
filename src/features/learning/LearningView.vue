@@ -1,17 +1,15 @@
 <template>
-  <h2 id="infoTitle" class="titleMargin">
-    <b style="color: slateblue; margin-bottom: 25px">Læringsplaner:</b>
+  <h2 class="titleMargin">
+    <b style="color: slateblue;">Læringsplaner:</b>
   </h2>
 
   <LearningFilter
-    @update:category="category = $event"
-    @update:horizon="horizon = $event"
+  @update:category="category = $event"
   />
 
   <div class="scrollable-content">
     <LearningList
-      :category="category"
-      :horizon="horizon"
+    :category="category"
     />
   </div>
 </template>
@@ -22,5 +20,4 @@ import LearningFilter from '@/features/learning/components/LearningFilter.vue'
 import LearningList from '@/features/learning/components/LearningList.vue'
 
 const category = ref<'all' | 'vue' | 'devops'>('all')
-const horizon = ref<'all' | 'short' | 'mid' | 'long'>('all')
 </script>
