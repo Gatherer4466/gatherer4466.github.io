@@ -7,7 +7,6 @@
       v-for="plan in filteredPlans"
       :key="plan.id"
       :plan="plan"
-      :horizon="horizon"
     />
   </div>
 </template>
@@ -15,24 +14,18 @@
 <script setup lang="ts">
 import { computed } from 'vue'
 import LearningCard from './LearningsCard.vue'
-import type { LearningPlan } from '../types'
+import type { LearningPlan, Category } from '../types'
 import rawData from '../data.json'
 
 const props = defineProps<{
-  category: 'all' | 'vue' | 'devops'
-  horizon: 'all' | 'short' | 'mid' | 'long'
+  category: 'all' | Category
 }>()
 
 const allPlans: LearningPlan[] = rawData.plans as LearningPlan[]
 
 const filteredPlans = computed(() => {
-  let plans = [...allPlans]
-
-  if (props.category !== 'all') {
-    plans = plans.filter(plan => plan.category === props.category)
-  }
-
-  return plans
+  if (props.category === 'all') return allPlans
+  return allPlans.filter(plan => plan.category === props.category)
 })
 </script>
 

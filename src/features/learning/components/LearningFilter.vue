@@ -1,40 +1,25 @@
 <template>
   <div class="learning-filter">
-    <span class="label">EMNE:</span>
+  <span class="label">EMNE:</span>
 
-    <span
-      v-for="option in categoryOptions"
-      :key="option.value"
-      class="option"
-      :class="{ active: activeCategory === option.value }"
-      @click="setCategory(option.value)"
-    >
-      {{ option.label }}
-    </span>
-
-    <span class="spacer"></span>
-
-    <span class="label">TIDSHORISONT:</span>
-
-    <span
-      v-for="option in horizonOptions"
-      :key="option.value"
-      class="option"
-      :class="{ active: activeHorizon === option.value }"
-      @click="setHorizon(option.value)"
-    >
-      {{ option.label }}
-    </span>
-  </div>
+  <span
+    v-for="option in categoryOptions"
+    :key="option.value"
+    class="option"
+    :class="{ active: activeCategory === option.value }"
+    @click="setCategory(option.value)"
+  >
+    {{ option.label }}
+  </span>
+</div>
 </template>
 
 <script setup lang="ts">
 import { ref } from 'vue'
-import type { TimeHorizon } from '../types.ts'
+import type { Category } from '../types'
 
 const emit = defineEmits<{
-  (e: 'update:category', value: 'all' | 'vue' | 'devops'): void
-  (e: 'update:horizon', value: 'all' | TimeHorizon): void
+  (e: 'update:category', value: 'all' | Category): void
 }>()
 
 const categoryOptions = [
@@ -43,24 +28,11 @@ const categoryOptions = [
   { label: 'DevOps', value: 'devops' },
 ] as const
 
-const horizonOptions = [
-  { label: 'Alle', value: 'all' },
-  { label: 'Kort', value: 'short' },
-  { label: 'Mellem', value: 'mid' },
-  { label: 'Lang', value: 'long' },
-] as const
+const activeCategory = ref<'all' | Category>('all')
 
-const activeCategory = ref<'all' | 'vue' | 'devops'>('all')
-const activeHorizon = ref<'all' | TimeHorizon>('all')
-
-function setCategory(value: 'all' | 'vue' | 'devops') {
+function setCategory(value: 'all' | Category) {
   activeCategory.value = value
   emit('update:category', value)
-}
-
-function setHorizon(value: 'all' | TimeHorizon) {
-  activeHorizon.value = value
-  emit('update:horizon', value)
 }
 </script>
 
