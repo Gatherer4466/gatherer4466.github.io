@@ -21,7 +21,7 @@ const props = defineProps<{ log: LogEntry }>()
 
 <style scoped>
 .content-block {
-  margin-top: 0.5rem;
+  margin-top: 2.0rem;
 }
 .content-block img {
   display: block;
