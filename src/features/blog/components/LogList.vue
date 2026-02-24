@@ -7,11 +7,7 @@
   </p>
 
   <div class="cardContainer">
-    <LogContainer
-      v-for="log in sortedLogs"
-      :key="log.id"
-      :log="log"
-    />
+    <LogContainer v-for="log in sortedLogs" :key="log.id" :log="log" />
   </div>
 </template>
 
@@ -40,10 +36,9 @@ const sortedLogs = computed(() => {
   let logs = [...allLogs]
 
   if (props.month && props.month in monthIndexMap) {
-    const targetMonth =
-      monthIndexMap[props.month as keyof typeof monthIndexMap]
+    const targetMonth = monthIndexMap[props.month as keyof typeof monthIndexMap]
 
-    logs = logs.filter(log => {
+    logs = logs.filter((log) => {
       return new Date(log.date).getMonth() === targetMonth
     })
   }
@@ -52,9 +47,7 @@ const sortedLogs = computed(() => {
     const aTime = new Date(a.date).getTime()
     const bTime = new Date(b.date).getTime()
 
-    return props.sort === 'newest'
-      ? bTime - aTime
-      : aTime - bTime
+    return props.sort === 'newest' ? bTime - aTime : aTime - bTime
   })
 
   return logs

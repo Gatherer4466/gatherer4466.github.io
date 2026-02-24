@@ -1,12 +1,11 @@
 {
-    "products": [
-      {
-        "id": 1,
-        "title": "Vue Kursus Gennemgang",
-        "description": "Dette produkt er resultatet ved at følge alle de forskellige steps, som der fremgår inden for det officielle vue kursus. Alle de forskellige steps er blevet pakket ind i denne mini side, så den er let at navigere.",
-        "link": "https://gatherer4466.github.io/VueCourseDemo/",
-        "preview": "/images/productDemos/VueCourse.png"
-      }
-    ]
-  }
-  
+  "products": [
+    {
+      "id": 1,
+      "title": "Vue Kursus Gennemgang",
+      "description": "Dette produkt er resultatet ved at følge alle de forskellige steps, som der fremgår inden for det officielle vue kursus. Alle de forskellige steps er blevet pakket ind i denne mini side, så den er let at navigere.",
+      "link": "https://gatherer4466.github.io/VueCourseDemo/",
+      "preview": "/images/productDemos/VueCourse.png"
+    }
+  ]
+}

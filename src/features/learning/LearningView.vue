@@ -1,16 +1,12 @@
 <template>
   <h2 class="titleMargin">
-    <b style="color: slateblue;">Læringsplaner:</b>
+    <b style="color: slateblue">Læringsplaner:</b>
   </h2>
 
-  <LearningFilter
-  @update:category="category = $event"
-  />
+  <LearningFilter @update:category="category = $event" />
 
   <div class="scrollable-content">
-    <LearningList
-    :category="category"
-    />
+    <LearningList :category="category" />
   </div>
 </template>
 

@@ -12,7 +12,6 @@
       <span>/10</span> - {{ validityNote }}
     </p>
 
-
     <p><strong>Sidst tilgået:</strong> {{ accessed }}</p>
     <a :href="url" target="_blank" rel="noopener">Gå til kilde</a>
   </div>
@@ -47,7 +46,9 @@ const validityColor = computed(() => {
 }
 
 .validity-score {
-  transition: text-shadow 0.2s ease, filter 0.2s ease;
+  transition:
+    text-shadow 0.2s ease,
+    filter 0.2s ease;
 }
 
 .source-card:hover .validity-score {
@@ -57,5 +58,4 @@ const validityColor = computed(() => {
     0 0 14px currentColor;
   filter: brightness(1.2);
 }
-
 </style>

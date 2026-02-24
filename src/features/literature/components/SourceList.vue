@@ -1,19 +1,16 @@
 <template>
+  <p class="about-text" v-if="sources.length == 0">
+    Jeg har tydligvis ikke brug for at læse... ellers vil der jo være noget her.
+  </p>
 
-<p class="about-text" v-if="sources.length == 0">Jeg har tydligvis ikke brug for at læse... ellers vil der jo være noget her.</p>
-
-<div class="cardContainer">
-  <SourceCard v-for="source in filteredSources"
-  :key="source.id"
-  v-bind="source"/>
-</div>
+  <div class="cardContainer">
+    <SourceCard v-for="source in filteredSources" :key="source.id" v-bind="source" />
+  </div>
 </template>
-
 
 <script setup lang="ts">
 //dependencies
-import { computed } from 'vue';
-
+import { computed } from 'vue'
 
 // components
 import SourceCard from './SourceCard.vue'
@@ -29,33 +26,26 @@ const props = defineProps<{
   subject: 'web' | 'devOps' | 'both'
 }>()
 
-
 const sources: Source[] = list.sources
 
-const filteredSources =  computed(() => {
+const filteredSources = computed(() => {
   let rawSources = [...sources]
 
   if (props.subject !== 'both') {
-    rawSources = rawSources.filter(source => {
+    rawSources = rawSources.filter((source) => {
       return source.subjectKey === props.subject
     })
   }
 
+  rawSources.sort((a, b) => {
+    if (props.sort == 'best') return b.validity - a.validity
 
-  rawSources.sort((a,b) => {
-    if (props.sort == 'best')
-      return b.validity - a.validity
+    if (props.sort == 'worse') return a.validity - b.validity
 
-    if (props.sort == 'worse')
-      return a.validity - b.validity
-
-    return a.id -b.id
+    return a.id - b.id
   })
   return rawSources
-
-
 })
-
 </script>
 
 <style scoped>

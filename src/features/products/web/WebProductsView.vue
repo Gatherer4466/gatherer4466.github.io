@@ -1,6 +1,6 @@
 <template>
   <h2 id="infoTitle" class="titleMargin">
-    <b style="color: slateblue;">Webudvikling underprodukter:</b>
+    <b style="color: slateblue">Webudvikling underprodukter:</b>
   </h2>
 
   <div class="scrollable-content">

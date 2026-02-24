@@ -5,5 +5,3 @@ export interface Product {
   link: string
   preview?: string
 }
-
-

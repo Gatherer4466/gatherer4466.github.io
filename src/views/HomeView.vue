@@ -30,11 +30,10 @@
   opacity: 0;
   width: 150px;
   bottom: 0;
-
 }
 
 .bottom-image:hover {
-  opacity: .5;
+  opacity: 0.5;
   transition: opacity 15s;
 }
 </style>

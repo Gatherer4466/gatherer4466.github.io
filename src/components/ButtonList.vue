@@ -11,7 +11,6 @@
   </div>
 </template>
 
-
 <script setup lang="ts">
 import { computed } from 'vue'
 import { useRouter } from 'vue-router'
@@ -31,8 +30,8 @@ function fontSizeForLabel(label: string) {
 
 const styledItems = computed(() =>
   routes
-    .filter(route => route.inMenu)
-    .map(item => {
+    .filter((route) => route.inMenu)
+    .map((item) => {
       const isPlaceholder = item.component === notFoundView
       const baseColor = isPlaceholder ? '#ccc' : item.color
 
@@ -64,15 +63,13 @@ const styledItems = computed(() =>
           opacity: isPlaceholder ? 0.6 : 1,
         },
       }
-    })
+    }),
 )
 
 function goToRoute(name: string) {
   router.push({ name })
 }
 </script>
-
-
 
 <style scoped>
 @font-face {

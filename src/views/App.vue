@@ -31,8 +31,8 @@
 <script setup lang="ts">
 import BackgroundCanvas from '@/components/BackgroundCanvas.vue'
 import ButtonList from '@/components/ButtonList.vue'
-import HeaderComponent from '@/components/HeaderComponent.vue';
-import DetailSection from '@/components/DetailSection.vue';
+import HeaderComponent from '@/components/HeaderComponent.vue'
+import DetailSection from '@/components/DetailSection.vue'
 </script>
 
 <style>

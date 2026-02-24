@@ -3,11 +3,7 @@
     Jeg kan det alt sammen tydeligvis selv 🤓😎
   </p>
   <div class="cardContainer">
-    <LearningCard
-      v-for="plan in filteredPlans"
-      :key="plan.id"
-      :plan="plan"
-    />
+    <LearningCard v-for="plan in filteredPlans" :key="plan.id" :plan="plan" />
   </div>
 </template>
 
@@ -25,7 +21,7 @@ const allPlans: LearningPlan[] = rawData.plans as LearningPlan[]
 
 const filteredPlans = computed(() => {
   if (props.category === 'all') return allPlans
-  return allPlans.filter(plan => plan.category === props.category)
+  return allPlans.filter((plan) => plan.category === props.category)
 })
 </script>
 

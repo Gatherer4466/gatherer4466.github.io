@@ -5,7 +5,10 @@
     </h1>
 
     <p class="smallMargin" id="sub">
-      <b style="color:slateblue">Dette portfølje er til formål for at dokumentere processen fra idé til produkt i løbet af 4. semester.</b>
+      <b style="color: slateblue"
+        >Dette portfølje er til formål for at dokumentere processen fra idé til produkt i løbet af
+        4. semester.</b
+      >
     </p>
   </header>
 </template>
@@ -14,7 +17,7 @@
 import { ref, onMounted, onUnmounted } from 'vue'
 
 const props = defineProps({
-  interval: {type:Number, default:1000}
+  interval: { type: Number, default: 1000 },
 })
 
 const rainbowColor = ref<string>(getRandomColor())
@@ -25,7 +28,6 @@ onMounted(() => {
   rainbowInterval = setInterval(() => {
     rainbowColor.value = getRandomColor()
   }, props.interval)
-
 })
 
 onUnmounted(() => {
