@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <BackgroundCanvas />
+    <!-- <BackgroundCanvas /> -->
 
     <main class="content">
       <table class="mainBox">

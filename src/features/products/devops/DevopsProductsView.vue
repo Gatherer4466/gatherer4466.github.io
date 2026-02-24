@@ -1,18 +1,11 @@
 <template>
   <h2 id="infoTitle" class="titleMargin">
-    <b style="color: slateblue">DevOps:</b>
+    <b style="color: slateblue;">DevOps underprodukter:</b>
   </h2>
 
-  <div class="cardContainer">
-    <div class="card">
-      <p>Der er intet her lige nu.</p>
-    </div>
-  </div>
+  <DevOpsProductList />
 </template>
 
-<style scoped>
-.cardContainer {
-  width: 95%;
-  margin: auto;
-}
-</style>
+<script setup lang="ts">
+import DevOpsProductList from './components/DevOpsProductList.vue'
+</script>

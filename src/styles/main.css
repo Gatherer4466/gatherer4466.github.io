@@ -188,3 +188,60 @@ a {
   margin-top: 15px;
   max-width: 500px;
 }
+
+.hljs {
+  background: transparent !important;
+  color: #d6deeb !important;
+}
+
+.hljs-comment,
+.hljs-quote {
+  color: #697098 !important;
+  font-style: italic !important;
+}
+
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class {
+  color: #82aaff !important;
+}
+
+.hljs-number,
+.hljs-meta,
+.hljs-built_in,
+.hljs-type,
+.hljs-params {
+  color: #e99173 !important;
+}
+
+.hljs-literal
+{
+  color: #e76276 !important;
+}
+
+
+.hljs-string,
+.hljs-selector-attr,
+.hljs-selector-pseudo {
+  color: #d8bb8d !important;
+}
+
+.hljs-keyword,
+.hljs-title,
+.hljs-section,
+.hljs-doctag {
+  color: #ffcb6b !important;
+}
+
+.hljs-attr {
+  color: #95d9cb !important;
+}
+
+.hljs-symbol,
+.hljs-bullet,
+.hljs-addition {
+  color: #bbc2cf !important;
+}

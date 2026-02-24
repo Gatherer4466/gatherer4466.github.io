@@ -10,6 +10,7 @@ export interface DevOpsProduct {
   description: string
   purpose: string
   trigger: string
+  stack: string[]
   files: DevOpsFile[]
   repository?: string
 }
