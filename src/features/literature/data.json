@@ -179,6 +179,30 @@
       "validityNote": "Personlig blog, dog meget grundig, men stadig ikke officiel dokumentation. Forfatteren er selv studerende, så pålideligheden falder lidt.",
       "type": "Blogindlæg",
       "subjectKey": "devOps"
+    },
+    {
+      "id":16,
+      "title": "Highlight.js",
+      "author": "Netlify",
+      "url":"https://highlightjs.org/",
+      "accessed":"2026-02-25",
+      "note": "Dokumentation for en syntax highligher, der kan bruges i typescript/javascript.",
+      "validity":9,
+      "validityNote":"Officiel dokumentation for et JS modul.",
+      "type":"Dokumentation",
+      "subjectKey":"web"
+    },
+    {
+      "id": 17,
+      "title": "How To Setup CI/CD Pipelines with GitHub Actions",
+      "author": "WackyDawg",
+      "url": "https://wackydawg.github.io/devops/backend-development/How-To-Setup-CI-CD-Pipelines-with-GitHub-Actions/",
+      "accessed": "2026-02-25",
+      "note": "Trin-for-trin guide til opsætning af CI/CD pipelines med GitHub Actions. Gennemgår workflow-struktur, triggers (on:), jobs, steps og automatiseret build/deploy.",
+      "validity": 7,
+      "validityNote": "Detaljeret og praktisk gennemgang, men ikke officiel dokumentation fra GitHub. Bør suppleres med officiel dokumentation.",
+      "type": "Guide/Tutorial",
+      "subjectKey": "devOps"
     }
   ]
 }
