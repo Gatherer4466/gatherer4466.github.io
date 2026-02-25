@@ -181,16 +181,16 @@
       "subjectKey": "devOps"
     },
     {
-      "id":16,
+      "id": 16,
       "title": "Highlight.js",
       "author": "Netlify",
-      "url":"https://highlightjs.org/",
-      "accessed":"2026-02-25",
+      "url": "https://highlightjs.org/",
+      "accessed": "2026-02-25",
       "note": "Dokumentation for en syntax highligher, der kan bruges i typescript/javascript.",
-      "validity":9,
-      "validityNote":"Officiel dokumentation for et JS modul.",
-      "type":"Dokumentation",
-      "subjectKey":"web"
+      "validity": 9,
+      "validityNote": "Officiel dokumentation for et JS modul.",
+      "type": "Dokumentation",
+      "subjectKey": "web"
     },
     {
       "id": 17,

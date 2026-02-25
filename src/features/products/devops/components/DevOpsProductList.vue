@@ -1,10 +1,6 @@
 <template>
   <div class="scrollable-content">
-    <DevOpsProductItem
-      v-for="product in products"
-      :key="product.id"
-      :product="product"
-    />
+    <DevOpsProductItem v-for="product in products" :key="product.id" :product="product" />
   </div>
 </template>
 

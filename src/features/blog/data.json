@@ -185,24 +185,24 @@
           "value": "I dag har det sådan set bare stået for at lave dokumentation af mine nuværende pipelines, som jeg har genbrugt fra tidligere projekter, som underprodukter."
         },
         {
-          "type":"text",
-          "value":"Til dette fik jeg ledt efter nogle syntax highligthers, da jeg syntes det kunne være en fed idé, at fremvise mine pipelines med syntax highlighting, lidt ligesom i mit vue kursus del-produkt. Dog, valgte jeg at bruge en anden teknologi, istedet for prismjs, da jeg følte denne portføjles kodebase, vil blive for bloated."
+          "type": "text",
+          "value": "Til dette fik jeg ledt efter nogle syntax highligthers, da jeg syntes det kunne være en fed idé, at fremvise mine pipelines med syntax highlighting, lidt ligesom i mit vue kursus del-produkt. Dog, valgte jeg at bruge en anden teknologi, istedet for prismjs, da jeg følte denne portføjles kodebase, vil blive for bloated."
         },
         {
-          "type":"text",
-          "value":"Jeg fandt så dermed highlight.js, som vitterligt er et modul, men dermed også udviklet til at være et vue-plugin. Dette gjorde løsningen mere lightweight, og jeg tænkte dermed, at jeg vill bruge highlight.js"
+          "type": "text",
+          "value": "Jeg fandt så dermed highlight.js, som vitterligt er et modul, men dermed også udviklet til at være et vue-plugin. Dette gjorde løsningen mere lightweight, og jeg tænkte dermed, at jeg vill bruge highlight.js"
         },
         {
-          "type":"image",
-          "src":"/images/blogImages/week9/wednesday/highlightjsFrontPage.png"
+          "type": "image",
+          "src": "/images/blogImages/week9/wednesday/highlightjsFrontPage.png"
         },
         {
-          "type":"text",
-          "value":"Dette har så fungeret meget godt, ift til at kunne fremvise mine pipelines med syntaktisk highlighting:"
+          "type": "text",
+          "value": "Dette har så fungeret meget godt, ift til at kunne fremvise mine pipelines med syntaktisk highlighting:"
         },
         {
-          "type":"image",
-          "src":"/images/blogImages/week9/wednesday/OnSiteHighlighting.png"
+          "type": "image",
+          "src": "/images/blogImages/week9/wednesday/OnSiteHighlighting.png"
         }
       ]
     }

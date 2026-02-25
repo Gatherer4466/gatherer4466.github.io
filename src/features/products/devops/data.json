@@ -1,35 +1,30 @@
 {
-    "products": [
-      {
-        "id": 1,
-        "title": "Portfolio CI/CD & Automation",
-        "description": "Automatiseret dependency management, build checks og deployment.",
-        "purpose": "Sikrer stabil kode, automatiseret build-test og kontinuerlig deployment til GitHub Pages.",
-        "trigger": "Dependabot kører månedligt. Build-check trigges ved PR/push. Deploy trigges ved push til master.",
-        "repository": "https://github.com/Gatherer4466/gatherer4466.github.io/tree/master/.github",
-        "stack": [
-          "GitHub Actions",
-          "Node.js 22.12",
-          "Dependabot",
-          "GitHub Pages"
-        ],
-        "files": [
-          {
-            "filename": "dependabot.yaml",
-            "language": "yaml",
-            "content": "# To get started with Dependabot version updates, you'll need to specify which\n# package ecosystems to update and where the package manifests are located.\n\nversion: 2\nupdates:\n- package-ecosystem: \"npm\" # See documentation for possible values\n  directory: \"/\" # Location of package manifests\n  schedule:\n    interval: \"monthly\"\n\n  target-branch: \"dev\""
-          },
-          {
-            "filename": "workflows/.build-check.yaml",
-            "language": "yaml",
-            "content": "name: Build Check\n\non:\n  workflow_dispatch:\n    inputs:\n      branch:\n        description: 'Branch to test build'\n        required: true\n        default: 'dependabot/npm_and_yarn/...'\n  push:\n    branches:\n      - 'dependabot/**'\n      - 'dev'\n  pull_request:\n    branches:\n      - master\n\njobs:\n  build-test:\n    runs-on: ubuntu-latest\n\n    steps:\n      - name: Checkout branch\n        uses: actions/checkout@v4\n        with:\n          ref: ${{ github.event.inputs.branch || github.head_ref || github.ref_name }}\n\n      - name: Set up Node.js\n        uses: actions/setup-node@v3\n        with:\n          node-version: 22.12\n\n      - name: Install dependencies\n        run: npm ci\n\n      - name: Build project\n        run: npm run build"
-          },
-          {
-            "filename": "workflows/.deploy.yaml",
-            "language": "yaml",
-            "content": "name: Deploy to GitHub Pages\n\non:\n  push:\n    branches:\n      - master\n\njobs:\n  deploy:\n    runs-on: ubuntu-latest\n    steps:\n      - name: Checkout repository\n        uses: actions/checkout@v3\n\n      - name: Set up Node.js\n        uses: actions/setup-node@v3\n        with:\n          node-version: 22.12\n\n      - name: Install dependencies\n        run: npm install\n\n      - name: Build project\n        run: npm run build\n\n      - name: Deploy to GitHub Pages\n        uses: JamesIves/github-pages-deploy-action@v4\n        with:\n          branch: gh-pages\n          folder: dist\n          clean: true\n          token: ${{ secrets.GH_TOKEN }}"
-          }
-        ]
-      }
-    ]
-  }
+  "products": [
+    {
+      "id": 1,
+      "title": "Portfolio CI/CD & Automation",
+      "description": "Automatiseret dependency management, build checks og deployment.",
+      "purpose": "Sikrer stabil kode, automatiseret build-test og kontinuerlig deployment til GitHub Pages.",
+      "trigger": "Dependabot kører månedligt. Build-check trigges ved PR/push. Deploy trigges ved push til master.",
+      "repository": "https://github.com/Gatherer4466/gatherer4466.github.io/tree/master/.github",
+      "stack": ["GitHub Actions", "Node.js 22.12", "Dependabot", "GitHub Pages"],
+      "files": [
+        {
+          "filename": "dependabot.yaml",
+          "language": "yaml",
+          "content": "# To get started with Dependabot version updates, you'll need to specify which\n# package ecosystems to update and where the package manifests are located.\n\nversion: 2\nupdates:\n- package-ecosystem: \"npm\" # See documentation for possible values\n  directory: \"/\" # Location of package manifests\n  schedule:\n    interval: \"monthly\"\n\n  target-branch: \"dev\""
+        },
+        {
+          "filename": "workflows/.build-check.yaml",
+          "language": "yaml",
+          "content": "name: Build Check\n\non:\n  workflow_dispatch:\n    inputs:\n      branch:\n        description: 'Branch to test build'\n        required: true\n        default: 'dependabot/npm_and_yarn/...'\n  push:\n    branches:\n      - 'dependabot/**'\n      - 'dev'\n  pull_request:\n    branches:\n      - master\n\njobs:\n  build-test:\n    runs-on: ubuntu-latest\n\n    steps:\n      - name: Checkout branch\n        uses: actions/checkout@v4\n        with:\n          ref: ${{ github.event.inputs.branch || github.head_ref || github.ref_name }}\n\n      - name: Set up Node.js\n        uses: actions/setup-node@v3\n        with:\n          node-version: 22.12\n\n      - name: Install dependencies\n        run: npm ci\n\n      - name: Build project\n        run: npm run build"
+        },
+        {
+          "filename": "workflows/.deploy.yaml",
+          "language": "yaml",
+          "content": "name: Deploy to GitHub Pages\n\non:\n  push:\n    branches:\n      - master\n\njobs:\n  deploy:\n    runs-on: ubuntu-latest\n    steps:\n      - name: Checkout repository\n        uses: actions/checkout@v3\n\n      - name: Set up Node.js\n        uses: actions/setup-node@v3\n        with:\n          node-version: 22.12\n\n      - name: Install dependencies\n        run: npm install\n\n      - name: Build project\n        run: npm run build\n\n      - name: Deploy to GitHub Pages\n        uses: JamesIves/github-pages-deploy-action@v4\n        with:\n          branch: gh-pages\n          folder: dist\n          clean: true\n          token: ${{ secrets.GH_TOKEN }}"
+        }
+      ]
+    }
+  ]
+}
