@@ -40,20 +40,20 @@ function toggle() {
 
 <style scoped>
 .accordion {
-  border: 1px solid rgba(65,255,65,0.3);
+  border: 1px solid rgba(65, 255, 65, 0.3);
   margin-bottom: 10px;
   border-radius: 4px;
 }
 
 .accordion.long {
   border-color: aquamarine;
-  box-shadow: 0 0 10px rgba(0,255,200,0.2);
+  box-shadow: 0 0 10px rgba(0, 255, 200, 0.2);
 }
 
 .header {
   cursor: pointer;
   padding: 10px;
-  background: rgba(0,0,0,0.6);
+  background: rgba(0, 0, 0, 0.6);
   display: flex;
   justify-content: space-between;
   font-weight: bold;
@@ -61,7 +61,7 @@ function toggle() {
 
 .content {
   padding: 12px;
-  background: rgba(0,0,0,0.45);
+  background: rgba(0, 0, 0, 0.45);
 }
 
 h4 {

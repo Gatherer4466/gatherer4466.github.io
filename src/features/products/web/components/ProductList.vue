@@ -1,14 +1,8 @@
 <template>
-  <p class="about-text" v-if="products.length === 0">
-    Ingen web-produkter endnu.
-  </p>
+  <p class="about-text" v-if="products.length === 0">Ingen web-produkter endnu.</p>
 
   <div class="cardContainer">
-    <ProductCard
-      v-for="product in products"
-      :key="product.id"
-      v-bind="product"
-    />
+    <ProductCard v-for="product in products" :key="product.id" v-bind="product" />
   </div>
 </template>
 

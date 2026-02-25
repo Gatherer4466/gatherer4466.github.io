@@ -7,23 +7,15 @@
     <div class="subText about-text">
       <p>&gt; {{ legalName }}</p>
 
-
       <p>
         &gt; Emne 1 -
         <b style="color: slateblue">Webudvikling med fokus på </b>
-        <a
-          href="https://vuejs.org/"
-          target="_blank"
-          class="inlineLink"
-        >VueJs
-        </a>
+        <a href="https://vuejs.org/" target="_blank" class="inlineLink">VueJs </a>
       </p>
 
       <p>
         &gt; Emne 2 -
-        <b style="color: slateblue">
-          DevOps med fokus på automatisering
-        </b>
+        <b style="color: slateblue"> DevOps med fokus på automatisering </b>
       </p>
     </div>
 
@@ -31,10 +23,8 @@
   </section>
 </template>
 
-
 <script setup lang="ts">
 const legalName = import.meta.env.VITE_FULL_NAME
-
 </script>
 
 <style scoped>
@@ -51,6 +41,4 @@ const legalName = import.meta.env.VITE_FULL_NAME
   margin: 4px 0;
   text-align: center;
 }
-
-
 </style>

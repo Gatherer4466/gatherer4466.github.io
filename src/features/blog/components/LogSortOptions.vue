@@ -65,7 +65,6 @@ function setMonth(value: MonthKey) {
 }
 </script>
 
-
 <style scoped>
 .log-sort {
   display: flex;

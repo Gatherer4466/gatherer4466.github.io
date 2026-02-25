@@ -11,7 +11,7 @@
       "validityNote": "Officiel dokumentationsside for Vue.js",
       "type": "Dokumentation",
       "subjectKey": "web"
-    }, 
+    },
     {
       "id": 2,
       "title": "Vue.js Explained in 100 Seconds",
@@ -73,19 +73,19 @@
       "subjectKey": "devOps"
     },
     {
-      "id":7,
+      "id": 7,
       "title": "Official vue style guide",
       "author": "Vue.js Team",
-      "url":"https://vuejs.org/style-guide/",
+      "url": "https://vuejs.org/style-guide/",
       "accessed": "2026-02-09",
       "note": "Officiel guide for, hvordan man kan strukturere, sin vue kodebase. Såsom hvordan man giver en god navngivning af komponenter.",
-      "validity":9,
+      "validity": 9,
       "validityNote": "Igen, er dette en officiel kilde fra dem, der maintainer Vuejs frameworket. Dog, mister den et point, da, som de selv påpeger, er den outdated.",
       "type": "Dokumentation/Arkitektur guide",
       "subjectKey": "web"
     },
     {
-      "id":8,
+      "id": 8,
       "title": "TypeScript: Handbook - Enums",
       "author": "Microsoft",
       "url": "https://www.typescriptlang.org/docs/handbook/enums.html#string-enums",
@@ -93,8 +93,8 @@
       "note": "Officiel guide til hvordan man sætter enums op i TypeScript, mere specifikt omkring string enums og deres sammenkobling med JSON (se næste kilde)",
       "validity": 10,
       "validityNote": "Officielt dokumentationsside for TypeScript sproget af Microsoft",
-      "type":"Dokumentation",
-      "subjectKey":"web"
+      "type": "Dokumentation",
+      "subjectKey": "web"
     },
     {
       "id": 9,
@@ -109,11 +109,11 @@
       "subjectKey": "web"
     },
     {
-      "id":10,
+      "id": 10,
       "title": "Tutorial | Vue.js",
-      "author":"Vue.js Team",
+      "author": "Vue.js Team",
       "url": "https://vuejs.org/tutorial/",
-      "accessed":"2026-02-18",
+      "accessed": "2026-02-18",
       "note": "Kort vue.js kursus, for at kunne få hånd omkring de basalle vue principper, samt syntax.",
       "validity": 10,
       "validityNote": "Igen, officiel kilde fra vue.js, der er ellers ikke så meget at sige omkring det.",
@@ -177,8 +177,32 @@
       "note": "Blog, der giver et indblik i nogle linux kommandoer man kan bruge til tekst manipulation, såsom grep",
       "validity": 6,
       "validityNote": "Personlig blog, dog meget grundig, men stadig ikke officiel dokumentation. Forfatteren er selv studerende, så pålideligheden falder lidt.",
-      "type":"Blogindlæg",
+      "type": "Blogindlæg",
       "subjectKey": "devOps"
-		}
+    },
+    {
+      "id":16,
+      "title": "Highlight.js",
+      "author": "Netlify",
+      "url":"https://highlightjs.org/",
+      "accessed":"2026-02-25",
+      "note": "Dokumentation for en syntax highligher, der kan bruges i typescript/javascript.",
+      "validity":9,
+      "validityNote":"Officiel dokumentation for et JS modul.",
+      "type":"Dokumentation",
+      "subjectKey":"web"
+    },
+    {
+      "id": 17,
+      "title": "How To Setup CI/CD Pipelines with GitHub Actions",
+      "author": "WackyDawg",
+      "url": "https://wackydawg.github.io/devops/backend-development/How-To-Setup-CI-CD-Pipelines-with-GitHub-Actions/",
+      "accessed": "2026-02-25",
+      "note": "Trin-for-trin guide til opsætning af CI/CD pipelines med GitHub Actions. Gennemgår workflow-struktur, triggers (on:), jobs, steps og automatiseret build/deploy.",
+      "validity": 7,
+      "validityNote": "Detaljeret og praktisk gennemgang, men ikke officiel dokumentation fra GitHub. Bør suppleres med officiel dokumentation.",
+      "type": "Guide/Tutorial",
+      "subjectKey": "devOps"
+    }
   ]
 }

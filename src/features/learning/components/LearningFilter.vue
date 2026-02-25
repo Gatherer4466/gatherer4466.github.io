@@ -1,17 +1,17 @@
 <template>
   <div class="learning-filter">
-  <span class="label">EMNE:</span>
+    <span class="label">EMNE:</span>
 
-  <span
-    v-for="option in categoryOptions"
-    :key="option.value"
-    class="option"
-    :class="{ active: activeCategory === option.value }"
-    @click="setCategory(option.value)"
-  >
-    {{ option.label }}
-  </span>
-</div>
+    <span
+      v-for="option in categoryOptions"
+      :key="option.value"
+      class="option"
+      :class="{ active: activeCategory === option.value }"
+      @click="setCategory(option.value)"
+    >
+      {{ option.label }}
+    </span>
+  </div>
 </template>
 
 <script setup lang="ts">

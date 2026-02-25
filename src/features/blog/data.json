@@ -1,183 +1,210 @@
 {
-    "logs":
-        [ 
-            {
-                "id": "log-2025-week-6-day2",
-                "title": "Log opsætning.",
-                "date": "2025-02-05",
-                "content": [
-                {
-                    "type": "text",
-                    "value": "I dag har jeg for det meste kun arbejdet på at få sat denne side, som du lige nu sidder og læser på, op. Øhh ja, jeg skriver først nu her hvor jeg er færdig såååå."
-                },
-                {
-                    "type": "image",
-                    "src": "https://cdn.7tv.app/emote/01FC1B04XR000E3W5GESZFF1AY/4x.png"
-                },
-                {
-                    "type": "text",
-                    "value": "De næste indslag på denne blog vil højst sandsynlig have mere struktur, samt potentielle skitseringer. Dette indslag er mere bare en test for at sige det sådan."
-                }
-                ]
-            },
-            {
-                "id": "log-2026-week-6-day4",
-                "title": "Læringsmål, planer og over-engineering.",
-                "date": "2026-02-06",
-                "content": [
-                {
-                    "type": "text",
-                    "value": "I dag har jeg for det meste arbejdet på, at få sat nogle læringsmål, samt planer op.\nDerudover har jeg brugt det meste af dagen på, at skulle være tilstæde til en workshop vi afholdte i XR Lab. Så jeg har dermed ikke kunne lave så meget arbejde.\n\nEn af grundidéerne er at genbruge den filtrering og sortering, der findes på blogsiden, og implementere den tilsvarende på kildesiden."
-                },
-                {
-                    "type": "image",
-                    "src": "/images/blogImages/week6/friday/sortImage.png"
-                },
-                {
-                    "type": "text",
-                    "value": "Dog er jeg usikker på, om jeg når det i dag.\n\nMen det grundlæggende, som jeg skal have op og køre i dag, er mine lærings planer. Især fordi at dem har jeg overhovedet ikke tænkt over at udarbejde, før nu."
-                },
-                {
-                    "type": "image",
-                    "src": "https://cdn.7tv.app/emote/01GQF7KXJ8000ERT2YB38Q65VR/3x.gif"
-                },
-                {
-                    "type": "text",
-                    "value": "Det bliver dog lidt mere besværligt at få sortering udarbejdet for mine kilder...\nHvad skal der kunne filtreres for? Hvordan skal man kunne sorterer dem?\nBliver dette portfølje over-engineered? (det er det fanme allerede)"
-                },
-                {
-                    "type": "image",
-                    "src": "https://cdn.7tv.app/emote/01FC1B04XR000E3W5GESZFF1AY/4x.png"
-                }
-                ]
-            },
-            {
-                "id": "log-2026-week-7-day1",
-                "title": "Refaktorering af arkitektur og struktur.",
-                "date": "2026-02-09",
-                "content": [
-                    {
-                        "type": "text",
-                        "value": "I dag lå jeg desværre syg, så jeg havde ikke overskud til at gå i dybden med at læse. Jeg havde dog fået nogle tilbagemeldinger fra venner, som også arbejder med Vue.js, om at den generelle struktur for mit porteføljeprojekt var uoverskuelig og hurtigt kunne gå galt."
-                    },
-                    {
-                        "type": "image",
-                        "src": "/images/blogImages/week7/monday/codeFeedback.png"
-                    },
-                    {
-                        "type": "text",
-                        "value": "Derfor valgte jeg at bruge det meste af dagen på at arbejde med projektets struktur. Det gav mig samtidig en bedre idé og et stærkere grundlag for, hvordan jeg fremadrettet kan strukturere selve projektet i min projektgruppe."
-                    },
-                    {
-                        "type": "image",
-                        "src": "/images/blogImages/week7/monday/fixedCode.png"
-                    },
-                    {
-                        "type": "text",
-                        "value": "Efter refaktoreringen lever arkitekturen i langt højere grad op til principper som high cohesion og low coupling. Samtidig er der kommet mere fokus på separation of concerns, hvilket gør at projektet bedre følger Single Responsibility Principle."
-                    },
-                    {
-                        "type": "image",
-                        "src": "https://cdn.7tv.app/emote/01G9JW7WY80003SW3KYSMQE9YY/2x.gif"
-                    }
-                ]
-            },
-            {
-                "id": "log-2026-week-8-day3",
-                "title": "Følgning af officielt vue.js kursus",
-                "date": "2026-02-18",
-                "content": [
-                    {
-                        "type":"text",
-                        "value": "I dag har jeg stort set ikke lavet andet, end at følge det officielle intro-kursus, som vue.js tilbyder. Dette er bådet godt, og skidt på samme tid. Lidt mere om det senere."
-                    },
-                    {
-                        "type":"image",
-                        "src":"/images/blogImages/week8/wednesday/vueCourseCompletion.png"
-                    },
-                    {
-                        "type":"text",
-                        "value": "I mens jeg fulgte dette kursus, kom jeg dog i tanke om, at jeg kunne gøre det endelige resultat, til et produkt, som form for fremvisning af min process. Så det gik jeg i gang med, på samme tid med at følge kurset. \nAlstå, personligt vil jeg dog sige, at det har været en enorm fordel at gøre dette, da jeg har fået lidt mere øvelse i, hvordan man opsætter en hjemmeside med vue noget mere."
-                    },
-                    {
-                        "type": "image",
-                        "src":"/images/blogImages/week8/wednesday/vueCourseSiteDemo.png"
-                    },
-                    {
-                        "type":"text",
-                        "value":"Grunden til, at jeg siger dette både kan være godt og skidt, er som følgenden:"
-                    },                    
-                    {
-                        "type":"text",
-                        "value":"Det har været en god ting, da jeg har fået meget mere viden omkring vue frameworket, hvilket får mig til at tænke, at jeg ligge lidt fremad, ift mit emne på nuværende tidspunkt"
-                    },
-                    {
-                        "type":"text",
-                        "value":"Men på samme tid, kan det også være en dårlig ting. Jeg har nemlig STADIG ikke, fået udarbejdet grundige læringsmål/læringsplaner, udover de helt helt ukonkrete og basale mål, som jeg har nu:"
-                    },
-                    {
-                        "type":"image",
-                        "src":"/images/blogImages/week8/wednesday/terribleGoals.png"
-                    },
-                    {
-                        "type":"text",
-                        "value":"Det er nemlig, af den årsag, at jeg først og fremmest vil fjerne lidt fokus fra webudvikling til at gå i gang med noget DevOps, så de kan stå på nogle lunde lige fod. Men dernæst vil planen for i morgen dermed også være, at jeg SKAL få fokuseret på at få udarbejdet nogle ordentlige læringsmål, samt at få dem fremvist her."
-                    }
-                ]
-                
-            },
-            {
-                "id": "log-2026-week-9-day1",
-                "title": "Produktvejledning og nye læringsmål",
-                "date": "2026-02-23",
-                "content": [
-                  {
-                    "type": "text",
-                    "value": "Denne dag stod for det meste på produktvejledning. Jeg plejer som regel at møde to timer før selve mødetiden, og denne tid brugte jeg på at omskrive mine læringsmål, så de passede ind i et bedre og mere struktureret format."
-                  },
-                  {
-                    "type": "text",
-                    "value": "I forbindelse med vejledningen blev der uddelt nogle individuelle øvelser og refleksionsspørgsmål."
-                  },
-                  {
-                    "type": "text",
-                    "value": "Har jeg overvejet, hvordan jeg ville have gang i begge emner - på dagsbasis eller ugebasis? Min plan bliver at strukturere det ud fra et fast skema."
-                  },
-                  {
-                    "type": "image",
-                    "src": "/images/blogImages/week9/monday/schedulePlan.png"
-                  },
-                  {
-                    "type": "text",
-                    "value": "Skemaet overvejer jeg at implementere direkte i porteføljen som en visuel del af min proces, men det kommer foreløbigt på backburner. \"Flex\" betyder, at jeg arbejder med det emne, jeg føler mig mest bagud med. I weekenderne holder jeg som udgangspunkt fri, medmindre jeg vurderer, at jeg er markant bagud, og derfor har behov for at arbejde videre."
-                  },
-                  {
-                    "type": "text",
-                    "value": "Hvad havde jeg arbejdet med inden for mine to emner siden sidst? Det fremgik i praksis af loggen her på siden."
-                  },
-                  {
-                    "type": "text",
-                    "value": "Hvad ville jeg arbejde med de næste to uger? Referer til læringsplan, samt skemaet."
-                  },
-                  {
-                    "type": "text",
-                    "value": "Er der nogle udfordringer? Delvist. Som jeg tidligere har skrevet, har jeg haft for stort fokus på webudvikling og forsømt DevOps, hvilket betyder, at jeg først for alvor er begyndt på det for nylig. Udover den skævvridning forløber arbejdet dog ganske stabilt."
-                  },
-                  {
-                    "type": "text",
-                    "value": "Det mest væsentlige ved denne dag var dog udarbejdelsen af mine nye læringsmål. Jeg havde ikke gemt de gamle specifikt, men jeg kunne huske deres struktur: langsigtede, mellemsigtede og kortsigtede mål. Formatet fungerede i princippet fint, men det manglede konkretisering, og målene var derfor blevet for vage."
-                  },
-                  {
-                    "type": "image",
-                    "src": "/images/blogImages/week9/monday/finalizedNewPlans.png"
-                  },
-                  {
-                    "type": "text",
-                    "value": "Den nye struktur, jeg har sat målene over i, er mere generisk, men markant mere anvendelig. De kortsigtede mål er blevet opdelt i to-ugers sprints, hvilket gør dem mere operationelle og målbare. De mellemsigtede mål er blevet udslettet, da jeg ikke længere fandt dem meningsfulde i en struktur, hvor de kortsigtede allerede var organiseret som sprints."
-                  }
-                ]
-              }
-            
-    ]
+  "logs": [
+    {
+      "id": "log-2025-week-6-day2",
+      "title": "Log opsætning.",
+      "date": "2025-02-05",
+      "content": [
+        {
+          "type": "text",
+          "value": "I dag har jeg for det meste kun arbejdet på at få sat denne side, som du lige nu sidder og læser på, op. Øhh ja, jeg skriver først nu her hvor jeg er færdig såååå."
+        },
+        {
+          "type": "image",
+          "src": "https://cdn.7tv.app/emote/01FC1B04XR000E3W5GESZFF1AY/4x.png"
+        },
+        {
+          "type": "text",
+          "value": "De næste indslag på denne blog vil højst sandsynlig have mere struktur, samt potentielle skitseringer. Dette indslag er mere bare en test for at sige det sådan."
+        }
+      ]
+    },
+    {
+      "id": "log-2026-week-6-day4",
+      "title": "Læringsmål, planer og over-engineering.",
+      "date": "2026-02-06",
+      "content": [
+        {
+          "type": "text",
+          "value": "I dag har jeg for det meste arbejdet på, at få sat nogle læringsmål, samt planer op.\nDerudover har jeg brugt det meste af dagen på, at skulle være tilstæde til en workshop vi afholdte i XR Lab. Så jeg har dermed ikke kunne lave så meget arbejde.\n\nEn af grundidéerne er at genbruge den filtrering og sortering, der findes på blogsiden, og implementere den tilsvarende på kildesiden."
+        },
+        {
+          "type": "image",
+          "src": "/images/blogImages/week6/friday/sortImage.png"
+        },
+        {
+          "type": "text",
+          "value": "Dog er jeg usikker på, om jeg når det i dag.\n\nMen det grundlæggende, som jeg skal have op og køre i dag, er mine lærings planer. Især fordi at dem har jeg overhovedet ikke tænkt over at udarbejde, før nu."
+        },
+        {
+          "type": "image",
+          "src": "https://cdn.7tv.app/emote/01GQF7KXJ8000ERT2YB38Q65VR/3x.gif"
+        },
+        {
+          "type": "text",
+          "value": "Det bliver dog lidt mere besværligt at få sortering udarbejdet for mine kilder...\nHvad skal der kunne filtreres for? Hvordan skal man kunne sorterer dem?\nBliver dette portfølje over-engineered? (det er det fanme allerede)"
+        },
+        {
+          "type": "image",
+          "src": "https://cdn.7tv.app/emote/01FC1B04XR000E3W5GESZFF1AY/4x.png"
+        }
+      ]
+    },
+    {
+      "id": "log-2026-week-7-day1",
+      "title": "Refaktorering af arkitektur og struktur.",
+      "date": "2026-02-09",
+      "content": [
+        {
+          "type": "text",
+          "value": "I dag lå jeg desværre syg, så jeg havde ikke overskud til at gå i dybden med at læse. Jeg havde dog fået nogle tilbagemeldinger fra venner, som også arbejder med Vue.js, om at den generelle struktur for mit porteføljeprojekt var uoverskuelig og hurtigt kunne gå galt."
+        },
+        {
+          "type": "image",
+          "src": "/images/blogImages/week7/monday/codeFeedback.png"
+        },
+        {
+          "type": "text",
+          "value": "Derfor valgte jeg at bruge det meste af dagen på at arbejde med projektets struktur. Det gav mig samtidig en bedre idé og et stærkere grundlag for, hvordan jeg fremadrettet kan strukturere selve projektet i min projektgruppe."
+        },
+        {
+          "type": "image",
+          "src": "/images/blogImages/week7/monday/fixedCode.png"
+        },
+        {
+          "type": "text",
+          "value": "Efter refaktoreringen lever arkitekturen i langt højere grad op til principper som high cohesion og low coupling. Samtidig er der kommet mere fokus på separation of concerns, hvilket gør at projektet bedre følger Single Responsibility Principle."
+        },
+        {
+          "type": "image",
+          "src": "https://cdn.7tv.app/emote/01G9JW7WY80003SW3KYSMQE9YY/2x.gif"
+        }
+      ]
+    },
+    {
+      "id": "log-2026-week-8-day3",
+      "title": "Følgning af officielt vue.js kursus",
+      "date": "2026-02-18",
+      "content": [
+        {
+          "type": "text",
+          "value": "I dag har jeg stort set ikke lavet andet, end at følge det officielle intro-kursus, som vue.js tilbyder. Dette er bådet godt, og skidt på samme tid. Lidt mere om det senere."
+        },
+        {
+          "type": "image",
+          "src": "/images/blogImages/week8/wednesday/vueCourseCompletion.png"
+        },
+        {
+          "type": "text",
+          "value": "I mens jeg fulgte dette kursus, kom jeg dog i tanke om, at jeg kunne gøre det endelige resultat, til et produkt, som form for fremvisning af min process. Så det gik jeg i gang med, på samme tid med at følge kurset. \nAlstå, personligt vil jeg dog sige, at det har været en enorm fordel at gøre dette, da jeg har fået lidt mere øvelse i, hvordan man opsætter en hjemmeside med vue noget mere."
+        },
+        {
+          "type": "image",
+          "src": "/images/blogImages/week8/wednesday/vueCourseSiteDemo.png"
+        },
+        {
+          "type": "text",
+          "value": "Grunden til, at jeg siger dette både kan være godt og skidt, er som følgenden:"
+        },
+        {
+          "type": "text",
+          "value": "Det har været en god ting, da jeg har fået meget mere viden omkring vue frameworket, hvilket får mig til at tænke, at jeg ligge lidt fremad, ift mit emne på nuværende tidspunkt"
+        },
+        {
+          "type": "text",
+          "value": "Men på samme tid, kan det også være en dårlig ting. Jeg har nemlig STADIG ikke, fået udarbejdet grundige læringsmål/læringsplaner, udover de helt helt ukonkrete og basale mål, som jeg har nu:"
+        },
+        {
+          "type": "image",
+          "src": "/images/blogImages/week8/wednesday/terribleGoals.png"
+        },
+        {
+          "type": "text",
+          "value": "Det er nemlig, af den årsag, at jeg først og fremmest vil fjerne lidt fokus fra webudvikling til at gå i gang med noget DevOps, så de kan stå på nogle lunde lige fod. Men dernæst vil planen for i morgen dermed også være, at jeg SKAL få fokuseret på at få udarbejdet nogle ordentlige læringsmål, samt at få dem fremvist her."
+        }
+      ]
+    },
+    {
+      "id": "log-2026-week-9-day1",
+      "title": "Produktvejledning og nye læringsmål",
+      "date": "2026-02-23",
+      "content": [
+        {
+          "type": "text",
+          "value": "Denne dag stod for det meste på produktvejledning. Jeg plejer som regel at møde to timer før selve mødetiden, og denne tid brugte jeg på at omskrive mine læringsmål, så de passede ind i et bedre og mere struktureret format."
+        },
+        {
+          "type": "text",
+          "value": "I forbindelse med vejledningen blev der uddelt nogle individuelle øvelser og refleksionsspørgsmål."
+        },
+        {
+          "type": "text",
+          "value": "Har jeg overvejet, hvordan jeg ville have gang i begge emner - på dagsbasis eller ugebasis? Min plan bliver at strukturere det ud fra et fast skema."
+        },
+        {
+          "type": "image",
+          "src": "/images/blogImages/week9/monday/schedulePlan.png"
+        },
+        {
+          "type": "text",
+          "value": "Skemaet overvejer jeg at implementere direkte i porteføljen som en visuel del af min proces, men det kommer foreløbigt på backburner. \"Flex\" betyder, at jeg arbejder med det emne, jeg føler mig mest bagud med. I weekenderne holder jeg som udgangspunkt fri, medmindre jeg vurderer, at jeg er markant bagud, og derfor har behov for at arbejde videre."
+        },
+        {
+          "type": "text",
+          "value": "Hvad havde jeg arbejdet med inden for mine to emner siden sidst? Det fremgik i praksis af loggen her på siden."
+        },
+        {
+          "type": "text",
+          "value": "Hvad ville jeg arbejde med de næste to uger? Referer til læringsplan, samt skemaet."
+        },
+        {
+          "type": "text",
+          "value": "Er der nogle udfordringer? Delvist. Som jeg tidligere har skrevet, har jeg haft for stort fokus på webudvikling og forsømt DevOps, hvilket betyder, at jeg først for alvor er begyndt på det for nylig. Udover den skævvridning forløber arbejdet dog ganske stabilt."
+        },
+        {
+          "type": "text",
+          "value": "Det mest væsentlige ved denne dag var dog udarbejdelsen af mine nye læringsmål. Jeg havde ikke gemt de gamle specifikt, men jeg kunne huske deres struktur: langsigtede, mellemsigtede og kortsigtede mål. Formatet fungerede i princippet fint, men det manglede konkretisering, og målene var derfor blevet for vage."
+        },
+        {
+          "type": "image",
+          "src": "/images/blogImages/week9/monday/finalizedNewPlans.png"
+        },
+        {
+          "type": "text",
+          "value": "Den nye struktur, jeg har sat målene over i, er mere generisk, men markant mere anvendelig. De kortsigtede mål er blevet opdelt i to-ugers sprints, hvilket gør dem mere operationelle og målbare. De mellemsigtede mål er blevet udslettet, da jeg ikke længere fandt dem meningsfulde i en struktur, hvor de kortsigtede allerede var organiseret som sprints."
+        }
+      ]
+    },
+    {
+      "id": "log-2026-week-9-day3",
+      "title": "Implementering af DevOps del-produkter.",
+      "date": "2026-02-25",
+      "content": [
+        {
+          "type": "text",
+          "value": "I dag har det sådan set bare stået for at lave dokumentation af mine nuværende pipelines, som jeg har genbrugt fra tidligere projekter, som underprodukter."
+        },
+        {
+          "type":"text",
+          "value":"Til dette fik jeg ledt efter nogle syntax highligthers, da jeg syntes det kunne være en fed idé, at fremvise mine pipelines med syntax highlighting, lidt ligesom i mit vue kursus del-produkt. Dog, valgte jeg at bruge en anden teknologi, istedet for prismjs, da jeg følte denne portføjles kodebase, vil blive for bloated."
+        },
+        {
+          "type":"text",
+          "value":"Jeg fandt så dermed highlight.js, som vitterligt er et modul, men dermed også udviklet til at være et vue-plugin. Dette gjorde løsningen mere lightweight, og jeg tænkte dermed, at jeg vill bruge highlight.js"
+        },
+        {
+          "type":"image",
+          "src":"/images/blogImages/week9/wednesday/highlightjsFrontPage.png"
+        },
+        {
+          "type":"text",
+          "value":"Dette har så fungeret meget godt, ift til at kunne fremvise mine pipelines med syntaktisk highlighting:"
+        },
+        {
+          "type":"image",
+          "src":"/images/blogImages/week9/wednesday/OnSiteHighlighting.png"
+        }
+      ]
+    }
+  ]
 }
-    

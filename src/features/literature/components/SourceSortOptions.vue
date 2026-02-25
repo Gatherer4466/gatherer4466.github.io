@@ -47,7 +47,7 @@ const sortOptions = [
 const subjectOptions = [
   { label: 'Begge', value: 'both' },
   { label: 'Webudvikling', value: 'web' },
-  { label: 'DevOps', value: 'devOps' }
+  { label: 'DevOps', value: 'devOps' },
 ] as const
 
 const activeSort = ref<SortKey>('best')
@@ -63,7 +63,6 @@ function setSubject(value: SubjectKey) {
   emit('update:subject', value)
 }
 </script>
-
 
 <style scoped>
 .log-sort {

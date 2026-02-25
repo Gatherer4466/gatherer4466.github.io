@@ -5,10 +5,7 @@
 
     <div v-for="(block, index) in log.content" :key="index" class="content-block">
       <p v-if="block.type === 'text'">{{ block.value }}</p>
-      <img
-        v-else-if="block.type === 'image' || block.type === 'gif'"
-        :src="block.src"
-      />
+      <img v-else-if="block.type === 'image' || block.type === 'gif'" :src="block.src" />
     </div>
   </div>
 </template>
@@ -21,7 +18,7 @@ const props = defineProps<{ log: LogEntry }>()
 
 <style scoped>
 .content-block {
-  margin-top: 2.0rem;
+  margin-top: 2rem;
 }
 .content-block img {
   display: block;
@@ -29,5 +26,4 @@ const props = defineProps<{ log: LogEntry }>()
   margin: 0.5rem auto;
   border-radius: 4px;
 }
-
 </style>
