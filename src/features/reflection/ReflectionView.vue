@@ -1,5 +1,5 @@
 <template>
- <h2 id="infoTitle" class="titleMargin">
+  <h2 id="infoTitle" class="titleMargin">
     <b style="color: slateblue">Refleksioner for læringsplan:</b>
   </h2>
 

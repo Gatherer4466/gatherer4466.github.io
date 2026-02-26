@@ -1,43 +1,43 @@
 {
-    "reflections": [
-      {
-        "week": 1,
-        "devopsReflection": {
-          "knowledge": "loremIpsum knowledge",
-          "abilities": "nothing",
-          "skills": "FUCK"
-        },
-        "webReflection": {
-          "knowledge": "loremIpsum WEB",
-          "abilities": "WEB NOTHING",
-          "skills": "FUCK I LOVE WEB"
-        }
+  "reflections": [
+    {
+      "week": 1,
+      "devopsReflection": {
+        "knowledge": "loremIpsum knowledge",
+        "abilities": "nothing",
+        "skills": "FUCK"
       },
-      {
-        "week": 2,
-        "devopsReflection": {
-          "knowledge": "CI/CD pipelines and container basics",
-          "abilities": "Set up simple deployment workflows",
-          "skills": "Docker and GitHub Actions practice"
-        },
-        "webReflection": {
-          "knowledge": "React component structure and state",
-          "abilities": "Build reusable UI components",
-          "skills": "Basic form handling and props usage"
-        }
-      },
-      {
-        "week": 3,
-        "devopsReflection": {
-          "knowledge": "Infrastructure as Code concepts",
-          "abilities": "Provision simple cloud resources",
-          "skills": "Terraform basics and environment configs"
-        },
-        "webReflection": {
-          "knowledge": "API integration and async JavaScript",
-          "abilities": "Fetch and display backend data",
-          "skills": "Using fetch/axios and handling promises"
-        }
+      "webReflection": {
+        "knowledge": "loremIpsum WEB",
+        "abilities": "WEB NOTHING",
+        "skills": "FUCK I LOVE WEB"
       }
-    ]
-  }
+    },
+    {
+      "week": 2,
+      "devopsReflection": {
+        "knowledge": "CI/CD pipelines and container basics",
+        "abilities": "Set up simple deployment workflows",
+        "skills": "Docker and GitHub Actions practice"
+      },
+      "webReflection": {
+        "knowledge": "React component structure and state",
+        "abilities": "Build reusable UI components",
+        "skills": "Basic form handling and props usage"
+      }
+    },
+    {
+      "week": 3,
+      "devopsReflection": {
+        "knowledge": "Infrastructure as Code concepts",
+        "abilities": "Provision simple cloud resources",
+        "skills": "Terraform basics and environment configs"
+      },
+      "webReflection": {
+        "knowledge": "API integration and async JavaScript",
+        "abilities": "Fetch and display backend data",
+        "skills": "Using fetch/axios and handling promises"
+      }
+    }
+  ]
+}

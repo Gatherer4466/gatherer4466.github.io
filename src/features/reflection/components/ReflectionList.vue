@@ -9,7 +9,6 @@ import ReflectionCard from './ReflectionCard.vue'
 import type { Reflection } from '../types'
 import list from '../data.json'
 
-
 const reflections: Reflection[] = list.reflections
 </script>
 
