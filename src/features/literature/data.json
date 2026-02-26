@@ -5,7 +5,7 @@
       "title": "Vue.js - The Progressive JavaScript Framework",
       "author": "Vue.js Team",
       "url": "https://vuejs.org/",
-      "accessed": "2026-02-18",
+      "accessed": "2026-02-26",
       "note": "Officiel dokumentationsside for Vue.js, indeholder vejledninger, API-reference og eksempler.",
       "validity": 10,
       "validityNote": "Officiel dokumentationsside for Vue.js",
@@ -137,7 +137,7 @@
       "title": "TypeScript: JavaScript With Syntax For Types",
       "author": "Microsoft",
       "url": "https://www.typescriptlang.org/",
-      "accessed": "2026-02-18",
+      "accessed": "2026-02-26",
       "note": "Officiel hjemmeside for TypeScript, indeholder dokumentation, guides og generel information om sproget.",
       "validity": 10,
       "validityNote": "Officiel kilde fra Microsoft og den primære dokumentation for TypeScript.",
@@ -181,16 +181,16 @@
       "subjectKey": "devOps"
     },
     {
-      "id":16,
+      "id": 16,
       "title": "Highlight.js",
       "author": "Netlify",
-      "url":"https://highlightjs.org/",
-      "accessed":"2026-02-25",
+      "url": "https://highlightjs.org/",
+      "accessed": "2026-02-25",
       "note": "Dokumentation for en syntax highligher, der kan bruges i typescript/javascript.",
-      "validity":9,
-      "validityNote":"Officiel dokumentation for et JS modul.",
-      "type":"Dokumentation",
-      "subjectKey":"web"
+      "validity": 9,
+      "validityNote": "Officiel dokumentation for et JS modul.",
+      "type": "Dokumentation",
+      "subjectKey": "web"
     },
     {
       "id": 17,
@@ -203,6 +203,18 @@
       "validityNote": "Detaljeret og praktisk gennemgang, men ikke officiel dokumentation fra GitHub. Bør suppleres med officiel dokumentation.",
       "type": "Guide/Tutorial",
       "subjectKey": "devOps"
+    },
+    {
+      "id": 18,
+      "title": "MDN Web Docs",
+      "author": "Mozilla",
+      "url": "https://developer.mozilla.org/en-US/",
+      "accessed": "2026-02-26",
+      "note": "Officiel dokumentationsplatform fra Mozilla, som indeholder omfattende og pålidelig dokumentation om HTML, CSS, JavaScript og webstandarder.",
+      "validity": 9,
+      "validityNote": "MDN er en anerkendt og troværdig kilde inden for webudvikling og bruges bredt af både begyndere og professionelle udviklere.",
+      "type": "Dokumentation",
+      "subjectKey": "web"
     }
   ]
 }

@@ -12,12 +12,10 @@
       <span v-for="tech in product.stack" :key="tech">{{ tech }}</span>
     </div>
 
-    <div
-      v-for="file in product.files"
-      :key="file.filename"
-      class="fileBlock"
-    >
-      <p class="smallMargin"><strong>{{ file.filename }}</strong></p>
+    <div v-for="file in product.files" :key="file.filename" class="fileBlock">
+      <p class="smallMargin">
+        <strong>{{ file.filename }}</strong>
+      </p>
 
       <pre class="fileContent"><code ref="codeBlocks" class="yaml">{{ file.content }}</code></pre>
     </div>
@@ -43,15 +41,15 @@ const codeBlocks = ref<HTMLElement[]>([])
 
 onMounted(async () => {
   await nextTick()
-  document.querySelectorAll('pre code.yaml').forEach(block => {
-  hljs.highlightElement(block as HTMLElement)
-})
+  document.querySelectorAll('pre code.yaml').forEach((block) => {
+    hljs.highlightElement(block as HTMLElement)
+  })
 })
 </script>
 
 <style scoped>
 .fileContent {
-  background: rgba(0,0,0,0.85);
+  background: rgba(0, 0, 0, 0.85);
   padding: 12px;
   border: 1px solid #41ff41;
   border-radius: 4px;

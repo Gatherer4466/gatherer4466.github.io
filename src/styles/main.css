@@ -217,11 +217,9 @@ a {
   color: #e99173 !important;
 }
 
-.hljs-literal
-{
+.hljs-literal {
   color: #e76276 !important;
 }
-
 
 .hljs-string,
 .hljs-selector-attr,

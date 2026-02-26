@@ -1,6 +1,6 @@
 <template>
   <h2 id="infoTitle" class="titleMargin">
-    <b style="color: slateblue;">DevOps underprodukter:</b>
+    <b style="color: slateblue">DevOps underprodukter:</b>
   </h2>
 
   <DevOpsProductList />
