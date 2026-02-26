@@ -42,7 +42,7 @@ export const routes = [
     name: 'reflek',
     color: '#EC407A',
     inMenu: true,
-    component: notFoundView,
+    component: () => import('@/features/reflection/ReflectionView.vue'),
   },
   {
     path: '/laering',
