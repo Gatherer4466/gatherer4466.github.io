@@ -4,7 +4,7 @@ export interface Reflection {
   webReflection: ReflectionContent
 }
 
-export interface ReflectionContent {
+interface ReflectionContent {
   knowledge: string
   abilities: string
   skills: string
