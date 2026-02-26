@@ -203,6 +203,18 @@
       "validityNote": "Detaljeret og praktisk gennemgang, men ikke officiel dokumentation fra GitHub. Bør suppleres med officiel dokumentation.",
       "type": "Guide/Tutorial",
       "subjectKey": "devOps"
+    },
+    {
+      "id": 18,
+      "title": "MDN Web Docs",
+      "author": "Mozilla",
+      "url": "https://developer.mozilla.org/en-US/",
+      "accessed": "2026-02-26",
+      "note": "Officiel dokumentationsplatform fra Mozilla, som indeholder omfattende og pålidelig dokumentation om HTML, CSS, JavaScript og webstandarder.",
+      "validity": 9,
+      "validityNote": "MDN er en anerkendt og troværdig kilde inden for webudvikling og bruges bredt af både begyndere og professionelle udviklere.",
+      "type": "Dokumentation",
+      "subjectKey": "web"
     }
   ]
 }
