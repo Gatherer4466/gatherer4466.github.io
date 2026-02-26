@@ -56,7 +56,7 @@ const props = defineProps<{ reflection: Reflection }>()
 
 <style scoped>
 .reflection-card {
-  width: 25%;
+  width: 40%;
   aspect-ratio: 1 / 1;
   display: flex;
   flex-direction: column;
