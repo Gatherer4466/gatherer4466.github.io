@@ -1,9 +1,7 @@
 <template>
   <div class="card reflection-card">
     <div class="card-content">
-      <h3 class="week-title">
-        Refleksion - Uge {{ reflection.week }}
-      </h3>
+      <h3 class="week-title">Refleksion - Uge {{ reflection.week }}</h3>
 
       <section class="reflection-section">
         <h4>Viden</h4>
@@ -23,12 +21,28 @@
         <h4>Kompetencer</h4>
 
         <div class="reflection-block">
-        <span class="label">  
+          <span class="label">Web</span>
+          <p>{{ reflection.webReflection.abilities }}</p>
+        </div>
+
+        <div class="reflection-block">
+          <span class="label">DevOps</span>
+          <p>{{ reflection.devopsReflection.abilities }}</p>
         </div>
       </section>
 
       <section class="reflection-section">
         <h4>Færdigheder</h4>
+
+        <div class="reflection-block">
+          <span class="label">Web</span>
+          <p>{{ reflection.webReflection.skills }}</p>
+        </div>
+
+        <div class="reflection-block">
+          <span class="label">DevOps</span>
+          <p>{{ reflection.devopsReflection.skills }}</p>
+        </div>
       </section>
     </div>
   </div>
