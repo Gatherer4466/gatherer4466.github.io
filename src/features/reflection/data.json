@@ -1,42 +1,16 @@
 {
   "reflections": [
     {
-      "week": 1,
+      "week": "8-9",
       "devopsReflection": {
-        "knowledge": "loremIpsum knowledge",
-        "abilities": "nothing",
-        "skills": "FUCK"
+        "knowledge": "Jeg har til en tilstrækkelig grad opnået målet og har kendskab til automatiseringens rolle i moderne softwareudvikling.",
+        "abilities": "Jeg kan opsætte simple CI pipelines som automatisk kører tests. Se produkt siden.",
+        "skills": "Jeg har til en mindre grad opnået dette mål, til næste læringsplan skal dette fremhæves, så jeg kan opnå det fuldstændige."
       },
       "webReflection": {
-        "knowledge": "loremIpsum WEB",
-        "abilities": "WEB NOTHING",
-        "skills": "FUCK I LOVE WEB"
-      }
-    },
-    {
-      "week": 2,
-      "devopsReflection": {
-        "knowledge": "CI/CD pipelines and container basics",
-        "abilities": "Set up simple deployment workflows",
-        "skills": "Docker and GitHub Actions practice"
-      },
-      "webReflection": {
-        "knowledge": "React component structure and state",
-        "abilities": "Build reusable UI components",
-        "skills": "Basic form handling and props usage"
-      }
-    },
-    {
-      "week": 3,
-      "devopsReflection": {
-        "knowledge": "Infrastructure as Code concepts",
-        "abilities": "Provision simple cloud resources",
-        "skills": "Terraform basics and environment configs"
-      },
-      "webReflection": {
-        "knowledge": "API integration and async JavaScript",
-        "abilities": "Fetch and display backend data",
-        "skills": "Using fetch/axios and handling promises"
+        "knowledge": "Jeg har til en tilstrækkelig grad opnået dette mål, da jeg har beggyt hele dette portfølje på vue. Der henvises til produkt siden for reaktivitets eksempler.",
+        "abilities": "Jeg har opnået dette læringsmål, selve portføljet kan ses som grundlag for dette.",
+        "skills": "Jeg har til en tilstrækkelig grad opnået dette læringsmål."
       }
     }
   ]
