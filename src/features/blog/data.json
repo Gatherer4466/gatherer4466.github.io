@@ -205,6 +205,41 @@
           "src": "/images/blogImages/week9/wednesday/OnSiteHighlighting.png"
         }
       ]
+    },
+    {
+      "id": "log-2026-week-9-day4",
+      "title": "Refleksion af læringsplaner, på den dejlige måde.",
+      "date": "2026-02-26",
+      "content": [
+        {
+          "type":"text",
+          "value": "I dag har jeg ikke kunne følge mit skema, grundet arbejde, samt at det nu er ved at være sidste dag i et af mine sprints."
+        },
+        {
+          "type":"text",
+          "value":"Grundet det, har jeg for det meste bare arbejdet på, at få refleksionssiden op at køre, hvor jeg reflekterer på, hvorvidt jeg har opnået de kortsigtede mål, jeg fik stillede mig selv. Til at starte med dette gjorde jeg noget nyt... I stedet for bare at sige 'fuck it, we ball' valgte jeg at tegne en skitse for en gangs skyld."
+        },
+        {
+          "type":"image",
+          "src":"/images/blogImages/week9/thursday/sketchForReflectionPage.png"
+        },
+        {
+          "type":"text",
+          "value":"Dette gav mig en god idé for, hvordan jeg skulle opstille siden. Godt nok er skitsen lidt grov, men hey, det er jo en skitse."
+        },
+        {
+          "type": "image",
+          "src":"https://cdn.7tv.app/emote/01FEM1R99G000AEZ0QNPT4F7C1/4x.gif"
+        },
+        {
+          "type":"text",
+          "value":"Det endte så med at blive nogle lunde tæt på, hvordan jeg havedet skitseret det:"
+        },
+        {
+          "type":"image",
+          "src": "/images/blogImages/week9/thursday/finalizedReflectionPage.png"
+        }
+      ] 
     }
   ]
 }
