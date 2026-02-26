@@ -1,5 +1,5 @@
 export interface Reflection {
-  week: number
+  week: string
   devopsReflection: ReflectionContent
   webReflection: ReflectionContent
 }
