@@ -6,6 +6,13 @@
       "description": "Dette produkt er resultatet ved at følge alle de forskellige steps, som der fremgår inden for det officielle vue kursus. Alle de forskellige steps er blevet pakket ind i denne mini side, så den er let at navigere.",
       "link": "https://gatherer4466.github.io/VueCourseDemo/",
       "preview": "/images/productDemos/VueCourse.png"
+    },
+    {
+      "id":2,
+      "title": "Wireframe for forsiden af DSF",
+      "description": "Prototype wireframe design, bare lavet i rå HTML og CSS for forsiden af DSF. Lavet som en del af vores projekt arbejde i vores produktgruppe. Der er kun en lille bitte JS, men det er kun til for at kunne vise selve koden for siden inde på siden. Produktet er lavet som en form for test af HTML og CSS viden. Da dette emne ikke KUN skal handle om vue.",
+      "link": "https://gatherer4466.github.io/landingWireframe/",
+      "preview": "/images/productDemos/wireframeDemoLanding.png"
     }
   ]
 }
