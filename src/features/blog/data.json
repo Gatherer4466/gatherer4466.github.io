@@ -240,6 +240,41 @@
           "src": "/images/blogImages/week9/thursday/finalizedReflectionPage.png"
         }
       ]
+    },
+    {
+      "id": "log-2026-week-10-day2",
+      "title": "Produktvejledning... og nyeere læringsmål.",
+      "date": "2026-03-03",
+      "content": [
+        {
+          "type": "text",
+          "value": "I dag har det hovedsagligt stået på produktvejledning, hvor jeg blandt andet har fået et par fif omkring mit portføjle, specifikt mine læringsmål."
+        },
+        {
+          "type": "text",
+          "value": "Derudover har vi som gruppe lavet wireframes til forslag for, hvordan forsiden kunne være. Til dette har jeg valgt at prøve at kombinere min nuværende webudviklings viden, altså, kun HTML og CSS delen, ingen frameworks, ingen scripting. Bare ren HTML. Denne wireframe er så dermed også lagt ind under produkt siden."
+        },
+        {
+          "type": "image",
+          "src": "/images/blogImages/week10/monday/wireframeForLanding.png"
+        },
+        {
+          "type": "text",
+          "value": "Dernsæst, ift produktvejledning har jeg fået noget fornem feedback ift mine læringsmål:"
+        },
+        {
+          "type": "image",
+          "src": "/images/blogImages/week10/monday/productGuidanceNotes.png"
+        },
+        {
+          "type": "text",
+          "value": "Det næste skridt er så dermed bare at få påført disse noter, hvilket nok vil give mig en bedre proces. Ellers har det meste af denne dag stået på projekt arbejde med projektgruppen."
+        },
+        {
+          "type": "image",
+          "src": "https://cdn.7tv.app/emote/01F6QV6G8R0000TEKRM6BFG0Z3/1x.gif"
+        }
+      ]
     }
   ]
 }
