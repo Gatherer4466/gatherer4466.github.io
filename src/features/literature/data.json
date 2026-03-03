@@ -1,7 +1,6 @@
 {
   "sources": [
     {
-      // TODO: update all sources, to include process of finding....
       "id": 1,
       "title": "Vue.js - The Progressive JavaScript Framework",
       "author": "Vue.js Team",
