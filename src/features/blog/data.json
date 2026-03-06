@@ -275,6 +275,56 @@
           "src": "https://cdn.7tv.app/emote/01F6QV6G8R0000TEKRM6BFG0Z3/1x.gif"
         }
       ]
+    },
+    {
+      "id": "log-2026-week-10-day3",
+      "title": "Processvejledning, første iteration.",
+      "date": "2026-03-04",
+      "content": [
+        {
+          "type":"text",
+          "value": "Denne dag har stået på processvejledning, ind til videre har jeg sådan set bare rawdoggede processen, med lidt tips fra medstuderende. Så endelige at kunne have noget process vejledning er skam lidt dejligt. Jeg fik således skrevet nogle notater, som jeg vil smide ind som et produkt på et eller andet tidspunkt... Hvis du er en vejleder der læser dette, og de stadig ikke er inde, prik like til mig."
+        },
+        {
+          "type":"image",
+          "src": "/images/blogImages/week10/wednesday/processGuidanceNotes.png"
+        },
+        {
+          "type":"text",
+          "value":"Dette vejledningsmøde har været fornemt til at lige give mig nogle kvikke tips til at få styr på mine egne rutiner, så jeg kan lære mere i løbet af semestret."
+        },
+        {
+          "type":"text",
+          "value": "Derudover, fik jeg også noget vigtigt at vide, nemlig, at godt nok har jeg dokumenteret mine kilder på en fornuftig måde, men jeg skal dermed også dokumentere hvor jeg har fundet min kilde fra, uanset om jeg bare har googlet 'vue docs' eller hvad nu ellers."
+        }
+      ]
+    },
+    {
+      "id": "log-2026-week-10-day4",
+      "title": "Vejledning vejledning vejledning, og atter vejledning.",
+      "date": "2026-03-05",
+      "content": [
+        {
+          "type":"text",
+          "value":"I dag har det stået på, you guessed it... mere vejledning, denne gang noget erfa vejledning for mit DevOps fag."
+        },
+      {
+        "type":"text",
+        "value":"Jeg har kunne få et godt overblik om, hvor langt bagud eller foran jeg er med devops, og det er ikke så slemt som jeg nu ellers troede det ville være i forhold til de andre der også har emnet."
+      },
+      {
+        "type":"text",
+        "value":"Igen, har jeg jo været så fornuftig at tage noter til dette vejledningsmøde... burde også forhåbentligt snart være lagt op på siden her."
+      },
+      {
+        "type":"image",
+        "src":"/images/blogImages/week10/thursday/erfaNotes.png"
+      },
+      {
+        "type":"text",
+        "value":"Der er skam ikke så meget jeg ellers kan skrive udover at jeg som minimum til næste erfa møde jeg kan deltage i (ligger i uge 12) har nogle mål jeg skal have opfyldt."
+      }
+      ] 
     }
   ]
 }
