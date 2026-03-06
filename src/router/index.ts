@@ -29,6 +29,12 @@ export const routes = [
     inMenu: false,
     component: () => import('@/features/products/devops/DevopsProductsView.vue'),
   },
+  {
+    path: '/produkter/general',
+    name: 'prod-general',
+    inMenu: false,
+    component: () => import('@/features/products/general/generalProducts.vue')
+  },
 
   {
     path: '/eksperimenter',
