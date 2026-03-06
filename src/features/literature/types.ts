@@ -9,5 +9,5 @@ export interface Source {
   validityNote: string
   type: string
   subjectKey: string
-  origin: string
+  searchQuery: string
 }
