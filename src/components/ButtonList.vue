@@ -73,7 +73,7 @@ const styledItems = computed(() =>
       const isPlaceholder = item.component === notFoundView
       const baseColor = !isPlaceholder && item.color ? item.color : '#cccccc'
       const lighter = adjustColor(baseColor, 0.4)
-      const darker = adjustColor(baseColor, -.9)
+      const darker = adjustColor(baseColor, -0.9)
       return {
         ...item,
         style: {
