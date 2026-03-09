@@ -10,7 +10,8 @@
       "validity": 10,
       "validityNote": "Officiel dokumentationsside for Vue.js",
       "type": "Dokumentation",
-      "subjectKey": "web"
+      "subjectKey": "web",
+      "searchQuery": "Google: Vue.js official documentation"
     },
     {
       "id": 2,
@@ -22,7 +23,8 @@
       "validity": 7,
       "validityNote": "Videoen giver en præcis introduktion, men er ikke officiel dokumentation.",
       "type": "Video",
-      "subjectKey": "web"
+      "subjectKey": "web",
+      "searchQuery": "YouTube: Vue.js explained"
     },
     {
       "id": 3,
@@ -34,7 +36,8 @@
       "validity": 9,
       "validityNote": "MDN er en anerkendt og pålidelig kilde for webstandarder og CSS-dokumentation.",
       "type": "Dokumentation",
-      "subjectKey": "web"
+      "subjectKey": "web",
+      "searchQuery": "Google: CSS text-wrap MDN"
     },
     {
       "id": 4,
@@ -46,7 +49,8 @@
       "validity": 7,
       "validityNote": "Wikipedia er generelt set en fornuftig kilde for sig selv, men da alle kan redigere i de forskellige artikler, mister den en lille smule validitet.",
       "type": "Artikel",
-      "subjectKey": "web"
+      "subjectKey": "web",
+      "searchQuery": "Google: Vue.js Wikipedia"
     },
     {
       "id": 5,
@@ -58,7 +62,8 @@
       "validity": 8,
       "validityNote": "Roadmap.sh er bredt anerkendt og kurateret af erfarne udviklere, men er ikke officiel dokumentation.",
       "type": "Roadmap",
-      "subjectKey": "web"
+      "subjectKey": "web",
+      "searchQuery": "Google: Vue developer roadmap"
     },
     {
       "id": 6,
@@ -70,7 +75,8 @@
       "validity": 8,
       "validityNote": "Roadmap.sh giver et solidt overblik over DevOps-feltet, men bør suppleres med officiel dokumentation.",
       "type": "Roadmap",
-      "subjectKey": "devOps"
+      "subjectKey": "devOps",
+      "searchQuery": "Google: DevOps roadmap roadmap.sh"
     },
     {
       "id": 7,
@@ -82,7 +88,8 @@
       "validity": 9,
       "validityNote": "Igen, er dette en officiel kilde fra dem, der maintainer Vuejs frameworket. Dog, mister den et point, da, som de selv påpeger, er den outdated.",
       "type": "Dokumentation/Arkitektur guide",
-      "subjectKey": "web"
+      "subjectKey": "web",
+      "searchQuery": "Google: Vue style guide vuejs.org"
     },
     {
       "id": 8,
@@ -94,7 +101,8 @@
       "validity": 10,
       "validityNote": "Officielt dokumentationsside for TypeScript sproget af Microsoft",
       "type": "Dokumentation",
-      "subjectKey": "web"
+      "subjectKey": "web",
+      "searchQuery": "Google: TypeScript string enums documentation"
     },
     {
       "id": 9,
@@ -106,7 +114,8 @@
       "validity": 9,
       "validityNote": "Officiel dokumentation fra JSON Schema-projektet og derfor en meget pålidelig kilde.",
       "type": "Dokumentation",
-      "subjectKey": "web"
+      "subjectKey": "web",
+      "searchQuery": "Google: JSON schema enum documentation"
     },
     {
       "id": 10,
@@ -118,7 +127,8 @@
       "validity": 10,
       "validityNote": "Igen, officiel kilde fra vue.js, der er ellers ikke så meget at sige omkring det.",
       "type": "Kursus",
-      "subjectKey": "web"
+      "subjectKey": "web",
+      "searchQuery": "Google: Vue.js tutorial official"
     },
     {
       "id": 11,
@@ -130,7 +140,8 @@
       "validity": 7,
       "validityNote": "Personligt blogindlæg med praktisk guide. Relevans og indhold virker troværdigt, men det er ikke officiel dokumentation.",
       "type": "Blogindlæg",
-      "subjectKey": "web"
+      "subjectKey": "web",
+      "searchQuery": "Google: js syntax highlighting"
     },
     {
       "id": 12,
@@ -142,7 +153,8 @@
       "validity": 10,
       "validityNote": "Officiel kilde fra Microsoft og den primære dokumentation for TypeScript.",
       "type": "Dokumentation",
-      "subjectKey": "web"
+      "subjectKey": "web",
+      "searchQuery": "Google: TypeScript official documentation"
     },
     {
       "id": 13,
@@ -154,7 +166,8 @@
       "validity": 7,
       "validityNote": "Praktisk og pædagogisk læringsplatform. Ikke officiel dokumentation, men velegnet til grundlæggende Bash-forståelse.",
       "type": "Kursus",
-      "subjectKey": "devOps"
+      "subjectKey": "devOps",
+      "searchQuery": "Google: bash tutorial"
     },
     {
       "id": 14,
@@ -166,7 +179,8 @@
       "validity": 9,
       "validityNote": "Skrevet af erfaren DevOps-ingeniør. Ikke officiel dokumentation, men en dybdegående og kurateret sekundær kilde.",
       "type": "Bog",
-      "subjectKey": "devOps"
+      "subjectKey": "devOps",
+      "searchQuery": "Ingen søgning foretaget, kilde delt af medstuderende"
     },
     {
       "id": 15,
@@ -178,7 +192,8 @@
       "validity": 6,
       "validityNote": "Personlig blog, dog meget grundig, men stadig ikke officiel dokumentation. Forfatteren er selv studerende, så pålideligheden falder lidt.",
       "type": "Blogindlæg",
-      "subjectKey": "devOps"
+      "subjectKey": "devOps",
+      "searchQuery": "Google: linux text processing commands grep awk sed"
     },
     {
       "id": 16,
@@ -190,7 +205,8 @@
       "validity": 9,
       "validityNote": "Officiel dokumentation for et JS modul.",
       "type": "Dokumentation",
-      "subjectKey": "web"
+      "subjectKey": "web",
+      "searchQuery": "Google: js syntax highlighting"
     },
     {
       "id": 17,
@@ -202,7 +218,8 @@
       "validity": 7,
       "validityNote": "Detaljeret og praktisk gennemgang, men ikke officiel dokumentation fra GitHub. Bør suppleres med officiel dokumentation.",
       "type": "Guide/Tutorial",
-      "subjectKey": "devOps"
+      "subjectKey": "devOps",
+      "searchQuery": "Google: github actions ci cd tutorial"
     },
     {
       "id": 18,
@@ -214,7 +231,8 @@
       "validity": 9,
       "validityNote": "MDN er en anerkendt og troværdig kilde inden for webudvikling og bruges bredt af både begyndere og professionelle udviklere.",
       "type": "Dokumentation",
-      "subjectKey": "web"
+      "subjectKey": "web",
+      "searchQuery": "Google: MDN web docs javascript css html"
     }
   ]
 }
