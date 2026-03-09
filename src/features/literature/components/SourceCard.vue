@@ -3,6 +3,7 @@
     <h3>{{ title }}</h3>
     <p><strong>Type af kilde:</strong> {{ type }}</p>
     <p><strong>Forfatter/Organisation:</strong> {{ author }}</p>
+    <p><strong>Søgeord:</strong> {{ searchQuery }}</p>
     <p v-if="note"><strong>Note:</strong> {{ note }}</p>
     <p>
       <strong>Validitets vurdering: </strong>

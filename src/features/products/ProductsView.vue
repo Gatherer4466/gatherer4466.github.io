@@ -7,6 +7,8 @@
     <router-link class="card categoryBtn" to="/produkter/web"> Webudvikling </router-link>
 
     <router-link class="card categoryBtn" to="/produkter/devops"> DevOps </router-link>
+
+    <router-link class="card categoryBtn" to="/produkter/general"> Generelle produkter </router-link>
   </div>
 </template>
 
