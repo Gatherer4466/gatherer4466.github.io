@@ -34,9 +34,11 @@ const componentMap = {
   image: ImageBlock,
   video: VideoBlock,
   note: NoteBlock
-}
+} as const
 
-const getComponent = (type: string) => componentMap[type] ?? NoteBlock
+type BlockType = keyof typeof componentMap
+
+const getComponent = (type: BlockType) => componentMap[type]
 </script>
 
 <style scoped>
