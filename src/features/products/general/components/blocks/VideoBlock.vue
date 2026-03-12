@@ -1,10 +1,6 @@
 <template>
   <div class="videoBlock">
-    <iframe
-      :src="block.url"
-      frameborder="0"
-      allowfullscreen
-    ></iframe>
+    <iframe :src="block.url" frameborder="0" allowfullscreen></iframe>
   </div>
 </template>
 

@@ -1,15 +1,9 @@
 <template>
-    <p v-if="products.length === 0" class="about-text">
-      Ingen generelle produkter endnu.
-    </p>
+  <p v-if="products.length === 0" class="about-text">Ingen generelle produkter endnu.</p>
 
-    <div class="scrollable-content">
-      <GeneralProductCard
-        v-for="product in products"
-        :key="product.id"
-        :product="product"
-      />
-    </div>
+  <div class="scrollable-content">
+    <GeneralProductCard v-for="product in products" :key="product.id" :product="product" />
+  </div>
 </template>
 
 <script setup lang="ts">
