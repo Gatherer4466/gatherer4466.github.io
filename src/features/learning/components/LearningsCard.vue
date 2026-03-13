@@ -6,9 +6,9 @@
       v-for="block in sortedBlocks"
       :key="block.id"
       :title="block.title"
-      :knowledge="block.knowledge.join('\n')"
-      :skills="block.skills.join('\n')"
-      :competencies="block.competencies.join('\n')"
+      :knowledge="block.knowledge.join('<br>')"
+      :skills="block.skills.join('<br>')"
+      :competencies="block.competencies.join('<br>')"
       :isLong="block.type === 'long'"
     />
   </div>
