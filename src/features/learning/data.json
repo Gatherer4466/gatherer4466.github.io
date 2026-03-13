@@ -9,10 +9,22 @@
           "id": "vue-long",
           "title": "Langsigtet perspektiv",
           "type": "long",
-          "knowledge": "Den studerende har dybdegående viden om Vue’s arkitektur, reaktivitetssystem og rolle i moderne webapplikationer.",
-          "skills": "Den studerende kan udvikle skalerbare og vedligeholdelsesvenlige Vue-applikationer, foretage litteratursøgning om frontend-arkitektur og diskutere design- og arkitekturvalg på et fagligt niveau.",
-          "competencies": "Den studerende kan selvstændigt sætte sig ind i nye Vue-relaterede teknologier og perspektivere frontendudvikling i forhold til systemarkitektur, backend og DevOps."
+          "knowledge": [
+            "Den studerende har viden om Vue 3’s arkitektur, herunder reaktivitetssystemet, komponentstruktur og routing.",
+            "Den studerende har viden om hvordan frontendarkitektur i Vue interagerer med backend API’er og moderne webinfrastruktur.",
+            "Den studerende har viden om principper for skalerbar frontendarkitektur i Single Page Applications."
+          ],
+          "skills": [
+            "Den studerende kan udvikle skalerbare og vedligeholdelsesvenlige Vue-applikationer.",
+            "Den studerende kan analysere dokumentation og tekniske artikler om frontendarkitektur.",
+            "Den studerende kan begrunde design- og arkitekturvalg i en Vue-applikation."
+          ],
+          "competencies": [
+            "Den studerende kan selvstændigt sætte sig ind i nye Vue-relaterede teknologier.",
+            "Den studerende kan vurdere frontendens rolle i forhold til systemarkitektur, backend og DevOps."
+          ]
         },
+
         {
           "id": "vue-8-9",
           "title": "Uge 8-9",
@@ -21,6 +33,7 @@
           "skills": "Den studerende kan opsætte og strukturere et Vue 3 projekt, opbygge komponenter med Composition API og anvende Vue’s reaktive principper korrekt i praksis.",
           "competencies": "Den studerende kan selvstændigt sætte sig ind i Vue-dokumentationen og træffe begrundede valg om komponentstruktur og reaktiv logik."
         },
+
         {
           "id": "vue-10-11",
           "title": "Uge 10-11",
@@ -29,48 +42,100 @@
           "skills": "Den studerende kan designe genanvendelige og løst koblede Vue-komponenter samt implementere struktureret kommunikation mellem komponenter.",
           "competencies": "Den studerende kan vurdere og begrunde arkitekturvalg i en Vue-applikation med fokus på skalerbarhed og maintainability."
         },
+
         {
           "id": "vue-12-13",
           "title": "Uge 12-13",
           "type": "week",
-          "knowledge": "Den studerende har viden om Vue’s håndtering af asynkron data, lifecycle hooks og integration med REST-baserede API’er.",
-          "skills": "Den studerende kan implementere datahentning i Vue-komponenter, håndtere loading- og error states samt strukturere API-logik hensigtsmæssigt.",
-          "competencies": "Den studerende kan analysere frontendens ansvar i samspil med backend og vurdere placering af logik i applikationen."
+          "knowledge": [
+            "Den studerende har viden om Vue lifecycle hooks og deres rolle i komponenters livscyklus.",
+            "Den studerende har viden om hvordan Vue kan hente data fra REST APIer.",
+            "Den studerende har viden om typiske frontend states såsom loading, success og error."
+          ],
+          "skills": [
+            "Den studerende kan implementere simpel datahentning fra et REST API i en Vue-komponent.",
+            "Den studerende kan håndtere simple loading- og error states i en brugergrænseflade.",
+            "Den studerende kan strukturere API-kald i mindre hjælpefunktioner eller composables."
+          ],
+          "competencies": [
+            "Den studerende kan reflektere over hvor datahåndtering kan placeres i en Vue-applikation."
+          ]
         },
+
         {
           "id": "vue-14-15",
           "title": "Uge 14-15",
           "type": "week",
-          "knowledge": "Den studerende har viden om Vue Router, dynamiske routes og navigationsguards i Single Page Applications.",
-          "skills": "Den studerende kan konfigurere routing, implementere dynamisk navigation og beskytte routes baseret på autentifikationstilstand.",
-          "competencies": "Den studerende kan vurdere konsekvenserne af routing- og navigationsdesign i forhold til brugeroplevelse og applikationsstruktur."
+          "knowledge": [
+            "Den studerende har viden om hvordan Vue Router fungerer i Single Page Applications.",
+            "Den studerende har viden om dynamiske routes og grundlæggende navigationsguards."
+          ],
+          "skills": [
+            "Den studerende kan konfigurere simpel routing i en Vue-applikation.",
+            "Den studerende kan implementere dynamiske routes baseret på parametre.",
+            "Den studerende kan anvende navigationsguards i simple scenarier."
+          ],
+          "competencies": [
+            "Den studerende kan forklare hvordan routing påvirker struktur og navigation i en applikation."
+          ]
         },
+
         {
           "id": "vue-16-17",
           "title": "Uge 16-17",
           "type": "week",
-          "knowledge": "Den studerende har viden om state management i Vue, herunder centraliseret state (fx Pinia) og forskellen på lokal og global state.",
-          "skills": "Den studerende kan implementere og strukturere global state management samt adskille forretningslogik fra præsentationslogik i Vue-applikationer.",
-          "competencies": "Den studerende kan analysere og begrunde valg af state-struktur i forhold til kompleksitet og vedligeholdelse."
+          "knowledge": [
+            "Den studerende har viden om forskellen mellem lokal state og delt state i frontendapplikationer.",
+            "Den studerende har viden om state management biblioteket Pinia."
+          ],
+          "skills": [
+            "Den studerende kan implementere delt state med Pinia i en simpel applikation.",
+            "Den studerende kan definere state, getters og actions i en store.",
+            "Den studerende kan placere forretningslogik i en store fremfor direkte i komponenter."
+          ],
+          "competencies": [
+            "Den studerende kan forklare hvornår global state kan være nyttigt i en applikation."
+          ]
         },
+
         {
           "id": "vue-18-19",
           "title": "Uge 18-19",
           "type": "week",
-          "knowledge": "Den studerende har viden om performanceoptimering i Vue, herunder lazy loading, code splitting og optimering af reaktivitet.",
-          "skills": "Den studerende kan optimere komponenters rendering, implementere lazy-loaded routes og identificere performance-flaskehalse i en Vue-applikation.",
-          "competencies": "Den studerende kan vurdere performance i forhold til brugeroplevelse og applikationens skalerbarhed."
+          "knowledge": [
+            "Den studerende har viden om hvordan Vue’s reaktivitet påvirker rendering.",
+            "Den studerende har viden om lazy loading og code splitting."
+          ],
+          "skills": [
+            "Den studerende kan implementere lazy-loaded routes.",
+            "Den studerende kan identificere simple performanceproblemer i en Vue-applikation.",
+            "Den studerende kan anvende grundlæggende optimeringer i komponenter."
+          ],
+          "competencies": [
+            "Den studerende kan diskutere hvordan performance kan påvirke brugeroplevelsen."
+          ]
         },
+
         {
           "id": "vue-20-21",
           "title": "Uge 20-21",
           "type": "week",
-          "knowledge": "Den studerende har viden om test af Vue-applikationer, komponenttest og kvalitetssikring i frontend-udvikling.",
-          "skills": "Den studerende kan skrive og udføre tests af Vue-komponenter samt dokumentere arkitektur og tekniske beslutninger.",
-          "competencies": "Den studerende kan perspektivere Vue-baseret frontendudvikling i forhold til backend (fx C#-baserede systemer), DevOps og uddannelsens øvrige fagområder."
+          "knowledge": [
+            "Den studerende har viden om teststrategier i frontendudvikling.",
+            "Den studerende har viden om hvordan komponenttests kan anvendes i Vue."
+          ],
+          "skills": [
+            "Den studerende kan skrive simple tests for Vue-komponenter.",
+            "Den studerende kan anvende et testværktøj til at teste komponentlogik.",
+            "Den studerende kan beskrive centrale tekniske beslutninger i et projekt."
+          ],
+          "competencies": [
+            "Den studerende kan reflektere over hvordan tests bidrager til kvalitet og vedligeholdelse."
+          ]
         }
       ]
     },
+
     {
       "id": "devops",
       "category": "devops",
@@ -80,10 +145,22 @@
           "id": "devops-long",
           "title": "Langsigtet perspektiv",
           "type": "long",
-          "knowledge": "Den studerende har dybdegående viden om automatiseringens rolle i moderne softwareudvikling, herunder samspillet mellem CI/CD, containerisering, infrastruktur og cloud-miljøer.",
-          "skills": "Den studerende kan designe, implementere og evaluere komplette automatiserede pipelines samt foretage litteratursøgning om DevOps-praksis og værktøjer.",
-          "competencies": "Den studerende kan selvstændigt sætte sig ind i nye DevOps-teknologier og vurdere deres anvendelighed i forhold til skalerbarhed, sikkerhed og organisatoriske behov."
+          "knowledge": [
+            "Den studerende har viden om principperne bag Continuous Integration og Continuous Delivery.",
+            "Den studerende har viden om containerisering og dens rolle i moderne deployment.",
+            "Den studerende har viden om automatisering af infrastruktur og pipelines."
+          ],
+          "skills": [
+            "Den studerende kan designe og implementere en automatiseret CI/CD pipeline.",
+            "Den studerende kan analysere dokumentation og tekniske artikler om DevOps-praksis.",
+            "Den studerende kan dokumentere en automatiseret udviklings- og deploymentproces."
+          ],
+          "competencies": [
+            "Den studerende kan selvstændigt sætte sig ind i nye DevOps-værktøjer.",
+            "Den studerende kan vurdere automatiseringsløsninger i forhold til skalerbarhed, sikkerhed og drift."
+          ]
         },
+
         {
           "id": "devops-8-9",
           "title": "Uge 8-9",
@@ -92,6 +169,7 @@
           "skills": "Den studerende kan opsætte en CI-pipeline, der automatisk bygger og tester en applikation ved commit, samt analysere pipeline-feedback.",
           "competencies": "Den studerende kan forklare og vurdere værdien af automatiseret integration i forhold til kvalitet, samarbejde og leverancehastighed."
         },
+
         {
           "id": "devops-10-11",
           "title": "Uge 10-11",
@@ -100,45 +178,91 @@
           "skills": "Den studerende kan konfigurere workflows, der automatisk validerer kode gennem tests og statisk analyse før merge.",
           "competencies": "Den studerende kan vurdere hvordan automatiserede workflows understøtter samarbejde og reducerer fejl i udviklingsprocessen."
         },
+
         {
           "id": "devops-12-13",
           "title": "Uge 12-13",
           "type": "week",
-          "knowledge": "Den studerende har viden om containerteknologi, herunder Docker, images, containere og principperne bag containerbaseret deployment.",
-          "skills": "Den studerende kan skrive en Dockerfile, bygge images og containerisere en applikation, så den kan afvikles konsistent på tværs af miljøer.",
-          "competencies": "Den studerende kan analysere hvordan containerisering bidrager til reproducerbarhed, portabilitet og effektiv deployment."
+          "knowledge": [
+            "Den studerende har viden om hvad Docker images og containere er.",
+            "Den studerende har viden om hvordan containere anvendes i udviklingsmiljøer."
+          ],
+          "skills": [
+            "Den studerende kan skrive en simpel Dockerfile til en applikation.",
+            "Den studerende kan bygge og køre Docker images lokalt.",
+            "Den studerende kan anvende containere til at køre en applikation."
+          ],
+          "competencies": [
+            "Den studerende kan forklare fordelene ved containerisering i udviklingsarbejde."
+          ]
         },
+
         {
           "id": "devops-14-15",
           "title": "Uge 14-15",
           "type": "week",
-          "knowledge": "Den studerende har viden om Continuous Delivery og Continuous Deployment samt automatiseret release-håndtering.",
-          "skills": "Den studerende kan udvide en CI-pipeline til også at håndtere automatiseret deployment til test- eller produktionsmiljø.",
-          "competencies": "Den studerende kan vurdere risici og fordele ved automatiseret deployment i forhold til stabilitet og time-to-market."
+          "knowledge": [
+            "Den studerende har viden om forskellen mellem Continuous Delivery og Continuous Deployment.",
+            "Den studerende har viden om automatiseret release-håndtering."
+          ],
+          "skills": [
+            "Den studerende kan konfigurere en pipeline der deployer til et testmiljø.",
+            "Den studerende kan automatisere simple build og deployment processer."
+          ],
+          "competencies": [
+            "Den studerende kan forklare fordele og risici ved automatiseret deployment."
+          ]
         },
+
         {
           "id": "devops-16-17",
           "title": "Uge 16-17",
           "type": "week",
-          "knowledge": "Den studerende har viden om Infrastructure as Code (IaC) og principperne bag deklarativ konfiguration og miljøautomatisering.",
-          "skills": "Den studerende kan konfigurere og versionere infrastruktur eller miljøopsætning som kode og integrere det i en automatiseret pipeline.",
-          "competencies": "Den studerende kan analysere hvordan IaC understøtter skalerbarhed, sporbarhed og driftssikkerhed."
+          "knowledge": [
+            "Den studerende har viden om Infrastructure as Code og deklarativ konfiguration."
+          ],
+          "skills": [
+            "Den studerende kan definere simpel miljøopsætning som kode.",
+            "Den studerende kan versionere infrastrukturkonfiguration.",
+            "Den studerende kan anvende konfiguration i en pipeline."
+          ],
+          "competencies": [
+            "Den studerende kan forklare hvordan Infrastructure as Code kan understøtte drift."
+          ]
         },
+
         {
           "id": "devops-18-19",
           "title": "Uge 18-19",
           "type": "week",
-          "knowledge": "Den studerende har viden om monitorering, logging, observability og DevSecOps-principper.",
-          "skills": "Den studerende kan integrere logging, simple monitoreringsmekanismer og automatiserede sikkerhedsscanninger i en pipeline.",
-          "competencies": "Den studerende kan vurdere hvordan automatiseret overvågning og sikkerhed bidrager til stabil og ansvarlig drift."
+          "knowledge": [
+            "Den studerende har viden om logging og monitorering i softwaredrift.",
+            "Den studerende har viden om grundlæggende DevSecOps-principper."
+          ],
+          "skills": [
+            "Den studerende kan konfigurere simpel logging i en applikation.",
+            "Den studerende kan anvende grundlæggende monitoreringsmekanismer.",
+            "Den studerende kan integrere simple sikkerhedsscanninger i en pipeline."
+          ],
+          "competencies": [
+            "Den studerende kan forklare hvordan overvågning og sikkerhed bidrager til drift."
+          ]
         },
+
         {
           "id": "devops-20-21",
           "title": "Uge 20-21",
           "type": "week",
-          "knowledge": "Den studerende har viden om den samlede automatiserede værdikæde fra kodecommit til kørende system i produktion.",
-          "skills": "Den studerende kan dokumentere en fuld CI/CD-opsætning og formidle arkitektur- og automatiseringsvalg på et fagligt niveau.",
-          "competencies": "Den studerende kan perspektivere DevOps-praksis i forhold til organisation, samarbejde mellem udvikling og drift samt forretningsmæssige mål."
+          "knowledge": [
+            "Den studerende har viden om hvordan en automatiseret pipeline kan forbinde kodecommit, build og deployment."
+          ],
+          "skills": [
+            "Den studerende kan dokumentere en simpel CI/CD-opsætning.",
+            "Den studerende kan beskrive hvordan pipeline-automatisering fungerer."
+          ],
+          "competencies": [
+            "Den studerende kan reflektere over hvordan DevOps-praksis påvirker samarbejde mellem udvikling og drift."
+          ]
         }
       ]
     }

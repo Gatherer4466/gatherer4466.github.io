@@ -4,9 +4,9 @@ export interface LearningBlock {
   id: string
   title: string
   type: 'week' | 'long'
-  knowledge: string
-  skills: string
-  competencies: string
+  knowledge: string[]
+  skills: string[]
+  competencies: string[]
 }
 
 export interface LearningPlan {

@@ -233,6 +233,19 @@
       "type": "Dokumentation",
       "subjectKey": "web",
       "searchQuery": "Google: MDN web docs javascript css html"
+    },
+    {
+      "id": 19,
+      "title": "Testing | Vue.js",
+      "author": "Vue.js Team",
+      "url": "https://vuejs.org/guide/scaling-up/testing",
+      "accessed": "2026-03-09",
+      "note": "Officiel vue dokumentation for opsætning af tests.",
+      "validity": 10,
+      "validityNote": "Officiel kilde fra Vue.js",
+      "type": "Dokumentation",
+      "subjectKey": "devOps",
+      "searchQuery": "Google: vuejs test documentation"
     }
   ]
 }

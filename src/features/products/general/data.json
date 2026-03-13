@@ -1,105 +1,97 @@
 {
-    "products": [
-      {
-        "id": 1,
-        "title": "Produktvejlednings notater",
-        "date": "2026-03-03",
-        "blocks": [
-          {
-            "type": "note",
-            "content": "Gør vidensmålene mindre abstrakte – de skal være konkrete og målbare."
-          },
-          {
-            "type": "note",
-            "content": "Brug vurdering i stedet for perspektivering."
-          },
-          {
-            "type": "note",
-            "content": "Byg flere læringsmål ind i hver sprint. Det samme gælder de langsigtede mål – bryd dem op i mindre dele."
-          }
-        ]
-      },
-      {
-        "id": 2,
-        "title": "Procesvejlednings notater",
-        "date": "2026-03-04",
-        "blocks": [
-          {
-            "type": "note",
-            "content": "Dokumentér processen for at finde kilder – f.eks. hvilke søgninger der blev brugt på Google."
-          },
-          {
-            "type": "note",
-            "content": "Pomodoro kan være en god teknik til koncentreret arbejde i stedet for meget lange arbejdsperioder."
-          },
-          {
-            "type": "note",
-            "content": "Undgå at bruge telefonen i de korte 5 minutters pauser."
-          },
-          {
-            "type": "note",
-            "content": "Skab en fast arbejdsrutine og behandl semesteret som et fuldtidsarbejde."
-          },
-          {
-            "type": "note",
-            "content": "Målhierarki: Op = hvorfor. Ned = hvordan."
-          },
-          {
-            "type": "note",
-            "content": "Hvordan-delen kan omsættes til kortsigtede læringsmål, hvis de stadig er svære at formulere."
-          },
-          {
-            "type": "note",
-            "content": "Skriv daglig log – også hvis der ikke er lavet noget. Beskriv hvor du er i processen, og hvad næste skridt er."
-          },
-          {
-            "type": "note",
-            "content": "Overvej hvordan porteføljen kan struktureres til at understøtte disse daglige logs."
-          },
-          {
-            "type": "note",
-            "content": "I den individuelle del skal læringsmålene være konkrete og målbare, og processen skal justeres så arbejdsfordelingen mellem fagene bliver mere balanceret."
-          }
-        ]
-      },
-      {
-        "id": 3,
-        "title": "Erfa vejlednings notater",
-        "date": "2026-03-05",
-        "blocks": [
-          {
-            "type": "note",
-            "content": "DevOps Lifecycle beskriver faserne i processen og giver et godt overblik."
-          },
-          {
-            "type": "note",
-            "content": "Noter kan betragtes som et produkt."
-          },
-          {
-            "type": "note",
-            "content": "Det vigtigste ved en note er ikke bare at den eksisterer, men at den bliver skrevet – fordi skrivningen hjælper med at bearbejde information."
-          },
-          {
-            "type": "note",
-            "content": "Azure kan håndtere mindst fem brugere gratis i DevOps-delen – det er primært hosting der kræver credits."
-          },
-          {
-            "type": "note",
-            "content": "Dyk ned i et område i stedet for at være en flue i en flaske – det er bedre at lave noget forkert end slet ikke at prøve."
-          },
-          {
-            "type": "note",
-            "content": "Gennemgå hvilke kilder der er blevet brugt, og overvej at dokumentere eller dele dem."
-          },
-          {
-            "type": "note",
-            "content": "Næste mål: Opsæt mindst én automatiseret test – enten til porteføljen eller et nyt projekt."
-          },
-          {
-            "type": "note",
-            "content": "Udarbejd et målhierarki for begge emner."
-          }
-        ]
-      }
-    ]
-  }
+  "products": [
+    {
+      "id": 1,
+      "title": "Produktvejlednings notater",
+      "date": "2026-03-03",
+      "blocks": [
+        {
+          "type": "note",
+          "content": "Gør vidensmålene mindre abstrakte – de skal være konkrete og målbare."
+        },
+        {
+          "type": "note",
+          "content": "Brug vurdering i stedet for perspektivering."
+        },
+        {
+          "type": "note",
+          "content": "Byg flere læringsmål ind i hver sprint. Det samme gælder de langsigtede mål – bryd dem op i mindre dele."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Procesvejlednings notater",
+      "date": "2026-03-04",
+      "blocks": [
+        {
+          "type": "note",
+          "content": "Husk processen for at finde min kilder, såsom: hvad har jeg søgt på google?"
+        },
+        {
+          "type": "note",
+          "content": "Pomodoro kunne være en fornem teknik til at lave koncentreret arbejde, istedet for bare at køre en hel lang gang. Husk, brug ikke telefonen i de små fem minutters pauser."
+        },
+        {
+          "type": "note",
+          "content": "Skab en ordentlig rutine, behandle semesteret som et reelt fuldtidsarbejde."
+        },
+        {
+          "type": "note",
+          "content": "Målhieriki, Op = hvorfor, Ned = hvordan. Hvordan kunne blive til kortsigtede læringsmål, hvis der stadig er besvær med dem."
+        },
+        {
+          "type": "note",
+          "content": "Skriv daglig log, selv hvis jeg ik har lavet noget, bare skriv. Hvor er jeg i processen, hvad vil jeg gøre i morgen måske… Find så lige ud af hvordan jeg kan få formateret mit portfølje til det."
+        },
+        {
+          "type": "note",
+          "content": "Hvordan-delen kan omsættes til kortsigtede læringsmål, hvis de stadig er svære at formulere."
+        },
+        {
+          "type": "note",
+          "content": "Individuelle del: Nogle lunde det samme som fra produktvejledning, læringsmålene skal blive mere konkrete og målbare, men processen skal også finjusteres, så jeg ikke har en skæv fordeling i mine to fag"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Erfa vejlednings notater",
+      "date": "2026-03-05",
+      "blocks": [
+        {
+          "type": "note",
+          "content": "DevOps Lifecycle beskriver faserne i processen og giver et godt overblik."
+        },
+        {
+          "type": "note",
+          "content": "Noter kan betragtes som et produkt."
+        },
+        {
+          "type": "note",
+          "content": "Det vigtigste ved en note er ikke bare at den eksisterer, men at den bliver skrevet – fordi skrivningen hjælper med at bearbejde information."
+        },
+        {
+          "type": "note",
+          "content": "Azure kan håndtere mindst fem brugere gratis i DevOps-delen – det er primært hosting der kræver credits."
+        },
+        {
+          "type": "note",
+          "content": "Dyk ned i et område i stedet for at være en flue i en flaske – det er bedre at lave noget forkert end slet ikke at prøve."
+        },
+        {
+          "type": "note",
+          "content": "Gennemgå hvilke kilder der er blevet brugt, og overvej at dokumentere eller dele dem."
+        },
+        {
+          "type": "note",
+          "content": "Næste mål: Opsæt mindst én automatiseret test – enten til porteføljen eller et nyt projekt."
+        },
+        {
+          "type": "note",
+          "content": "Udarbejd et målhierarki for begge emner."
+        }
+      ]
+    }
+  ]
+}

@@ -33,7 +33,7 @@ export const routes = [
     path: '/produkter/general',
     name: 'prod-general',
     inMenu: false,
-    component: () => import('@/features/products/general/generalProducts.vue')
+    component: () => import('@/features/products/general/generalProducts.vue'),
   },
 
   {
