@@ -64,6 +64,10 @@ function toggle() {
   background: rgba(0, 0, 0, 0.45);
 }
 
+.content p {
+  white-space: pre-line;
+}
+
 h4 {
   color: rgb(145, 255, 106);
   margin-top: 12px;
