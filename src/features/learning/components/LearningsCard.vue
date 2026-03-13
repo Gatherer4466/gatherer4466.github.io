@@ -6,9 +6,9 @@
       v-for="block in sortedBlocks"
       :key="block.id"
       :title="block.title"
-      :knowledge="block.knowledge.join('<br>')"
-      :skills="block.skills.join('<br>')"
-      :competencies="block.competencies.join('<br>')"
+      :knowledge="format(block.knowledge)"
+      :skills="format(block.skills)"
+      :competencies="format(block.competencies)"
       :isLong="block.type === 'long'"
     />
   </div>
@@ -22,6 +22,10 @@ import LearningAccordion from './LearningAccordion.vue'
 const props = defineProps<{
   plan: LearningPlan
 }>()
+
+function format(value: string | string[]) {
+  return Array.isArray(value) ? value.join('\n') : value
+}
 
 const sortedBlocks = computed(() => {
   return [...props.plan.blocks].sort((a, b) => {
