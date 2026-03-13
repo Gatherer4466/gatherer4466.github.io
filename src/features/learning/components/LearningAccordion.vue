@@ -7,28 +7,26 @@
 
     <transition name="accordion">
       <div v-if="open" class="content">
-
         <h4>Viden</h4>
-        <ul>
-          <li v-for="(item, i) in normalize(knowledge)" :key="`k-${i}`">
+        <div class="lines">
+          <p v-for="(item, i) in normalize(knowledge)" :key="`k-${i}`">
             {{ item }}
-          </li>
-        </ul>
+          </p>
+        </div>
 
         <h4>Færdigheder</h4>
-        <ul>
-          <li v-for="(item, i) in normalize(skills)" :key="`s-${i}`">
+        <div class="lines">
+          <p v-for="(item, i) in normalize(skills)" :key="`s-${i}`">
             {{ item }}
-          </li>
-        </ul>
+          </p>
+        </div>
 
         <h4>Kompetencer</h4>
-        <ul>
-          <li v-for="(item, i) in normalize(competencies)" :key="`c-${i}`">
+        <div class="lines">
+          <p v-for="(item, i) in normalize(competencies)" :key="`c-${i}`">
             {{ item }}
-          </li>
-        </ul>
-
+          </p>
+        </div>
       </div>
     </transition>
   </div>
@@ -52,7 +50,12 @@ function toggle() {
 }
 
 function normalize(value: string | string[]) {
-  return Array.isArray(value) ? value : [value]
+  if (Array.isArray(value)) return value.map((v) => v.trim())
+
+  return value
+    .split('\n')
+    .map((v) => v.replace(/^\s+/g, '').trim())
+    .filter(Boolean)
 }
 </script>
 
@@ -90,17 +93,14 @@ h4 {
   margin-bottom: 6px;
 }
 
-ul {
-  list-style-type: disc;
-  padding-left: 18px;
-  margin-bottom: 10px;
+.lines p {
   max-width: 100ch;
-  text-wrap: wrap;
+  margin: 0 auto 6px auto;
+  text-align: left;
 }
 
-li {
-  margin-bottom: 6px;
-  color: #00ffc8;
+.lines {
+  width: 100%;
 }
 
 .accordion-enter-active,
