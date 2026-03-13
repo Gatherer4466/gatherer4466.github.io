@@ -7,14 +7,28 @@
 
     <transition name="accordion">
       <div v-if="open" class="content">
+
         <h4>Viden</h4>
-        <p>{{ knowledge }}</p>
+        <ul>
+          <li v-for="(item, i) in normalize(knowledge)" :key="`k-${i}`">
+            {{ item }}
+          </li>
+        </ul>
 
         <h4>Færdigheder</h4>
-        <p>{{ skills }}</p>
+        <ul>
+          <li v-for="(item, i) in normalize(skills)" :key="`s-${i}`">
+            {{ item }}
+          </li>
+        </ul>
 
         <h4>Kompetencer</h4>
-        <p>{{ competencies }}</p>
+        <ul>
+          <li v-for="(item, i) in normalize(competencies)" :key="`c-${i}`">
+            {{ item }}
+          </li>
+        </ul>
+
       </div>
     </transition>
   </div>
@@ -25,9 +39,9 @@ import { ref } from 'vue'
 
 defineProps<{
   title: string
-  knowledge: string
-  skills: string
-  competencies: string
+  knowledge: string | string[]
+  skills: string | string[]
+  competencies: string | string[]
   isLong?: boolean
 }>()
 
@@ -35,6 +49,10 @@ const open = ref(false)
 
 function toggle() {
   open.value = !open.value
+}
+
+function normalize(value: string | string[]) {
+  return Array.isArray(value) ? value : [value]
 }
 </script>
 
@@ -57,17 +75,32 @@ function toggle() {
   display: flex;
   justify-content: space-between;
   font-weight: bold;
+  color: #41ff41;
 }
 
 .content {
   padding: 12px;
   background: rgba(0, 0, 0, 0.45);
+  color: #00ffc8;
 }
-
 
 h4 {
   color: rgb(145, 255, 106);
   margin-top: 12px;
+  margin-bottom: 6px;
+}
+
+ul {
+  list-style-type: disc;
+  padding-left: 18px;
+  margin-bottom: 10px;
+  max-width: 100ch;
+  text-wrap: wrap;
+}
+
+li {
+  margin-bottom: 6px;
+  color: #00ffc8;
 }
 
 .accordion-enter-active,
