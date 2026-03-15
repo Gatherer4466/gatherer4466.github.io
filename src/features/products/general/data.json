@@ -92,6 +92,37 @@
           "content": "Udarbejd et målhierarki for begge emner."
         }
       ]
+    },
+    {
+      "id": 4,
+      "title": "Forberedelse til produkt vejledning 17/03",
+      "date": "2026-03-15",
+      "blocks": [
+        {
+          "type": "note",
+          "content": "Hvad har jeg arbejdet med indenfor mine 2 emner siden sidst?"
+        },
+        {
+          "type": "note",
+          "content": "Ærligt, ikke så meget. For det meste bare læst noget teori, samt lavet nogle wireframes i simpel html. Ved DevOps har jeg sat det mål for mig selv at jeg ville lave en automatiseret test, og dette har jeg gjort."
+        },
+        {
+          "type": "note",
+          "content": "Hvad vil jeg arbejde med de næste 2 uger?"
+        },
+        {
+          "type": "note",
+          "content": "Finde en eller anden måde at få udarbejdet en rutine så jeg kan faktisk få oprettet en ordentlig process, så jeg ikke bare er doven."
+        },
+        {
+          "type": "note",
+          "content": "Er der nogle udfordringer lige nu?"
+        },
+        {
+          "type": "note",
+          "content": "Manglende rutine, samt balance, lige nu føles min personlige process lidt i spanden. Så det er en kæmpe udfordring lige nu, og også ret vigtigt at jeg får rettet op på."
+        }
+      ]
     }
   ]
 }
