@@ -25,6 +25,21 @@
           "content": "name: Deploy to GitHub Pages\n\non:\n  push:\n    branches:\n      - master\n\njobs:\n  deploy:\n    runs-on: ubuntu-latest\n    steps:\n      - name: Checkout repository\n        uses: actions/checkout@v3\n\n      - name: Set up Node.js\n        uses: actions/setup-node@v3\n        with:\n          node-version: 22.12\n\n      - name: Install dependencies\n        run: npm install\n\n      - name: Build project\n        run: npm run build\n\n      - name: Deploy to GitHub Pages\n        uses: JamesIves/github-pages-deploy-action@v4\n        with:\n          branch: gh-pages\n          folder: dist\n          clean: true\n          token: ${{ secrets.GH_TOKEN }}"
         }
       ]
+    },
+    {
+      "id": 2,
+      "title": "Automatiseret test af både typescript logik, men også vue komponenter",
+      "purpose": "Kør tests automatisk, hver gang der bliver pushet eller oprettet et pull request på github.",
+      "trigger": "Hvert push til det tilhørende repository",
+      "repository": "https://github.com/Gatherer4466/automatedTesting/blob/main/.github/workflows/DetailedTesting.yml",
+      "stack": ["GitHub Actions", "Node.js 22.12", "vitest"],
+      "files": [
+        {
+          "filename": "workflows/AutomateTests.yml",
+          "language": "yaml",
+          "content": "name: Run Tests\n\non:\n  push:\n  pull_request:\n\njobs:\n  test:\n    runs-on: ubuntu-latest\n\n    steps:\n      - name: Checkout repository\n        uses: actions/checkout@v4\n\n      - name: Setup Node\n        uses: actions/setup-node@v4\n        with:\n          node-version: 22.12\n\n      - name: Install dependencies\n        run: npm install\n\n      - name: Run Tests\n        run: npm run test:run"
+        }
+      ]
     }
   ]
 }

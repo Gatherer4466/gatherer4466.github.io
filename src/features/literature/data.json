@@ -246,6 +246,71 @@
       "type": "Dokumentation",
       "subjectKey": "devOps",
       "searchQuery": "Google: vuejs test documentation"
+    },
+    {
+      "id": 20,
+      "title": "Understanding GitHub Actions - GitHub Docs",
+      "author": "GitHub",
+      "url": "https://docs.github.com/en/actions/get-started/understand-github-actions",
+      "accessed": "2026-03-15",
+      "note": "Officiel dokumentation for GitHub Actions",
+      "validity": 10,
+      "validityNote": "Officiel dokumentation",
+      "type": "Dokumentation",
+      "subjectKey": "devOps",
+      "searchQuery": "Fundet gennem en anden kilde, som har refereret til denne kilde."
+    },
+    {
+      "id": 21,
+      "title": "How I Automatically Lint and Test My Vue Project on Push in GitHub",
+      "author": "JuniorDevForLife (Jason F)",
+      "url": "https://dev.to/juniordevforlife/how-i-automatically-lint-and-test-my-vue-project-on-push-in-github-4nnh",
+      "accessed": "2026-03-15",
+      "note": "Blogindlæg der gennemgår hvordan man opsætter GitHub Actions til automatisk at køre linting og tests på et Vue-projekt ved hvert push til repository. Bruges som praktisk eksempel på CI-opsætning.",
+      "validity": 7,
+      "validityNote": "Indlæg på Dev.to fra en individuel udvikler. Praktisk og relevant eksempel, men ikke officiel dokumentation.",
+      "type": "Blogindlæg",
+      "subjectKey": "devOps",
+      "searchQuery": "Google: set up an automated vue component test in github actions"
+    },
+    {
+      "id": 22,
+      "title": "Vitest Guide",
+      "author": "Vitest Documentation",
+      "url": "https://vitest.dev/guide/",
+      "accessed": "2026-03-15",
+      "note": "Officiel dokumentation for Vitest-testframeworket, som forklarer testkonfiguration, globale variabler og miljøer.",
+      "validity": 10,
+      "validityNote": "Officiel dokumentation for testframeworket.",
+      "type": "Dokumentation",
+      "subjectKey": "web",
+      "searchQuery": "vitest configuration globals environment happy-dom"
+    },
+    {
+      "id": 23,
+      "title": "Vue Test Utils Documentation",
+      "author": "Vue.js",
+      "url": "https://test-utils.vuejs.org/",
+      "accessed": "2026-03-15",
+      "note": "Officiel Vue Test Utils-dokumentation, der viser hvordan man monterer komponenter og laver assertions på DOM-output i tests.",
+      "validity": 10,
+      "validityNote": "Officiel dokumentation for Vue-testbiblioteket.",
+      "type": "Dokumentation",
+      "subjectKey": "web",
+      "searchQuery": "Google: testing components inside vue using vitest"
+    },
+    {
+      "id": 24,
+      "title": "Start Testing with Vitest - Beginner's Guide",
+      "author": "Vue School",
+      "url": "https://vueschool.io/articles/vuejs-tutorials/start-testing-with-vitest-beginners-guide/",
+      "accessed": "2026-03-15",
+      "note": "Praktisk tutorial, der forklarer hvordan man skriver grundlæggende tests i et Vue-projekt ved hjælp af Vitest.",
+      "validity": 8,
+      "validityNote": "Velkendt Vue-læringsplatform med tutorials af høj kvalitet.",
+      "type": "Artikel",
+      "subjectKey": "web",
+      "searchQuery": "vitest vue tutorial example"
     }
   ]
 }
