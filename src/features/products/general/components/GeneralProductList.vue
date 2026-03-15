@@ -14,16 +14,15 @@ import GeneralProductCard from './GeneralProductCard.vue'
 
 const products = data.products as GeneralProduct[]
 
-
 const sorted = computed(() => {
- const tempProducts = [...products]
+  const tempProducts = [...products]
 
- tempProducts.sort((a,b) => {
-  const aTime = new Date(a.date).getTime()
-  const bTime = new Date(b.date).getTime()
+  tempProducts.sort((a, b) => {
+    const aTime = new Date(a.date).getTime()
+    const bTime = new Date(b.date).getTime()
 
-  return bTime - aTime
- })
- return tempProducts
+    return bTime - aTime
+  })
+  return tempProducts
 })
 </script>
