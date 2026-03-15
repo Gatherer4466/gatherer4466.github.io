@@ -246,6 +246,32 @@
       "type": "Dokumentation",
       "subjectKey": "devOps",
       "searchQuery": "Google: vuejs test documentation"
+    },
+    {
+      "id": 20,
+      "title": "Understanding GitHub Actions - GitHub Docs",
+      "author": "GitHub",
+      "url": "https://docs.github.com/en/actions/get-started/understand-github-actions",
+      "accessed": "2026-03-15",
+      "note": "Officiel dokumentation for GitHub Actions",
+      "validity": 10,
+      "validityNote": "Officiel dokumentation",
+      "type": "Dokumentation",
+      "subjectKey": "devOps",
+      "searchQuery": "Fundet gennem en anden kilde, som har refereret til denne kilde."
+    },
+    {
+      "id": 21,
+      "title": "How I Automatically Lint and Test My Vue Project on Push in GitHub",
+      "author": "JuniorDevForLife (Jason F)",
+      "url": "https://dev.to/juniordevforlife/how-i-automatically-lint-and-test-my-vue-project-on-push-in-github-4nnh",
+      "accessed": "2026-03-15",
+      "note": "Blogindlæg der gennemgår hvordan man opsætter GitHub Actions til automatisk at køre linting og tests på et Vue-projekt ved hvert push til repository. Bruges som praktisk eksempel på CI-opsætning.",
+      "validity": 7,
+      "validityNote": "Indlæg på Dev.to fra en individuel udvikler. Praktisk og relevant eksempel, men ikke officiel dokumentation.",
+      "type": "Blogindlæg",
+      "subjectKey": "devOps",
+      "searchQuery": "Google: set up an automated vue component test in github actions"
     }
   ]
 }
