@@ -25,7 +25,7 @@
           "content": "name: Deploy to GitHub Pages\n\non:\n  push:\n    branches:\n      - master\n\njobs:\n  deploy:\n    runs-on: ubuntu-latest\n    steps:\n      - name: Checkout repository\n        uses: actions/checkout@v3\n\n      - name: Set up Node.js\n        uses: actions/setup-node@v3\n        with:\n          node-version: 22.12\n\n      - name: Install dependencies\n        run: npm install\n\n      - name: Build project\n        run: npm run build\n\n      - name: Deploy to GitHub Pages\n        uses: JamesIves/github-pages-deploy-action@v4\n        with:\n          branch: gh-pages\n          folder: dist\n          clean: true\n          token: ${{ secrets.GH_TOKEN }}"
         }
       ]
-    }, 
+    },
     {
       "id": 2,
       "title": "Automatiseret test af både typescript logik, men også vue komponenter",
