@@ -15,9 +15,9 @@
       "preview": "/images/productDemos/web/wireframeDemoLanding.png"
     },
     {
-      "id":3,
-      "title":"Unit testing i vue",
-      "description":"Et lille eksperiment, hvor jeg har brugt vitest test frameworket til at opsættet unit tests, både for noget ordinært typescript, men også for en komponent baseret test. Dette produkt indgår dermed også i et mål jeg havde i DevOps, hvor jeg skulle opsætte som minimum en automatiseret test. Den tilhørende pipeline til dette produkt ligger dermed i DevOps fanen.",
+      "id": 3,
+      "title": "Unit testing i vue",
+      "description": "Et lille eksperiment, hvor jeg har brugt vitest test frameworket til at opsættet unit tests, både for noget ordinært typescript, men også for en komponent baseret test. Dette produkt indgår dermed også i et mål jeg havde i DevOps, hvor jeg skulle opsætte som minimum en automatiseret test. Den tilhørende pipeline til dette produkt ligger dermed i DevOps fanen.",
       "link": "https://gatherer4466.github.io/automatedTesting/",
       "preview": "/images/productDemos/web/unitTestingWithVue.png"
     }
