@@ -5,14 +5,21 @@
       "title": "Vue Kursus Gennemgang",
       "description": "Dette produkt er resultatet ved at følge alle de forskellige steps, som der fremgår inden for det officielle vue kursus. Alle de forskellige steps er blevet pakket ind i denne mini side, så den er let at navigere.",
       "link": "https://gatherer4466.github.io/VueCourseDemo/",
-      "preview": "/images/productDemos/VueCourse.png"
+      "preview": "/images/productDemos/web/VueCourse.png"
     },
     {
       "id": 2,
       "title": "Wireframe for forsiden af DSF",
       "description": "Prototype wireframe design, bare lavet i rå HTML og CSS for forsiden af DSF. Lavet som en del af vores projekt arbejde i vores produktgruppe. Der er kun en lille bitte JS, men det er kun til for at kunne vise selve koden for siden inde på siden. Produktet er lavet som en form for test af HTML og CSS viden. Da dette emne ikke KUN skal handle om vue.",
       "link": "https://gatherer4466.github.io/landingWireframe/",
-      "preview": "/images/productDemos/wireframeDemoLanding.png"
+      "preview": "/images/productDemos/web/wireframeDemoLanding.png"
+    },
+    {
+      "id":3,
+      "title":"Unit testing i vue",
+      "description":"Et lille eksperiment, hvor jeg har brugt vitest test frameworket til at opsættet unit tests, både for noget ordinært typescript, men også for en komponent baseret test. Dette produkt indgår dermed også i et mål jeg havde i DevOps, hvor jeg skulle opsætte som minimum en automatiseret test. Den tilhørende pipeline til dette produkt ligger dermed i DevOps fanen.",
+      "link": "https://gatherer4466.github.io/automatedTesting/",
+      "preview": "/images/productDemos/web/unitTestingWithVue.png"
     }
   ]
 }
