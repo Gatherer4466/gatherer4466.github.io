@@ -333,11 +333,38 @@
       "content": [
         {
           "type": "text",
-          "value": "I dag har jeg ikke fået lavet så meget, primært fordi jeg er i stockholm for at se en CS turnering. Men det tænker jeg dog ikke skal være en undskyldning for ikke at lave noget og dermed, komme længere bagud."
+          "value": "I dag har jeg ikke fået lavet så meget, primært fordi jeg er i Stockholm for at se en CS turnering. Men det tænker jeg dog ikke skal være en undskyldning for ikke at lave noget og dermed, komme længere bagud."
         },
         {
           "type": "text",
           "value": "Så min primære opgave i dag har sådan set været, bare at forbedre mine læringsmål, således at de er lidt mindre abstrakte, som følge af de noter jeg har fået fra produktvejledningen."
+        }
+      ]
+    },
+    {
+      "id": "log2026-week-11-day7",
+      "title": "Automatisering af tests (endelig, noget omkring DevOps)",
+      "date": "2025-03-15",
+      "content": [
+        {
+          "type": "text",
+          "value": "Igen i dag, er jeg jo som nævnt i Stockholm, dog idag er det championship sunday, så jeg har jo ret meget mere tid i dag end jeg havde i går."
+        },
+        {
+          "type": "text",
+          "value": "Så i dag har jeg gået langt i dybden med unit testing i vue, og så dermed også at få lortet automatiseret, således at jeg endelig har et ordentligt DevOps produkt, som jeg reelt har læst op til."
+        },
+        {
+          "type": "text",
+          "value": "Der er ellers ikke så meget andet at skrive, udover at projektet der indeholder unit testsne er lagt op under produkter, samt den pipeline, jeg fik udarbejdet."
+        },
+        {
+          "type": "text",
+          "value": "Det næste jeg så lige skal få gjort er, at få kigget mine læringsmål igennem for denne sprint, da de nu er søndag idag, og så dermed lige reflektere, hvorvidt jeg har målt dem. Men det kan jeg sådan set gøre på toget på vej hjem fra Stockholm. Skal jo have et eller andet jeg kan lave under de syv timer det nu tager."
+        },
+        {
+          "type": "text",
+          "value": "Derudover, skal jeg også se at få lavet mine målhiearkier, fordi jeg har en fornemelse om, at det måske vil gøre det hele en anelse nemmere."
         }
       ]
     }
