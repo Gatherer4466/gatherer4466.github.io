@@ -123,6 +123,21 @@
           "content": "Manglende rutine, samt balance, lige nu føles min personlige process lidt i spanden. Så det er en kæmpe udfordring lige nu, og også ret vigtigt at jeg får rettet op på."
         }
       ]
+    },
+    {
+      "id": 5,
+      "title":"Produktvejlednings notater 17/03",
+      "date":"2026-03-17",
+      "blocks": [
+        {
+          "type":"note",
+          "content":"Noter til den generelle del:"
+        },
+        {
+          "type":"note",
+          "content":"For det meste, få adskildt de tre kort, der er argumenter for og imod, men det kan være lidt forvirrende og man kan måske tro at man skulle udfylde alle feldter, isteret for bade et feldt."
+        }
+      ]
     }
   ]
 }
