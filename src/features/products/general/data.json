@@ -126,40 +126,40 @@
     },
     {
       "id": 5,
-      "title":"Produktvejlednings notater 17/03",
-      "date":"2026-03-17",
+      "title": "Produktvejlednings notater 17/03",
+      "date": "2026-03-17",
       "blocks": [
         {
-          "type":"note",
-          "content":"Noter til den generelle del:"
+          "type": "note",
+          "content": "Noter til den generelle del:"
         },
         {
-          "type":"note",
-          "content":"For det meste, få adskildt de tre kort, der er argumenter for og imod, men det kan være lidt forvirrende og man kan måske tro at man skulle udfylde alle feldter, isteret for bade et feldt."
+          "type": "note",
+          "content": "For det meste, få adskildt de tre kort, der er argumenter for og imod, men det kan være lidt forvirrende og man kan måske tro at man skulle udfylde alle feldter, isteret for bade et feldt."
         },
         {
-          "type":"note",
-          "content":"Vi arbejder lidt i et vandfald, dyk dybere ned i, om det er godt eller skidt."
+          "type": "note",
+          "content": "Vi arbejder lidt i et vandfald, dyk dybere ned i, om det er godt eller skidt."
         },
         {
-          "type":"note",
-          "content":"Noter til den individuelle del:"
+          "type": "note",
+          "content": "Noter til den individuelle del:"
         },
         {
-          "type":"note",
-          "content":"Fortsæt med produkt dokumentationen. Fin-juster kortsigtede læringsmål for DevOps, da nogle af dem overlapper med tidligere læring. Der er en fin progression I webudviklings. Tilføj Axios til API kalds målet. Snak lidt asynkron programmering med ind i det."
+          "type": "note",
+          "content": "Fortsæt med produkt dokumentationen. Fin-juster kortsigtede læringsmål for DevOps, da nogle af dem overlapper med tidligere læring. Der er en fin progression I webudviklings. Tilføj Axios til API kalds målet. Snak lidt asynkron programmering med ind i det."
         },
         {
-          "type":"note",
-          "content":"God struktur = interleaving/interweaving, arbejd lidt med det ene emne, lidt med det andet."
+          "type": "note",
+          "content": "God struktur = interleaving/interweaving, arbejd lidt med det ene emne, lidt med det andet."
         },
         {
-          "type":"note",
+          "type": "note",
           "content": "DevOps"
         },
         {
-          "type":"note",
-          "content":"Det kunne være muligt at prøve at sætte noget automatiseret system monitering. Kig på forskellige DevOps tools, til at få inspiration til udarbejdelse af produkter indenfor automatisering."
+          "type": "note",
+          "content": "Det kunne være muligt at prøve at sætte noget automatiseret system monitering. Kig på forskellige DevOps tools, til at få inspiration til udarbejdelse af produkter indenfor automatisering."
         }
       ]
     }

@@ -369,35 +369,34 @@
       ]
     },
     {
-      "id":"log-2025-week-12-day3",
-      "title":"Produktvejledning, og endelig, nu laver vi kode på projektet.",
-      "date":"2026-03-17",
+      "id": "log-2025-week-12-day3",
+      "title": "Produktvejledning, og endelig, nu laver vi kode på projektet.",
+      "date": "2026-03-17",
       "content": [
         {
-          "type":"text",
-          "value":"I dag har det stået på projekt arbejde, samt noget produkt vejledning. Vi har i projekt gruppen primært kigget udover vejledning, på at få opsat vores kodebase på azure devops."
+          "type": "text",
+          "value": "I dag har det stået på projekt arbejde, samt noget produkt vejledning. Vi har i projekt gruppen primært kigget udover vejledning, på at få opsat vores kodebase på azure devops."
         },
         {
-          "type":"text",
-          "value":"Dette betyder nu, at vi endelig er gået i gang med processen i at programmere."
+          "type": "text",
+          "value": "Dette betyder nu, at vi endelig er gået i gang med processen i at programmere."
         },
         {
-          "type":"image",
-          "src":"https://cdn.7tv.app/emote/01EZTAFPF80002GHH6006GD244/4x.png"
+          "type": "image",
+          "src": "https://cdn.7tv.app/emote/01EZTAFPF80002GHH6006GD244/4x.png"
         },
         {
-          "type":"text",
-          "value":"Derudover, til produktvejledning, fik jeg personligt nogle gode tips der kunne hjælpe en lille smule på vej."
+          "type": "text",
+          "value": "Derudover, til produktvejledning, fik jeg personligt nogle gode tips der kunne hjælpe en lille smule på vej."
         },
         {
-          "type":"text",
-          "value":"Min dokumentation af mine del-produkter er faktisk meget god. Skal dog lige fortsætte med at finjustere mine kortsigtede læringsmål, når det kommer til DevOps, da de overlapper lidt med noget vi allerede har lært i undervisningen. Derudover, når det kommer til webudvikling, er progressionen meget fornem, dog kunne det være en fordel, at specificere nogle teknologier, såsom axios, til API kald."
+          "type": "text",
+          "value": "Min dokumentation af mine del-produkter er faktisk meget god. Skal dog lige fortsætte med at finjustere mine kortsigtede læringsmål, når det kommer til DevOps, da de overlapper lidt med noget vi allerede har lært i undervisningen. Derudover, når det kommer til webudvikling, er progressionen meget fornem, dog kunne det være en fordel, at specificere nogle teknologier, såsom axios, til API kald."
         },
         {
-          "type":"text",
-          "value":"Lidt ind over min process, men for eksempel, kunne jeg udarbejde noget automatiseret monitorings system, som del-produkt for DevOps faget."
+          "type": "text",
+          "value": "Lidt ind over min process, men for eksempel, kunne jeg udarbejde noget automatiseret monitorings system, som del-produkt for DevOps faget."
         }
-        
       ]
     }
   ]
