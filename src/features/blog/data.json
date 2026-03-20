@@ -369,7 +369,7 @@
       ]
     },
     {
-      "id": "log-2025-week-12-day3",
+      "id": "log-2026-week-12-day3",
       "title": "Produktvejledning, og endelig, nu laver vi kode på projektet.",
       "date": "2026-03-17",
       "content": [
@@ -441,6 +441,22 @@
           "src": "https://cdn.7tv.app/emote/01FRG5W0KR0005RSBJP7VAEWCT/1x.png"
         }
       ]
+    },
+    {
+     "id": "log-2026-week-12-day5",
+      "title": "Produktvejledning, og endelig, nu laver vi kode på projektet.",
+      "date": "2026-03-20",
+      "content":  [
+        {
+          "type":"text",
+          "content":"I dag har det primært stået til noget projekt arbejde, hvor jeg har for det meste kun arbjedet på at realiserer vores design til en vue hjemmeside."
+        },
+        {
+          "type":"text",
+          "content":"Det er sådan set kørt lidt problemfrit, og smurt, det er sådan set vitterligt det eneste der er sket denne dag. Intet specielt er blevet implementeret."
+        }
+      ]
     }
+
   ]
 }
