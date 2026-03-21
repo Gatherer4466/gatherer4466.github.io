@@ -226,7 +226,7 @@
       "title": "MDN Web Docs",
       "author": "Mozilla",
       "url": "https://developer.mozilla.org/en-US/",
-      "accessed": "2026-02-26",
+      "accessed": "2026-03-20",
       "note": "Officiel dokumentationsplatform fra Mozilla, som indeholder omfattende og pålidelig dokumentation om HTML, CSS, JavaScript og webstandarder.",
       "validity": 9,
       "validityNote": "MDN er en anerkendt og troværdig kilde inden for webudvikling og bruges bredt af både begyndere og professionelle udviklere.",
@@ -311,6 +311,19 @@
       "type": "Artikel",
       "subjectKey": "web",
       "searchQuery": "vitest vue tutorial example"
+    },
+    {
+      "id": 25,
+      "title": "Azure pipeline documentation",
+      "author": "Microsoft",
+      "url": "https://learn.microsoft.com/en-us/azure/devops/pipelines/?view=azure-devops",
+      "accessed": "2026-03-19",
+      "note": "Officiel dokumentation vedr. pipelines i azure",
+      "validity": 10,
+      "validityNote": "Officiel dokumentation fra Microsoft",
+      "type": "Dokumentation",
+      "subjectKey": "devOps",
+      "searchQuery": "Google: azure devops pipeline documentation"
     }
   ]
 }

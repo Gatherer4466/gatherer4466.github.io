@@ -1,9 +1,9 @@
 {
   "logs": [
     {
-      "id": "log-2025-week-6-day2",
+      "id": "log-2026-week-6-day2",
       "title": "Log opsætning.",
-      "date": "2025-02-05",
+      "date": "2026-02-05",
       "content": [
         {
           "type": "text",
@@ -369,35 +369,92 @@
       ]
     },
     {
-      "id":"log-2025-week-12-day3",
-      "title":"Produktvejledning, og endelig, nu laver vi kode på projektet.",
-      "date":"2026-03-17",
+      "id": "log-2026-week-12-day3",
+      "title": "Produktvejledning, og endelig, nu laver vi kode på projektet.",
+      "date": "2026-03-17",
       "content": [
         {
-          "type":"text",
-          "value":"I dag har det stået på projekt arbejde, samt noget produkt vejledning. Vi har i projekt gruppen primært kigget udover vejledning, på at få opsat vores kodebase på azure devops."
+          "type": "text",
+          "value": "I dag har det stået på projekt arbejde, samt noget produkt vejledning. Vi har i projekt gruppen primært kigget udover vejledning, på at få opsat vores kodebase på azure devops."
         },
         {
-          "type":"text",
-          "value":"Dette betyder nu, at vi endelig er gået i gang med processen i at programmere."
+          "type": "text",
+          "value": "Dette betyder nu, at vi endelig er gået i gang med processen i at programmere."
         },
         {
-          "type":"image",
-          "src":"https://cdn.7tv.app/emote/01EZTAFPF80002GHH6006GD244/4x.png"
+          "type": "image",
+          "src": "https://cdn.7tv.app/emote/01EZTAFPF80002GHH6006GD244/4x.png"
         },
         {
-          "type":"text",
-          "value":"Derudover, til produktvejledning, fik jeg personligt nogle gode tips der kunne hjælpe en lille smule på vej."
+          "type": "text",
+          "value": "Derudover, til produktvejledning, fik jeg personligt nogle gode tips der kunne hjælpe en lille smule på vej."
         },
         {
-          "type":"text",
-          "value":"Min dokumentation af mine del-produkter er faktisk meget god. Skal dog lige fortsætte med at finjustere mine kortsigtede læringsmål, når det kommer til DevOps, da de overlapper lidt med noget vi allerede har lært i undervisningen. Derudover, når det kommer til webudvikling, er progressionen meget fornem, dog kunne det være en fordel, at specificere nogle teknologier, såsom axios, til API kald."
+          "type": "text",
+          "value": "Min dokumentation af mine del-produkter er faktisk meget god. Skal dog lige fortsætte med at finjustere mine kortsigtede læringsmål, når det kommer til DevOps, da de overlapper lidt med noget vi allerede har lært i undervisningen. Derudover, når det kommer til webudvikling, er progressionen meget fornem, dog kunne det være en fordel, at specificere nogle teknologier, såsom axios, til API kald."
         },
         {
-          "type":"text",
-          "value":"Lidt ind over min process, men for eksempel, kunne jeg udarbejde noget automatiseret monitorings system, som del-produkt for DevOps faget."
+          "type": "text",
+          "value": "Lidt ind over min process, men for eksempel, kunne jeg udarbejde noget automatiseret monitorings system, som del-produkt for DevOps faget."
         }
-        
+      ]
+    },
+    {
+      "id": "log-2026-week-12-day4",
+      "title": "Processvejledning... det går faktisk ikke så dårligt, som jeg troede.",
+      "date": "2026-03-18",
+      "content": [
+        {
+          "type": "text",
+          "value": "I dag har det kun stået på processvejledning, og lidt tilretning af portføljet."
+        },
+        {
+          "type": "text",
+          "value": "Til processvejledning forventede jeg, at jeg ville finde ud af, at jeg var ganske bagud. Men trods forventning, udover et målhieraki, er jeg nogle lunde i rette tempo."
+        },
+        {
+          "type": "text",
+          "value": "Dette skal dog ikke være en undskyldning for ikke at få en rutine dannet, da jeg personligt stadig føler, at min læring er ret dårlig, men det er skam stadig dejligt at lige få den omgang ro på."
+        },
+        {
+          "type": "text",
+          "value": "Det jeg så ellers arbejdet på i dag var at tilrette denne portfølje lidt. Der er bl.a. nogle få design valg, som gør siden uoverskuelig og fourener læseligheden. Dette indgår bl.a. ved navigations knapperne."
+        },
+        {
+          "type": "image",
+          "src": "/images/blogImages/week12/wednesday/navigationButtonsCurrently.png"
+        },
+        {
+          "type": "text",
+          "value": "Heldigvis er designet ikke særlig vigtigt i denne forstand, men mere de labels der er til knapperne. For eksempel, hvordan skulle man per automatik vide, at mine læringsmål ligger under 'planer' den er besværlig. Det samme med eksperimenter, hvorfor er knappen der overhovedet hvis den alligevel er grået ud, fordi den bare går til en 404? Og igen, hvad fanden skal 'reflek' betyde? altså, ja, reflek giver jo mest mening at det betyder 'refleksion(er)' men hvem ved, det kunne jo betyde noget andet."
+        },
+        {
+          "type": "text",
+          "value": "En anden fornem tanke jeg kom frem til med denne refleksion er, 1, jeg mangler stadig at reflektere over det sidste sprint. Og 2. Måske jeg kunne gøre det muligt, at klikke på de to emner, og derfra blive taget til læringsplanen FOR emnet, altså den går ind på siden med mine læringsmål, og klikker automatisk på filtret for det valgte fag. Dette ligger også op til noget, jeg tænker kunne være et fornemt lille delprodukt, og dermed også en lille finjustering af min arbejdsform. Idéen er, at jeg vil skærmoptage hele implementationen af denne feature, og dermed bare smid det ind som produkt. Helt uredigeret (udover slørring af private sager/NDA relateret ting der nu ellers skulle komme frem.)"
+        },
+        {
+          "type": "text",
+          "value": "Men alt i alt, har dette været en ekstrem positiv dag for min process, samt min motivation"
+        },
+        {
+          "type": "image",
+          "src": "https://cdn.7tv.app/emote/01FRG5W0KR0005RSBJP7VAEWCT/1x.png"
+        }
+      ]
+    },
+    {
+      "id": "log-2026-week-12-day5",
+      "title": "Produktvejledning, og endelig, nu laver vi kode på projektet.",
+      "date": "2026-03-20",
+      "content": [
+        {
+          "type": "text",
+          "content": "I dag har det primært stået til noget projekt arbejde, hvor jeg har for det meste kun arbjedet på at realiserer vores design til en vue hjemmeside."
+        },
+        {
+          "type": "text",
+          "content": "Det er sådan set kørt lidt problemfrit, og smurt, det er sådan set vitterligt det eneste der er sket denne dag. Intet specielt er blevet implementeret."
+        }
       ]
     }
   ]

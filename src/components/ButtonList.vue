@@ -18,8 +18,8 @@ import { routes, notFoundView } from '@/router'
 
 const router = useRouter()
 
-const BASE_SIZE = 1.7
-const MIN_SIZE = 0.9
+const BASE_SIZE = 2
+const MIN_SIZE = 1.2
 const IDEAL_LENGTH = 6
 
 function fontSizeForLabel(label: string) {
@@ -105,8 +105,8 @@ const styledItems = computed(() =>
           WebkitTextFillColor: 'white',
           WebkitTextStroke: '1px black',
 
-          width: '100px',
-          height: '40px',
+          width: '125px',
+          height: '45px',
           padding: '12px 20px',
 
           borderRadius: '2px',

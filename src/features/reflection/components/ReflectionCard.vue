@@ -51,7 +51,7 @@
 <script setup lang="ts">
 import type { Reflection } from '../types'
 
-const props = defineProps<{ reflection: Reflection }>()
+defineProps<{ reflection: Reflection }>()
 </script>
 
 <style scoped>
@@ -65,6 +65,7 @@ const props = defineProps<{ reflection: Reflection }>()
 .card-content {
   height: 100%;
   padding: 18px;
+  max-width: 75ch;
   overflow-y: auto;
 }
 
