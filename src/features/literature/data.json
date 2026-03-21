@@ -313,17 +313,17 @@
       "searchQuery": "vitest vue tutorial example"
     },
     {
-      "id":25,
-      "title":"Azure pipeline documentation",
-      "author":"Microsoft",
-      "url":"https://learn.microsoft.com/en-us/azure/devops/pipelines/?view=azure-devops",
-      "accessed":"2026-03-19",
-      "note":"Officiel dokumentation vedr. pipelines i azure",
-      "validity":10,
-      "validityNote":"Officiel dokumentation fra Microsoft",
-      "type":"Dokumentation",
-      "subjectKey":"devOps",
-      "searchQuery":"Google: azure devops pipeline documentation"
+      "id": 25,
+      "title": "Azure pipeline documentation",
+      "author": "Microsoft",
+      "url": "https://learn.microsoft.com/en-us/azure/devops/pipelines/?view=azure-devops",
+      "accessed": "2026-03-19",
+      "note": "Officiel dokumentation vedr. pipelines i azure",
+      "validity": 10,
+      "validityNote": "Officiel dokumentation fra Microsoft",
+      "type": "Dokumentation",
+      "subjectKey": "devOps",
+      "searchQuery": "Google: azure devops pipeline documentation"
     }
   ]
 }
