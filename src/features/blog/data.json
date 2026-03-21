@@ -443,20 +443,19 @@
       ]
     },
     {
-     "id": "log-2026-week-12-day5",
+      "id": "log-2026-week-12-day5",
       "title": "Produktvejledning, og endelig, nu laver vi kode på projektet.",
       "date": "2026-03-20",
-      "content":  [
+      "content": [
         {
-          "type":"text",
-          "content":"I dag har det primært stået til noget projekt arbejde, hvor jeg har for det meste kun arbjedet på at realiserer vores design til en vue hjemmeside."
+          "type": "text",
+          "content": "I dag har det primært stået til noget projekt arbejde, hvor jeg har for det meste kun arbjedet på at realiserer vores design til en vue hjemmeside."
         },
         {
-          "type":"text",
-          "content":"Det er sådan set kørt lidt problemfrit, og smurt, det er sådan set vitterligt det eneste der er sket denne dag. Intet specielt er blevet implementeret."
+          "type": "text",
+          "content": "Det er sådan set kørt lidt problemfrit, og smurt, det er sådan set vitterligt det eneste der er sket denne dag. Intet specielt er blevet implementeret."
         }
       ]
     }
-
   ]
 }
