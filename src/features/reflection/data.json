@@ -12,6 +12,19 @@
         "abilities": "Jeg har opnået dette læringsmål, selve portføljet kan ses som grundlag for dette.",
         "skills": "Jeg har til en tilstrækkelig grad opnået dette læringsmål."
       }
+    },
+    {
+      "week": "10-11",
+      "devopsReflection": {
+        "knowledge": "Jeg har opnået denne del af mit sprint, versionsstyring bygger meget på læring fra 1/2. semester, samt branching strategier. Den nye viden i dette sprint er vedr automatiseret validering af et pull-request, som ellers blokerer det, hvis det fejler. Se bl.a. del-produkt siden for et eksempel af en automatiseret test der kører på et pull request.",
+        "abilities": "Som nævnt foroven, kan jeg opsætte pipelines, som automatisk kan køre unit tests både ved merge, men også før merge.",
+        "skills": "Jeg har opnået denne del af mit sprint. Automatiseret workflows kan være med til at reducere fejl ved af køre tests før en potential del af koden med bugs bliver merget ind, og dermed deployet."
+      },
+      "webReflection": {
+        "knowledge": "Jeg har opnået en god forståelse for avanceret komponentarkitektur i Vue, hvilket ses i min brug af typed props (fx i LogContainer.vue) og custom emits (fx LogSortOptions.vue) til at håndtere komponentkommunikation.",
+        "abilities": "Jeg kan designe genanvendelige og løst koblede komponenter, hvilket fremgår af min feature-baserede struktur og komponentopdeling (fx LogList, LogContainer og LogSortOptions), hvor hver komponent har et klart ansvar.",
+        "skills": "Jeg kan vurdere og begrunde mine arkitekturvalg i en Vue-applikation med fokus på skalerbarhed og vedligeholdelse, hvilket ses i min konsistente struktur på tværs af features samt brugen af TypeScript og event-baseret kommunikation frem for tæt kobling."
+      }
     }
   ]
 }
