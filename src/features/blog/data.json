@@ -456,6 +456,70 @@
           "value": "Det er sådan set kørt lidt problemfrit, og smurt, det er sådan set vitterligt det eneste der er sket denne dag. Intet specielt er blevet implementeret."
         }
       ]
+    },
+    {
+      "id": "log-2026-week-13-day2",
+      "title": "Produktarbejde... igang med målhierakierne",
+      "date": "2026-03-24",
+      "content": [
+        {
+          "type": "text",
+          "value": "I dag har det for det meste stået på projekt arbejdet, hvor jeg primært har fortsat arbejdet  med at realisere de wireframes, som vi har udarbejdet."
+        },
+        {
+          "type": "image",
+          "src": "/images/blogImages/week13/tuesday/LandingPage.png"
+        },
+        {
+          "type": "text",
+          "value": "Den primære opgave ift. har været at finpudse designet, lave et arkitektur valg, og begynd så småt at gå i gang med stævnetilmældnings siden."
+        },
+        {
+          "type": "text",
+          "value": "Ift. valg af arkitektur har jeg valgt en mere modulær domæne-dreven struktur til vores projekt, som kan illustreres på billedet nedenfor:"
+        },
+        {
+          "type": "image",
+          "src": "/images/blogImages/week13/tuesday/Architecture.png"
+        },
+        {
+          "type": "text",
+          "value": "Strukturen kan således dermed også beskrives på denne måde:"
+        },
+        {
+          "type": "text",
+          "value": "app mappen er til det grundlæggende setup, af den årsag ligger router setup i app."
+        },
+        {
+          "type": "text",
+          "value": "modules mappen er til vores domæne moduler, altså hver hovede side, såsom stævner, og tidligere rekorder."
+        },
+        {
+          "type": "text",
+          "value": "components mappen er til globale komponenter, altså delte UI elementer, hvor hhv. ui mappen vil blive brugt til knapper, inputs, samt modals, hvorimod layout mappen vil blive brugt til at huse footeren og headeren."
+        },
+        {
+          "type": "text",
+          "value": "composeables mappen er til logik, som vi kan genbruge."
+        },
+        {
+          "type": "text",
+          "value": "services mappen er til services, såsom services vi vil bruge til at lave API kald med."
+        },
+        {
+          "type": "text",
+          "value": "types mappen er til vores typer i TypeScript, som således også kan fortolkes som vores modeller."
+        },
+        {
+          "type": "text",
+          "value": "Denne struktur burde kunne give en tilfredstillende arbejdstilgang og en mere renere erfaring med selve frameworket."
+        },
+
+        {
+          "type": "text",
+          "value": "Udover dette er jeg endelig langt om længe gået i gang med at udarbejde nogle målhierakier til mine fag, dog vil jeg først skrive mere om disse, når jeg er færdig med i hvertifald noget som kan bruges."
+        }
+      ]
     }
   ]
 }
