@@ -53,7 +53,7 @@
             "Den studerende har viden om typiske frontend states såsom loading, success og error."
           ],
           "skills": [
-            "Den studerende kan implementere simpel datahentning fra et REST API i en Vue-komponent.",
+            "Den studerende kan implementere simpel datahentning fra et REST API i en Vue-komponent vh.a Axios.",
             "Den studerende kan håndtere simple loading- og error states i en brugergrænseflade.",
             "Den studerende kan strukturere API-kald i mindre hjælpefunktioner eller composables."
           ],
