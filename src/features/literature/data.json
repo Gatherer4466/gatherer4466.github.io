@@ -337,6 +337,19 @@
       "type":"Dokumentation",
       "subjectKey":"web",
       "searchQuery":"Google: Obsidian.md canvas JSON documentation"
+    },
+    {
+      "id":27,
+      "title":"Axios Docs",
+      "author":"Axios-http",
+      "url":"https://axios-http.com/docs/intro",
+      "accessed":"2026-03-26",
+      "note":"Dokumentation for dependenciet Axios, som kan bruges til at håndtere kald med forskellige API'er",
+      "validity":10,
+      "validityNote":"Officiel dokumentation",
+      "type":"Dokumentation",
+      "subjectKey":"web",
+      "searchQuery":"Google: Axios dependency documentation"
     }
   ]
 }
