@@ -5,7 +5,7 @@
       "title": "Vue.js - The Progressive JavaScript Framework",
       "author": "Vue.js Team",
       "url": "https://vuejs.org/",
-      "accessed": "2026-02-26",
+      "accessed": "2026-03-25",
       "note": "Officiel dokumentationsside for Vue.js, indeholder vejledninger, API-reference og eksempler.",
       "validity": 10,
       "validityNote": "Officiel dokumentationsside for Vue.js",
@@ -57,7 +57,7 @@
       "title": "Vue Developer Roadmap",
       "author": "roadmap.sh",
       "url": "https://roadmap.sh/vue",
-      "accessed": "2026-02-18",
+      "accessed": "2026-03-25",
       "note": "Visuel roadmap over kompetencer og teknologier relevante for Vue-udvikling, brugt som inspiration til strukturering af læringsmål.",
       "validity": 8,
       "validityNote": "Roadmap.sh er bredt anerkendt og kurateret af erfarne udviklere, men er ikke officiel dokumentation.",
@@ -70,7 +70,7 @@
       "title": "DevOps Roadmap",
       "author": "roadmap.sh",
       "url": "https://roadmap.sh/devops",
-      "accessed": "2026-02-18",
+      "accessed": "2026-03-25",
       "note": "Overordnet roadmap for DevOps-kompetencer, anvendt som inspiration til opdeling af DevOps-læringsmål og progression.",
       "validity": 8,
       "validityNote": "Roadmap.sh giver et solidt overblik over DevOps-feltet, men bør suppleres med officiel dokumentation.",
@@ -324,6 +324,32 @@
       "type": "Dokumentation",
       "subjectKey": "devOps",
       "searchQuery": "Google: azure devops pipeline documentation"
+    },
+    {
+      "id": 26,
+      "title": "JSON Canvas -- JSON Canvas Spec",
+      "author": "Obsidian.md",
+      "url": "https://jsoncanvas.org/",
+      "accessed": "2026-03-25",
+      "note": "Officiel dokumentation/guide, til hvordan man kan opsætte canvaser op med JSON. Bl.a. brugt som hjælp til opsætning af mine målhierakier",
+      "validity": 10,
+      "validityNote": "Officiel dokumentation",
+      "type": "Dokumentation",
+      "subjectKey": "web",
+      "searchQuery": "Google: Obsidian.md canvas JSON documentation"
+    },
+    {
+      "id": 27,
+      "title": "Axios Docs",
+      "author": "Axios-http",
+      "url": "https://axios-http.com/docs/intro",
+      "accessed": "2026-03-26",
+      "note": "Dokumentation for dependenciet Axios, som kan bruges til at håndtere kald med forskellige API'er",
+      "validity": 10,
+      "validityNote": "Officiel dokumentation",
+      "type": "Dokumentation",
+      "subjectKey": "web",
+      "searchQuery": "Google: Axios dependency documentation"
     }
   ]
 }

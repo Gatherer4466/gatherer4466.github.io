@@ -520,6 +520,25 @@
           "value": "Udover dette er jeg endelig langt om længe gået i gang med at udarbejde nogle målhierakier til mine fag, dog vil jeg først skrive mere om disse, når jeg er færdig med i hvertifald noget som kan bruges."
         }
       ]
+    },
+    {
+      "id": "log-2026-week-13-day4",
+      "date": "2026-03-26",
+      "title": "Implementering af en API med hjælp af Axios i vue/typescript",
+      "content": [
+        {
+          "type": "text",
+          "value": "I dag har det for det meste stået på mit arbjede. Men udover det har jeg langsomt kunne arbejde videre på mine målhierakier, samt at få lært, hvordan man kan gøre brug af en simpel API i typescript, med den forlængelse af, at jeg kunne fremvise resultatet af nævnt API, på et vue komponent."
+        },
+        {
+          "type": "text",
+          "value": "Dette har jeg så udformet et simpelt produkt til, som ligger i produkt siden. Produktet implementere No As A Service API'en, som vitterligt bare sender en tilfældig 'nej' respons tilbage. Denne API brugte jeg, fordi der kunne jeg med sikkerhed få et reaktivt komponent op at køre, med at du klikker på en knap, og så får du den tilfældige respons tilbage i et <p> element."
+        },
+        {
+          "type": "image",
+          "src": "/images/blogImages/week13/thursday/ApiImplementation.png"
+        }
+      ]
     }
   ]
 }
