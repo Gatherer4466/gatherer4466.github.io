@@ -22,11 +22,11 @@
       "preview": "/images/productDemos/web/unitTestingWithVue.png"
     },
     {
-      "id":4,
-      "title":"Brug af API med Axios",
-      "description":"Kort og simpelt eksperiment med hjælp af npm dependenciet Axios, hvor jeg får implementeret No As A Service API'en. Dætte ekperiment er hjælpsomt til at danne en grundig forståelse for, hvordan jeg kan implementere og bruge REST api'er med hjælp af Axios. Da dette eksperiment var relativt kort, valgte jeg dermed også at udføre nogle unit tests på det. Jeg har valgt at ligge koden ind i preview billedet, for god ordens skyld, grundet størelsen af eksperimentet",
-      "link":"https://github.com/Gatherer4466/apiExperimentation",
-      "preview":"/images/productDemos/web/ApiUsageShowcase.png"
+      "id": 4,
+      "title": "Brug af API med Axios",
+      "description": "Kort og simpelt eksperiment med hjælp af npm dependenciet Axios, hvor jeg får implementeret No As A Service API'en. Dætte ekperiment er hjælpsomt til at danne en grundig forståelse for, hvordan jeg kan implementere og bruge REST api'er med hjælp af Axios. Da dette eksperiment var relativt kort, valgte jeg dermed også at udføre nogle unit tests på det. Jeg har valgt at ligge koden ind i preview billedet, for god ordens skyld, grundet størelsen af eksperimentet",
+      "link": "https://github.com/Gatherer4466/apiExperimentation",
+      "preview": "/images/productDemos/web/ApiUsageShowcase.png"
     }
   ]
 }
