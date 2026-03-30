@@ -570,6 +570,33 @@
           "value": "Dette betyder dermed også, at produktet, er opdateret inde på produkt siden."
         }
       ]
+    },
+    {
+      "id": "log-2026-week-14-day1",
+      "date": "2026-03-30",
+      "title": "Genopfriskning med docker.",
+      "content": [
+        {
+          "type": "text",
+          "value": "I dag var det sådan set meningen, at jeg skulle begynde på mit næste sprint... men så kiggede jeg mine læringsmål igennem, og fandt ud af at jeg havde fuldstændig ignoreret mine mål for sidste sprint. Så dagen er blevet brugt på at sikre, at jeg til nogle grad, fik opfyldt målene."
+        },
+        {
+          "type": "text",
+          "value": "Den opgave har så bestået af, at lave en meget basal REST Api i typescript, hvor jeg så vil lave en dockerfile og dermed køre en containerized udgave af den API."
+        },
+        {
+          "type": "image",
+          "src": "/images/productDemos/web/SelfMadeAPIShowcase.png"
+        },
+        {
+          "type": "text",
+          "value": "Jeg har dermed, lagt docker filen ind, som et devops produkt. Som også dermed linker direkte til det git repository, hvor selve API'en også ligger. Men alt i alt, var det en successfuld dag :)"
+        },
+        {
+          "type": "image",
+          "src": "/images/blogImages/week14/monday/containerWorking.png"
+        }
+      ]
     }
   ]
 }
