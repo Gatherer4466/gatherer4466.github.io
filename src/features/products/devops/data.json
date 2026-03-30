@@ -47,7 +47,7 @@
       "description": "Containerisering af en Express API skrevet i TypeScript, bygget og kørt via Docker.",
       "purpose": "Gør applikationen nem at deploye og køre konsistent på tværs af miljøer.",
       "trigger": "Bygges og køres manuelt eller via CI/CD pipeline.",
-      "repository": "https://github.com/Gatherer4466/your-repo",
+      "repository": "https://github.com/Gatherer4466/docker-imaging/blob/main/dockerfile",
       "stack": ["Docker", "Node.js 20", "Express", "TypeScript"],
       "files": [
         {
