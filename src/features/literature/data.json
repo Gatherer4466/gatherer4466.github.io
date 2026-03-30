@@ -148,7 +148,7 @@
       "title": "TypeScript: JavaScript With Syntax For Types",
       "author": "Microsoft",
       "url": "https://www.typescriptlang.org/",
-      "accessed": "2026-02-26",
+      "accessed": "2026-03-30",
       "note": "Officiel hjemmeside for TypeScript, indeholder dokumentation, guides og generel information om sproget.",
       "validity": 10,
       "validityNote": "Officiel kilde fra Microsoft og den primære dokumentation for TypeScript.",
@@ -174,7 +174,7 @@
       "title": "Learning DevOps (Second Edition)",
       "author": "Mikael Krief",
       "url": "https://www.packtpub.com/en-us/product/learning-devops-9781801813464",
-      "accessed": "2026-02-20",
+      "accessed": "2026-03-30",
       "note": "Bog der giver en struktureret og praktisk gennemgang af centrale DevOps-værktøjer og -principper såsom Git, Docker, Kubersnetes og CI/CD. Bruges som teoretisk og praktisk fundament for DevOps-forståelse.",
       "validity": 9,
       "validityNote": "Skrevet af erfaren DevOps-ingeniør. Ikke officiel dokumentation, men en dybdegående og kurateret sekundær kilde.",
@@ -187,7 +187,7 @@
       "title": "Linux Text Processing Commands - Earthly Blog",
       "author": "Anurag Kumar",
       "url": "https://earthly.dev/blog/linux-text-processing-commands/",
-      "accessed": "2026-02-21",
+      "accessed": "2026-03-30",
       "note": "Blog, der giver et indblik i nogle linux kommandoer man kan bruge til tekst manipulation, såsom grep",
       "validity": 6,
       "validityNote": "Personlig blog, dog meget grundig, men stadig ikke officiel dokumentation. Forfatteren er selv studerende, så pålideligheden falder lidt.",
@@ -200,7 +200,7 @@
       "title": "Highlight.js",
       "author": "Netlify",
       "url": "https://highlightjs.org/",
-      "accessed": "2026-02-25",
+      "accessed": "2026-03-30",
       "note": "Dokumentation for en syntax highligher, der kan bruges i typescript/javascript.",
       "validity": 9,
       "validityNote": "Officiel dokumentation for et JS modul.",
@@ -350,6 +350,19 @@
       "type": "Dokumentation",
       "subjectKey": "web",
       "searchQuery": "Google: Axios dependency documentation"
+    },
+    {
+      "id": 28,
+      "title": "Dockerfile Best Practices",
+      "author": "Spacelift Team",
+      "url": "https://spacelift.io/blog/dockerfile",
+      "accessed": "2026-03-30",
+      "note": "Blogindlæg der gennemgår bedste praksis for Dockerfile-skrivning, herunder lag-optimering, caching og sikkerhed.",
+      "validity": 8,
+      "validityNote": "Spacelift er en anerkendt DevOps-blog, men ikke officiel dokumentation for Docker.",
+      "type": "Blogindlæg",
+      "subjectKey": "devOps",
+      "searchQuery": "Google: Dockerfile best practices Spacelift"
     }
   ]
 }

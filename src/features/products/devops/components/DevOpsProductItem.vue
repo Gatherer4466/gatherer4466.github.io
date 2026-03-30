@@ -17,7 +17,9 @@
         <strong>{{ file.filename }}</strong>
       </p>
 
-      <pre class="fileContent"><code ref="codeBlocks" class="yaml">{{ file.content }}</code></pre>
+      <pre
+        class="fileContent"
+      ><code ref="codeBlocks" :class="file.language">{{ file.content }}</code></pre>
     </div>
 
     <div class="subText" v-if="product.repository">
@@ -32,8 +34,10 @@
 import { onMounted, nextTick, ref } from 'vue'
 import hljs from 'highlight.js/lib/core'
 import yaml from 'highlight.js/lib/languages/yaml'
+import dockerfile from 'highlight.js/lib/languages/dockerfile'
 
 hljs.registerLanguage('yaml', yaml)
+hljs.registerLanguage('dockerfile', dockerfile)
 
 const props = defineProps<{ product: any }>()
 
@@ -41,7 +45,8 @@ const codeBlocks = ref<HTMLElement[]>([])
 
 onMounted(async () => {
   await nextTick()
-  document.querySelectorAll('pre code.yaml').forEach((block) => {
+
+  document.querySelectorAll('pre code').forEach((block) => {
     hljs.highlightElement(block as HTMLElement)
   })
 })
