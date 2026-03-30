@@ -40,6 +40,22 @@
           "content": "name: Run Tests\n\non:\n  push:\n  pull_request:\n\njobs:\n  test:\n    runs-on: ubuntu-latest\n\n    steps:\n      - name: Checkout repository\n        uses: actions/checkout@v4\n\n      - name: Setup Node\n        uses: actions/setup-node@v4\n        with:\n          node-version: 22.12\n\n      - name: Install dependencies\n        run: npm install\n\n      - name: Run Tests\n        run: npm run test:run"
         }
       ]
+    },
+    {
+      "id": 3,
+      "title": "Dockerized Node.js API",
+      "description": "Containerisering af en Express API skrevet i TypeScript, bygget og kørt via Docker.",
+      "purpose": "Gør applikationen nem at deploye og køre konsistent på tværs af miljøer.",
+      "trigger": "Bygges og køres manuelt eller via CI/CD pipeline.",
+      "repository": "https://github.com/Gatherer4466/your-repo",
+      "stack": ["Docker", "Node.js 20", "Express", "TypeScript"],
+      "files": [
+        {
+          "filename": "Dockerfile",
+          "language": "dockerfile",
+          "content": "FROM node:20\n\nWORKDIR /app\n\nCOPY package*.json ./\nRUN npm install\n\nCOPY . .\n\nRUN npm run build\n\nEXPOSE 3000\n\nCMD [\"node\", \"dist/index.js\"]"
+        }
+      ]
     }
   ]
 }
