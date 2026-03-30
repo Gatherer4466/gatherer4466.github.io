@@ -541,33 +541,33 @@
       ]
     },
     {
-      "id":"log-2026-week-13-day5",
-      "date":"2026-03-27",
-      "title":"Lidt mere hygge med API'er",
-      "content":[
+      "id": "log-2026-week-13-day5",
+      "date": "2026-03-27",
+      "title": "Lidt mere hygge med API'er",
+      "content": [
         {
-          "type":"text",
-          "value":"I dag er det for det meste stået på at lege lidt videre med API'er. Dermed har der også været erfa møde, for webudvikling."
+          "type": "text",
+          "value": "I dag er det for det meste stået på at lege lidt videre med API'er. Dermed har der også været erfa møde, for webudvikling."
         },
         {
-          "type":"text",
-          "value":"Vedr. erfa mødet, havde vi mindre tid end normalt, så vi fik sådan set kun lige snakket omkring hvor langt folk er nået. Vi er nogle lunde på lige fod alle sammen."
+          "type": "text",
+          "value": "Vedr. erfa mødet, havde vi mindre tid end normalt, så vi fik sådan set kun lige snakket omkring hvor langt folk er nået. Vi er nogle lunde på lige fod alle sammen."
         },
         {
-          "type":"text",
-          "value":"Men så til det sjove, eksperimentering med noget API."
+          "type": "text",
+          "value": "Men så til det sjove, eksperimentering med noget API."
         },
         {
-          "type":"text",
-          "value":"Da dagen startede, kom jeg i tanke om, at vi havde et opgavesæt fra tidligere semester, der havde nogle API relateret opgaver. Jeg valgte at gå med den af opgaverne, som implementeret nasas API."
+          "type": "text",
+          "value": "Da dagen startede, kom jeg i tanke om, at vi havde et opgavesæt fra tidligere semester, der havde nogle API relateret opgaver. Jeg valgte at gå med den af opgaverne, som implementeret nasas API."
         },
         {
-          "type":"image",
-          "src":"/images/blogImages/week13/friday/UpdatedAPIExperimentation.png"
+          "type": "image",
+          "src": "/images/blogImages/week13/friday/UpdatedAPIExperimentation.png"
         },
         {
-          "type":"text",
-          "value":"Dette betyder dermed også, at produktet, er opdateret inde på produkt siden."
+          "type": "text",
+          "value": "Dette betyder dermed også, at produktet, er opdateret inde på produkt siden."
         }
       ]
     }
