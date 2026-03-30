@@ -17,7 +17,9 @@
         <strong>{{ file.filename }}</strong>
       </p>
 
-      <pre class="fileContent"><code ref="codeBlocks" :class="file.language">{{ file.content }}</code></pre>
+      <pre
+        class="fileContent"
+      ><code ref="codeBlocks" :class="file.language">{{ file.content }}</code></pre>
     </div>
 
     <div class="subText" v-if="product.repository">
