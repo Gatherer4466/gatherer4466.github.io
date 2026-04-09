@@ -599,40 +599,40 @@
       ]
     },
     {
-      "id":"log-2026-easter",
-      "date":"2026-04-06",
-      "title":"Påske...",
+      "id": "log-2026-easter",
+      "date": "2026-04-06",
+      "title": "Påske...",
       "content": [
         {
-          "type":"text",
+          "type": "text",
           "value": "Fra den 30. marts til dagens dato har det stået på påskeferie."
         },
         {
-          "type":"text",
+          "type": "text",
           "value": "Dette betyder, der har været minimalt arbejde, som i et stykke projektarbejde. Men udover det, har jeg brugt ugen på at tage det stille go roligt og så småt kigge efter praktik pladser"
         }
       ]
     },
     {
       "id": "log-2026-week-15-day-4",
-      "date":"2026-04-09",
-      "title":"Erfa vejledning, med lidt indsparkning af inspiration.",
+      "date": "2026-04-09",
+      "title": "Erfa vejledning, med lidt indsparkning af inspiration.",
       "content": [
         {
-          "type":"text",
-          "value":"I dag har jeg haft erfa vejledning for DevOps."
+          "type": "text",
+          "value": "I dag har jeg haft erfa vejledning for DevOps."
         },
         {
-          "type":"text",
-          "value":"For at sige det som det er, har jeg manglede inspiration, samt motivation. Særligt i DevOps, mest fordi det er sådan et kæmpe stort emne at dyk ned i, hvor man meget let kan ende op i en rundkørsel med 500 forskellige afkørelser. Men erfa vejledningen har hjulpet en lille smule med at sparke mig i gang igen, jeg har fået nogle idéer ift. del-produkter samt arbejde med DevOps. Siden at jeg har genopfrisket lidt viden omkring docker og containers, kunne det være fornemt at kigge lidt på noget docker compose, og dermed få lystfisker portalen, samt dets database til at køre automatisk, med automatisk migration. Hvilket også passer perfekt for mit fokusområde, nemlig automation."
+          "type": "text",
+          "value": "For at sige det som det er, har jeg manglede inspiration, samt motivation. Særligt i DevOps, mest fordi det er sådan et kæmpe stort emne at dyk ned i, hvor man meget let kan ende op i en rundkørsel med 500 forskellige afkørelser. Men erfa vejledningen har hjulpet en lille smule med at sparke mig i gang igen, jeg har fået nogle idéer ift. del-produkter samt arbejde med DevOps. Siden at jeg har genopfrisket lidt viden omkring docker og containers, kunne det være fornemt at kigge lidt på noget docker compose, og dermed få lystfisker portalen, samt dets database til at køre automatisk, med automatisk migration. Hvilket også passer perfekt for mit fokusområde, nemlig automation."
         },
         {
-          "type":"image",
-          "src":"/images/blogImages/week15/thursday/dockerComposeDemo.png"
+          "type": "image",
+          "src": "/images/blogImages/week15/thursday/dockerComposeDemo.png"
         },
         {
-          "type":"text",
-          "value":"Og dermed, apropos docker compose, tænkte jeg, at det ville være oplagt at dermed følge noget dokumentation og dermed få hånderne lidt ned i det. Da dette sådan set bare var at følge en guide, er planen at jeg får forsøgt at køre noget uden guides, således at rawdogge processen, den måde, føler jeg nemlig at jeg får indlært det bedst."
+          "type": "text",
+          "value": "Og dermed, apropos docker compose, tænkte jeg, at det ville være oplagt at dermed følge noget dokumentation og dermed få hånderne lidt ned i det. Da dette sådan set bare var at følge en guide, er planen at jeg får forsøgt at køre noget uden guides, således at rawdogge processen, den måde, føler jeg nemlig at jeg får indlært det bedst."
         }
       ]
     }
