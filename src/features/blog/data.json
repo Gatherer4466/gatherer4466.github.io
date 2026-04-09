@@ -597,6 +597,21 @@
           "src": "/images/blogImages/week14/monday/containerWorking.png"
         }
       ]
+    },
+    {
+      "id":"log-2026-easter",
+      "date":"2026-04-06",
+      "title":"Påske...",
+      "content": [
+        {
+          "type":"text",
+          "value": "Fra den 30. marts til dagens dato har det stået på påskeferie."
+        },
+        {
+          "type":"text",
+          "value": "Dette betyder, der har været minimalt arbejde, som i et stykke projektarbejde. Men udover det, har jeg brugt ugen på at tage det stille go roligt og så småt kigge efter praktik pladser"
+        }
+      ]
     }
   ]
 }
