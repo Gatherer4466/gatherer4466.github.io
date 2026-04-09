@@ -13,8 +13,8 @@
     </div>
 
     <div v-for="file in product.files" :key="file.filename" class="fileBlock">
-      <p class="smallMargin">
-        <strong>{{ file.filename }}</strong>
+      <p class="smallMargin filename">
+        <strong style="color:cadetblue">{{ file.filename }}</strong>
       </p>
 
       <pre
@@ -35,9 +35,11 @@ import { onMounted, nextTick, ref } from 'vue'
 import hljs from 'highlight.js/lib/core'
 import yaml from 'highlight.js/lib/languages/yaml'
 import dockerfile from 'highlight.js/lib/languages/dockerfile'
+import python from 'highlight.js/lib/languages/python'
 
 hljs.registerLanguage('yaml', yaml)
 hljs.registerLanguage('dockerfile', dockerfile)
+hljs.registerLanguage('python', python)
 
 const props = defineProps<{ product: any }>()
 
@@ -62,6 +64,12 @@ onMounted(async () => {
   font-family: monospace;
   font-size: 0.85rem;
   line-height: 1.4;
+}
+
+
+.filename {
+  font-size: 2ch;
+  padding-top: 2ch !important;
 }
 
 /* Stack styling */
