@@ -17,7 +17,7 @@
 
     <div v-for="file in product.files" :key="file.filename" class="fileBlock">
       <p class="filename">
-        <strong style="color:cadetblue">{{ file.filename }}</strong>
+        <strong style="color: cadetblue">{{ file.filename }}</strong>
       </p>
 
       <pre class="fileContent">
@@ -69,8 +69,6 @@ onMounted(async () => {
   overflow-wrap: anywhere;
   word-break: break-word;
 }
-
-
 
 .title {
   margin-top: 0;

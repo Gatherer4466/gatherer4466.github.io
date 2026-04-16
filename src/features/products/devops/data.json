@@ -63,7 +63,7 @@
       "title": "Docker compose guide produkt",
       "description": "Produktet af, at følge den officielle quickstart guide til docker compose, denne guide består af en ekstrem simpel Flask web server i python, hvor vi gør brug af redis, til at gemme en cache med hvor mange gange hjemmesiden er blevet 'hittet' for at både fremvise backend samt frontend der kører på samme tid vha docker compose.",
       "purpose": "Fremvisning af hvordan man kunne få frontend og backend til at køre parralelt",
-      "repository":"https://github.com/Gatherer4466/dockerCompose",
+      "repository": "https://github.com/Gatherer4466/dockerCompose",
       "stack": ["Docker", "Flask", "Python"],
       "files": [
         {
