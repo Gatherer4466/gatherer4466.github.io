@@ -205,6 +205,20 @@
           "content": "Den må være så dyb som man vil have den, det handler bare og nedbrydning."
         }
       ]
+    },
+    {
+      "id": 7,
+      "title": "Eksamensforudsætnings powerpoint",
+      "date": "2026-04-15",
+      "description": "Den powerpoint jeg brugte til min eksamensforudsætning",
+      "blocks": [
+        {
+          "type": "file",
+          "title": "Eksamensforudsætning",
+          "file": "/generalProducts/files/eksamensforudsætning.pptx",
+          "preview": "/images/productDemos/general/eksamensforudsætningPreview.png"
+        }
+      ]
     }
   ]
 }

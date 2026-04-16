@@ -26,6 +26,7 @@ import type { GeneralProduct } from '../types'
 import ImageBlock from './blocks/ImageBlock.vue'
 import VideoBlock from './blocks/VideoBlock.vue'
 import NoteBlock from './blocks/NoteBlock.vue'
+import FileBlock from './blocks/FileBlock.vue'
 
 const props = defineProps<{ product: GeneralProduct }>()
 
@@ -33,6 +34,7 @@ const componentMap = {
   image: ImageBlock,
   video: VideoBlock,
   note: NoteBlock,
+  file: FileBlock,
 } as const
 
 type BlockType = keyof typeof componentMap
