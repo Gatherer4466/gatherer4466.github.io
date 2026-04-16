@@ -678,6 +678,21 @@
           "value":"Derudover, kunne det være en god idé, at lave en 'fremhævet' fane, hvor man som eksaminator kan gå ind, og se hvad jeg syntes er allervigtist, såsom langsigtede læringsmål."
         }
       ]
+    },
+    {
+      "id":"log-2026-week-16-day-3",
+      "date":"2026-04-15",
+      "title":"Eksamensforudsætning",
+      "content": [
+        {
+          "type":"text",
+          "value": "I dag har det primært stået til at vi skulle deltage i en eksamensforudsættelse, for at vi overhovedet kan komme til eksamen i Juni."
+        },
+        {
+          "type":"text",
+          "value":"Det er sådan set det eneste der er sket i dag."
+        }
+      ]
     }
   ]
 }
