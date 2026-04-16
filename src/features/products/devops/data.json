@@ -29,6 +29,7 @@
     {
       "id": 2,
       "title": "Automatiseret test af både typescript logik, men også vue komponenter",
+      "description": "Automatiseret testopsætning med Vitest, der dækker både TypeScript-logik og Vue-komponenter, og som eksekveres kontinuerligt via GitHub Actions for at sikre kodekvalitet.",
       "purpose": "Kør tests automatisk, hver gang der bliver pushet eller oprettet et pull request på github.",
       "trigger": "Hvert push til det tilhørende repository",
       "repository": "https://github.com/Gatherer4466/automatedTesting/blob/main/.github/workflows/DetailedTesting.yml",
