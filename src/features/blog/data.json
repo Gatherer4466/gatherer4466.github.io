@@ -635,6 +635,49 @@
           "value": "Og dermed, apropos docker compose, tænkte jeg, at det ville være oplagt at dermed følge noget dokumentation og dermed få hånderne lidt ned i det. Da dette sådan set bare var at følge en guide, er planen at jeg får forsøgt at køre noget uden guides, således at rawdogge processen, den måde, føler jeg nemlig at jeg får indlært det bedst."
         }
       ]
+    },
+    {
+      "id":"log-2026-week-16-day-2",
+      "date":"2026-04-14",
+      "title":"Process, og produktvejledning, samt lidt omkring målhierakier",
+      "content": [
+        {
+          "type":"text",
+          "value":"Som sædvanligt har der været produktvejledning i dag, men der har også været processvejledning i dag, grundet af vi i morgen skal igennem en eksamensforudsætning, som nok tager hele dagen på det."
+        },
+        {
+          "type":"text",
+          "value":"Produktvejledning:"
+        },
+        {
+          "type":"text",
+          "value":"Til produkt vejledning er der ikke så meget nyt, udover hvad planen for projekt gruppen er fremover. Tingene går nogle lunde som de skal, og min dokumentation for mine del-produkter er fortsat godt udarbejdet."
+        },
+        {
+          "type":"text",
+          "value":"Processvejledning:"
+        },
+        {
+          "type":"text",
+          "value":"Til processvejledning er der nogle flere kommentarer, men også en ganske positiv udvikling. Som ved næsten hver processvejlednings møde, har jeg haft følt at jeg var bagud, men som altid, finder jeg ud af, at det går faktisk okay nok, og at jeg er godt på vej. Dog har jeg fået lidt feedback på designet af porføljen. Når det kommer til mine DevOps produkter, så er de fint dokumenteret, MEN, det kan være besværligt at se, om det alt sammen er det samme produkt, eller om det er forskellige produkter, hvis man skimmer nedad på listen."
+        },
+        {
+          "type":"text",
+          "value":"Dette har så betydet, at jeg har ændret designet lidt, nedenfor ses en skitse af før og efter:"
+        },
+        {
+          "type":"image",
+          "src":"/images/blogImages/week16/wednesday/BeforeAndAfterDesign.png"
+        },
+        {
+          "type":"text",
+          "value":"Det burde forhåbenlidt, gøre det mere tydeligt, hvornår der er et nyt produkt hvis man skimmer igennem siden."
+        },
+        {
+          "type":"text",
+          "value":"Derudover, kunne det være en god idé, at lave en 'fremhævet' fane, hvor man som eksaminator kan gå ind, og se hvad jeg syntes er allervigtist, såsom langsigtede læringsmål."
+        }
+      ]
     }
   ]
 }
