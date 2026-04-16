@@ -103,6 +103,8 @@ onMounted(async () => {
 .extraInfo {
   color: #00ffc8;
   display: flex;
+  align-items: flex-start !important;
+  justify-content: left !important;
   flex-direction: column;
   gap: 4px;
   margin-bottom: 10px;
