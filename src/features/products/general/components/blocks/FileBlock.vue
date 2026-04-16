@@ -6,9 +6,7 @@
       <img :src="block.preview" alt="Preview" />
     </div>
 
-    <a :href="block.file" download class="downloadLink">
-      ↓ Download fil
-    </a>
+    <a :href="block.file" download class="downloadLink"> ↓ Download fil </a>
   </div>
 </template>
 
@@ -33,8 +31,6 @@ defineProps<{ block: any }>()
   width: 100%;
   max-width: 500px;
   margin-top: 10px;
-
-
 }
 
 .downloadLink {
@@ -49,5 +45,4 @@ defineProps<{ block: any }>()
 .downloadLink:hover {
   text-decoration: underline;
 }
-
 </style>
