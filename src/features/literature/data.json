@@ -378,17 +378,17 @@
       "searchQuery": "Fundet igennem delt kilde liste for ERFA gruppe"
     },
     {
-      "id":30,
+      "id": 30,
       "title": "Pinia | The intuitive store for Vue.js",
-      "author":"Eduardo San Martin Morote",
-      "url":"https://pinia.vuejs.org/",
-      "accessed":"2026-04-17",
-      "note":"Dokumentation for state management med Pinia",
-      "validity":10,
-      "validityNote":"Officiel dokumentation for state management biblioteket Pinia",
-      "type":"Dokumentation",
-      "subjectKey":"web",
-      "searchQuery":"Linket gennem officiel vue.js dokumentation"
+      "author": "Eduardo San Martin Morote",
+      "url": "https://pinia.vuejs.org/",
+      "accessed": "2026-04-17",
+      "note": "Dokumentation for state management med Pinia",
+      "validity": 10,
+      "validityNote": "Officiel dokumentation for state management biblioteket Pinia",
+      "type": "Dokumentation",
+      "subjectKey": "web",
+      "searchQuery": "Linket gennem officiel vue.js dokumentation"
     }
   ]
 }
