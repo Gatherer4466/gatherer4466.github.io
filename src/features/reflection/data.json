@@ -25,6 +25,32 @@
         "abilities": "Jeg kan designe genanvendelige og løst koblede komponenter, hvilket fremgår af min feature-baserede struktur og komponentopdeling (fx LogList, LogContainer og LogSortOptions), hvor hver komponent har et klart ansvar.",
         "skills": "Jeg kan vurdere og begrunde mine arkitekturvalg i en Vue-applikation med fokus på skalerbarhed og vedligeholdelse, hvilket ses i min konsistente struktur på tværs af features samt brugen af TypeScript og event-baseret kommunikation frem for tæt kobling."
       }
+    },
+    {
+      "week": "12-13",
+      "devopsReflection": {
+        "knowledge": "Jeg har opnået viden om Docker images og containere, hvilket ses i mit Dockerized Node.js API samt docker compose produktet, hvor jeg arbejder med både containeropbygning og samspil mellem services.",
+        "abilities": "Jeg kan skrive en Dockerfile, bygge et image og køre det lokalt, hvilket fremgår af mit API produkt samt mit arbejde med docker compose.",
+        "skills": "Jeg kan forklare fordelene ved containerisering i forhold til konsistens mellem miljøer, men har primært arbejdet med simple setups og mangler erfaring med mere komplekse konfigurationer."
+      },
+      "webReflection": {
+        "knowledge": "Jeg har opnået viden om lifecycle hooks, datahentning fra APIer og håndtering af frontend states, hvilket ses i mit Axios del-produkt.",
+        "abilities": "Jeg kan implementere API kald ved brug af Axios samt håndtere simple loading og error states i komponenter.",
+        "skills": "Jeg kan reflektere over hvor datahåndtering bør placeres i en applikation, men har primært arbejdet med simple løsninger fremfor egentlige composables."
+      }
+    },
+    {
+      "week": "14-15",
+      "devopsReflection": {
+        "knowledge": "Jeg har opnået viden om forskellen mellem Continuous Delivery og Continuous Deployment gennem mit CI/CD setup i portfolio projektet.",
+        "abilities": "Jeg kan konfigurere en pipeline der både bygger og deployer en applikation til GitHub Pages, hvilket ses i mit deploy workflow.",
+        "skills": "Jeg kan forklare fordele og risici ved automatiseret deployment, især hvordan det kan øge hastighed men også kræver stabile tests."
+      },
+      "webReflection": {
+        "knowledge": "Jeg har opnået viden om routing i SPA'er, dette gældes både dynamic, og static routing.",
+        "abilities": "Jeg kan opsætte simpel routing og forstå hvordan navigation strukturerer en applikation.",
+        "skills": "Jeg kan forklare hvordan routing påvirker brugeroplevelse og struktur, men har ikke arbejdet dybt med guards."
+      }
     }
   ]
 }
