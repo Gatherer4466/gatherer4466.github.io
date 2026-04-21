@@ -18,5 +18,7 @@ const reflections: Reflection[] = list.reflections
   flex-direction: row;
   flex-wrap: wrap;
   gap: 1em;
+  justify-content: center;
+  max-width: 135ch;
 }
 </style>
