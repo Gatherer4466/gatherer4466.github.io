@@ -369,7 +369,7 @@
       "title": "Quickstart | Docker Compose",
       "author": "Docker",
       "url": "https://docs.docker.com/compose/gettingstarted/",
-      "accessed": "2026-04-09",
+      "accessed": "2026-04-22",
       "note": "Hurtig guide, til hvad docker compose er, og hvordan man kan bruge det.",
       "validity": 10,
       "validityNote": "Officiel kilde fra docker",
@@ -389,6 +389,19 @@
       "type": "Dokumentation",
       "subjectKey": "web",
       "searchQuery": "Linket gennem officiel vue.js dokumentation"
+    },
+    {
+      "id": 31,
+      "title": "Docker Compose",
+      "author": "Docker",
+      "url": "https://docs.docker.com/compose",
+      "accessed": "2026-04-22",
+      "note": "Officiel dokumentation for Docker Compose",
+      "validity": 10,
+      "validityNote": "Officiel kilde fra docker",
+      "type": "Dokumentation/Guide",
+      "subjectKey": "devOps",
+      "searchQuery": "Fundet igennem delt kilde liste for ERFA gruppe"
     }
   ]
 }
