@@ -87,6 +87,27 @@
           "content": "import os\nimport redis\nfrom flask import Flask\n\napp = Flask(__name__)\ncache = redis.Redis(\n    host=os.getenv(\"REDIS_HOST\", \"redis\"),\n    port=int(os.getenv(\"REDIS_PORT\", \"6379\")),\n)\n\n@app.route(\"/\")\ndef hello():\n    count = cache.incr(\"hits\")\n    return f\"Hello from Docker! I have been seen {count} time(s).\\n\""
         }
       ]
+    },
+    {
+      "id": 5,
+      "title": "Dockerized .NET API med MSSQL",
+      "description": "Containerisering af en ASP.NET Core applikation med tilhørende Microsoft SQL Server database via Docker Compose. Dog, kunne man udvide dette med for eksempel, at sætte database password i en .env fil, så man også har secret håndtering, men det en anden sag.",
+      "purpose": "Muliggør nem opsætning af både backend og database i isolerede containere, hvilket sikrer konsistent udviklings- og kørselsmiljø.",
+      "trigger": "Bygges og startes via docker compose up, enten manuelt eller som en del af CI/CD pipeline.",
+      "repository": "https://github.com/Gatherer4466/LystfiskerPortalen",
+      "stack": ["Docker", ".NET 8", "ASP.NET Core", "MSSQL", "Docker Compose"],
+      "files": [
+        {
+          "filename": "Dockerfile",
+          "language": "dockerfile",
+          "content": "FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build\nWORKDIR /src\n\nCOPY *.sln .\nCOPY LystfiskerPortalen/*.csproj LystfiskerPortalen/\nCOPY FiskerTest/*.csproj FiskerTest/\nCOPY FeedIntegrationsTest/*.csproj FeedIntegrationsTest/\nRUN dotnet restore\n\nCOPY . .\nWORKDIR /src/LystfiskerPortalen\nRUN dotnet publish -c Release -o /app/out\n\nFROM mcr.microsoft.com/dotnet/aspnet:8.0\nWORKDIR /app\n\nCOPY --from=build /app/out .\n\nEXPOSE 8080\nENTRYPOINT [\"dotnet\", \"LystfiskerPortalen.dll\"]"
+        },
+        {
+          "filename": "docker-compose.yml",
+          "language": "yaml",
+          "content": "version: \"3.9\"\n\nservices:\n  db:\n    image: mcr.microsoft.com/mssql/server:2022-latest\n    container_name: fisker_db\n    environment:\n      - ACCEPT_EULA=Y\n      - SA_PASSWORD=YourStrong!Passw0rd\n    ports:\n      - \"1433:1433\"\n    volumes:\n      - db-data:/var/opt/mssql\n\n  app:\n    build:\n      context: .\n      dockerfile: Dockerfile\n    container_name: fisker_app\n    depends_on:\n      - db\n    environment:\n      - ConnectionStrings__Data=Server=db;Database=FiskerDb;User=sa;Password=YourStrong!Passw0rd;TrustServerCertificate=True\n    ports:\n      - \"5000:8080\"\n\nvolumes:\n  db-data:"
+        }
+      ]
     }
   ]
 }
