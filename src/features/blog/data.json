@@ -693,6 +693,55 @@
           "value": "Det er sådan set det eneste der er sket i dag, jeg har lagt powerpointen ind, som et generelt produkt."
         }
       ]
+    },
+    {
+      "id": "log-2026-week-17-day-2",
+      "date": "2026-04-21",
+      "title": "Praktik stress",
+      "content": [
+        {
+          "type": "text",
+          "value": "I dag har jeg ikke lavet så meget i forhold til mine to emner, dog har jeg arbejdet på, at søge ind til flere praktiksteder, da jeg personligt syntes at der kommer lidt pres på nu, med mindre end 20 dage til at have noget på plads."
+        },
+        {
+          "type": "image",
+          "src": "https://cdn.7tv.app/emote/01JBS8MHVAT3N5R70WS5JPKCFH/4x.gif"
+        }
+      ]
+    },
+    {
+      "id": "log-2026-week-17-day-3",
+      "date": "2026-04-22",
+      "title": "Docker compose, det noget dejligt.",
+      "content": [
+        {
+          "type": "text",
+          "value": "I dag, for at kompensere lidt med min praktik stress, har jeg haft fuld fokus på at arbejde med docker compose, og få den idé som jeg havde for et stykke tid siden til faktisk og blive til noget. Dermed ligger der nu et 'nyt' produkt i produkt siden, hvor jeg har kunne tage den kode, jeg havde til lystfisker projektet, og dermed bruge docker compose, til at splitte databasen, og selve appen op, og dermed køre dem på samme tid, med health checks, og automatisk migration."
+        },
+        {
+          "type": "image",
+          "src": "https://cdn.7tv.app/emote/01FMQXK2XG00068STSDCEP4J41/4x.png"
+        }
+      ]
+    },
+    {
+      "id": "log-2026-week-17-day-4",
+      "date": "2026-04-23",
+      "title": "Praktik samtale og arbejd",
+      "content": [
+        {
+          "type": "text",
+          "value": "I dag har jeg allerede været til min første samtale hos en mulig praktikplads, det gik fint tænker jeg."
+        },
+        {
+          "type": "text",
+          "value": "Hvis det ikke allerede var evident er jeg fra i tirsdags gået i gang med at skrue op for, hvor ofte jeg opdatere bloggen, jeg forsøger at gøre det dagligt fra nu af."
+        },
+        {
+          "type": "text",
+          "value": "Derudover har jeg også haft en arbejds opgave, så der har ikke været så meget plads til mine to emenr. I morgen står det på at knokle noget mere med mine emner."
+        }
+      ]
     }
   ]
 }
