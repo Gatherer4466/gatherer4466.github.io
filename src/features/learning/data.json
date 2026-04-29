@@ -10,18 +10,24 @@
           "title": "Langsigtet perspektiv",
           "type": "long",
           "knowledge": [
-            "Den studerende har viden om Vue 3’s arkitektur, herunder reaktivitetssystemet, komponentstruktur og routing.",
-            "Den studerende har viden om hvordan frontendarkitektur i Vue interagerer med backend API’er og moderne webinfrastruktur.",
-            "Den studerende har viden om principper for skalerbar frontendarkitektur i Single Page Applications."
+            "Den studerende har forståelse for, hvordan Vue 3’s reaktivitetssystem fungerer, og hvordan det påvirker rendering og state.",
+            "Den studerende har forståelse for komponentbaseret arkitektur, herunder props, events og dataflow.",
+            "Den studerende har viden om routing i Single Page Applications.",
+            "Den studerende har viden om state management og forskellen på lokal og global state.",
+            "Den studerende har viden om, hvordan frontend applikationer kommunikerer med backend API’er."
           ],
           "skills": [
-            "Den studerende kan udvikle skalerbare og vedligeholdelsesvenlige Vue-applikationer.",
-            "Den studerende kan analysere dokumentation og tekniske artikler om frontendarkitektur.",
-            "Den studerende kan begrunde design- og arkitekturvalg i en Vue-applikation."
+            "Den studerende kan udvikle en Vue-applikation med en klar og modulær komponentstruktur.",
+            "Den studerende kan anvende Pinia til at håndtere global state og strukturere stores.",
+            "Den studerende kan implementere CRUD-lignende funktionalitet i en frontend applikation.",
+            "Den studerende kan integrere API-kald i en Vue-applikation og håndtere data asynkront.",
+            "Den studerende kan anvende og analysere dokumentation til at implementere nye features."
           ],
           "competencies": [
-            "Den studerende kan selvstændigt sætte sig ind i nye Vue-relaterede teknologier.",
-            "Den studerende kan vurdere frontendens rolle i forhold til systemarkitektur, backend og DevOps."
+            "Den studerende kan begrunde valg af komponentstruktur og state management i en konkret løsning.",
+            "Den studerende kan vurdere fordele og ulemper ved forskellige måder at håndtere state og dataflow på.",
+            "Den studerende kan selvstændigt videreudvikle en Vue-applikation og tilpasse den til nye krav.",
+            "Den studerende kan reflektere over, hvordan struktur og arkitektur påvirker vedligeholdelse og skalerbarhed."
           ]
         },
 
@@ -146,18 +152,22 @@
           "title": "Langsigtet perspektiv",
           "type": "long",
           "knowledge": [
-            "Den studerende har viden om principperne bag Continuous Integration og Continuous Delivery.",
-            "Den studerende har viden om containerisering og dens rolle i moderne deployment.",
-            "Den studerende har viden om automatisering af infrastruktur og pipelines."
+            "Den studerende har forståelse for, hvad Continuous Integration og Continuous Delivery er, og hvordan det anvendes i praksis.",
+            "Den studerende har viden om automatiserede pipelines og deres rolle i udviklingsprocessen.",
+            "Den studerende har viden om test i forbindelse med CI/CD.",
+            "Den studerende har forståelse for grundlæggende principper inden for containerisering og deployment."
           ],
           "skills": [
-            "Den studerende kan designe og implementere en automatiseret CI/CD pipeline.",
-            "Den studerende kan analysere dokumentation og tekniske artikler om DevOps-praksis.",
-            "Den studerende kan dokumentere en automatiseret udviklings- og deploymentproces."
+            "Den studerende kan opsætte en CI/CD pipeline til build og test af en applikation.",
+            "Den studerende kan integrere automatiserede tests i en pipeline.",
+            "Den studerende kan anvende versionsstyring i samarbejde med CI/CD.",
+            "Den studerende kan dokumentere og forklare en pipeline og dens opbygning."
           ],
           "competencies": [
-            "Den studerende kan selvstændigt sætte sig ind i nye DevOps-værktøjer.",
-            "Den studerende kan vurdere automatiseringsløsninger i forhold til skalerbarhed, sikkerhed og drift."
+            "Den studerende kan begrunde valg af værktøjer og opsætning i en pipeline.",
+            "Den studerende kan vurdere styrker og svagheder ved en DevOps-løsning.",
+            "Den studerende kan selvstændigt forbedre og udvide en pipeline.",
+            "Den studerende kan reflektere over, hvordan automatisering påvirker kvalitet og udviklingsproces."
           ]
         },
 
