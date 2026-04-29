@@ -29,11 +29,11 @@
       "preview": "/images/productDemos/web/ApiUsageShowcase.png"
     },
     {
-  "id": 5,
-  "title": "Pinia state management",
-  "description": "Et simpelt Vue eksperiment med fokus på brug af Pinia til state management. Applikationen fungerer som en task liste, hvor man kan tilføje, slette og markere opgaver som færdige. Der bruges getters til at vise statistik over tasks, og hele state håndteres centralt i en store. Produktet er lavet for at få en bedre forståelse af Pinia og strukturering af state i Vue.",
-  "link": "https://gatherer4466.github.io/PiniaTesting",
-  "preview": "/images/productDemos/web/PiniaPreview.png"
-}
+      "id": 5,
+      "title": "Pinia state management",
+      "description": "Et simpelt Vue eksperiment med fokus på brug af Pinia til state management. Applikationen fungerer som en task liste, hvor man kan tilføje, slette og markere opgaver som færdige. Der bruges getters til at vise statistik over tasks, og hele state håndteres centralt i en store. Produktet er lavet for at få en bedre forståelse af Pinia og strukturering af state i Vue.",
+      "link": "https://gatherer4466.github.io/PiniaTesting",
+      "preview": "/images/productDemos/web/PiniaPreview.png"
+    }
   ]
 }
