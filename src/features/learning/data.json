@@ -7,7 +7,7 @@
       "blocks": [
         {
           "id": "vue-long",
-          "title": "Langsigtet perspektiv",
+          "title": "Langsigtet Læringsmål",
           "type": "long",
           "knowledge": [
             "Den studerende har forståelse for, hvordan Vue 3’s reaktivitetssystem fungerer, og hvordan det påvirker rendering og state.",
@@ -149,7 +149,7 @@
       "blocks": [
         {
           "id": "devops-long",
-          "title": "Langsigtet perspektiv",
+          "title": "Langsigtet Læringsmål",
           "type": "long",
           "knowledge": [
             "Den studerende har forståelse for, hvad Continuous Integration og Continuous Delivery er, og hvordan det anvendes i praksis.",
