@@ -742,6 +742,37 @@
           "value": "Derudover har jeg også haft en arbejds opgave, så der har ikke været så meget plads til mine to emenr. I morgen står det på at knokle noget mere med mine emner."
         }
       ]
+    },
+    {
+      "id": "log-2026-week-18-day-2",
+      "date": "2026-04-28",
+      "title": "Lidt forsinket Pinia eksperimentering",
+      "content": [
+        {
+          "type": "text",
+          "value": "I dag har jeg efter noget tid, kigget ind i state management frameworket Pinia. Derudover har jeg brugt det meste af dagen på at være med til et møde i uddanelsesudvalget for IT uddanelser."
+        },
+        {
+          "type": "text",
+          "value": "Personligt er jeg ved at nå til et punkt, hvor jeg nok dykker mindre ned i detajler på selve bloggen her, men mere bare overordnet hvad jeg har lavet i dag. Da jeg føler, at jeg er ved at brænde en lille smule ud."
+        },
+        {
+          "type": "text",
+          "value": "Min midlertidige løsning til det er, at sige: 'Der er lidt under en månede til jeg skal aflevere, så at skære lidt ned på bloggen for dermed at fokusere lidt mere på at finde en praktikplads, og dermed også mine fag, virker mere hensigtsmessigt.'"
+        },
+        {
+          "type": "image",
+          "src": "/images/blogImages/week18/tuesday/piniaCode.png"
+        },
+        {
+          "type": "text",
+          "value": "Produktet er lagt ind under produkter for web udvikling."
+        },
+        {
+          "type": "text",
+          "value": "Det næste skridt herfra er, at refinere mine mål, og så bare lock the fuck in."
+        }
+      ]
     }
   ]
 }
