@@ -402,6 +402,19 @@
       "type": "Dokumentation/Guide",
       "subjectKey": "devOps",
       "searchQuery": "Fundet igennem delt kilde liste for ERFA gruppe"
+    },
+    {
+      "id": 32,
+      "title": "What is infrastructure as code | Azure DevOps | Microsoft Learn",
+      "author": "Microsoft",
+      "url": "https://learn.microsoft.com/en-us/devops/deliver/what-is-infrastructure-as-code",
+      "accessed": "2026-04-30",
+      "note": "Kort artikel, der giver en grund-forståelse for, hvad Infrastructure as Code (IaC) er.",
+      "validity": 10,
+      "validityNote": "Kilde fra Microsoft, mere specifikt, deres læringsplatform, som giver en forståelse for deres Azure DevOps platform.",
+      "type": "Informerende artikel",
+      "subjectKey": "devOps",
+      "searchQuery": "Henvisning fra en kammerat, på SDU."
     }
   ]
 }
