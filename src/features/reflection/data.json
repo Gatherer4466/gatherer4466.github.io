@@ -51,6 +51,19 @@
         "abilities": "Jeg kan opsætte simpel routing og forstå hvordan navigation strukturerer en applikation.",
         "skills": "Jeg kan forklare hvordan routing påvirker brugeroplevelse og struktur, men har ikke arbejdet dybt med guards."
       }
+    },
+    {
+      "week": "16-17",
+      "devopsReflection": {
+        "knowledge": "Jeg har til dels opnået dette mål. Jeg har opnået grundlæggende viden om Infrastructure as Code gennem research og kilder, men har primært arbejdet praktisk med Docker Compose, hvor jeg har fået indsigt i, hvordan konfiguration kan beskrives deklarativt i YAML.",
+        "abilities": "Jeg kan definere en simpel miljøopsætning ved brug af Docker Compose, hvor jeg opsætter flere services (applikation og database), health checks og automatisk migration. Jeg kan dermed også versionere denne konfiguration gennem Git og anvende den som en del af mit setup.",
+        "skills": "Jeg kan forklare hvordan konfigurationsfiler som Docker Compose fungerer som Infrastructure as Code, og hvordan det bidrager til reproducerbare miljøer. Jeg mangler dog stadig erfaring med mere avancerede IaC-værktøjer og bredere anvendelse i pipelines."
+      },
+      "webReflection": {
+        "knowledge": "Jeg har opnået grundlæggende viden om state management i Vue, herunder forskellen mellem lokal og global state samt hvordan Pinia fungerer som state management bibliotek.",
+        "abilities": "Jeg kan implementere en simpel Pinia store med state, getters og actions, hvilket ses i mit Pinia del-produkt.",
+        "skills": "Jeg kan forklare hvornår global state er relevant i en applikation, men har kun arbejdet med simple eksempler og mangler erfaring med større og mere komplekse state-strukturer."
+      }
     }
   ]
 }
