@@ -247,31 +247,31 @@
           "type": "week",
           "knowledge": [
             "Den studerende har viden om logging og monitorering i softwaredrift.",
-            "Den studerende har viden om grundlæggende DevSecOps-principper."
+            "Den studerende har forståelse for hvordan feedback fra drift kan anvendes i udviklingsprocessen."
           ],
           "skills": [
-            "Den studerende kan konfigurere simpel logging i en applikation.",
-            "Den studerende kan anvende grundlæggende monitoreringsmekanismer.",
-            "Den studerende kan integrere simple sikkerhedsscanninger i en pipeline."
+            "Den studerende kan konfigurere logging i en applikation.",
+            "Den studerende kan opsætte simpel monitorering af en applikation.",
+            "Den studerende kan anvende logs og monitoreringsdata til at identificere fejl."
           ],
           "competencies": [
-            "Den studerende kan forklare hvordan overvågning og sikkerhed bidrager til drift."
+            "Den studerende kan forklare hvordan feedback fra drift kan bruges til at forbedre kvalitet og stabilitet i software."
           ]
         },
-
         {
           "id": "devops-20-21",
           "title": "Uge 20-21",
           "type": "week",
           "knowledge": [
-            "Den studerende har viden om hvordan en automatiseret pipeline kan forbinde kodecommit, build og deployment."
+            "Den studerende har viden om hvordan en automatiseret pipeline forbinder kodecommit, build, test og deployment."
           ],
           "skills": [
-            "Den studerende kan dokumentere en simpel CI/CD-opsætning.",
-            "Den studerende kan beskrive hvordan pipeline-automatisering fungerer."
+            "Den studerende kan opsætte eller tilpasse en simpel CI/CD-pipeline.",
+            "Den studerende kan dokumentere pipeline-strukturen og dens trin.",
+            "Den studerende kan analysere og forbedre en pipeline baseret på feedback."
           ],
           "competencies": [
-            "Den studerende kan reflektere over hvordan DevOps-praksis påvirker samarbejde mellem udvikling og drift."
+            "Den studerende kan vurdere hvordan automatisering i pipelines påvirker kvalitet, hastighed og samarbejde i udviklingsprocessen."
           ]
         }
       ]
