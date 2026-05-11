@@ -418,16 +418,16 @@
     },
     {
       "id": 33,
-      "title":"React",
-      "author":"Meta",
-      "url":"https://react.dev/",
-      "accessed":"2026-05-05",
-      "note":"Officiel dokumentation for frameworket React, primært brugt i forbindelse med praktik muligheder, da de fleste frontend virksomheder bruger react.",
-      "validity":10,
-      "validityNote":"Officiel dokumentation og guides, udarbejdet af Meta",
-      "type":"Dokumentation",
-      "subjectKey":"web",
-      "searchQuery":"Google: React docs"
+      "title": "React",
+      "author": "Meta",
+      "url": "https://react.dev/",
+      "accessed": "2026-05-05",
+      "note": "Officiel dokumentation for frameworket React, primært brugt i forbindelse med praktik muligheder, da de fleste frontend virksomheder bruger react.",
+      "validity": 10,
+      "validityNote": "Officiel dokumentation og guides, udarbejdet af Meta",
+      "type": "Dokumentation",
+      "subjectKey": "web",
+      "searchQuery": "Google: React docs"
     }
   ]
 }
