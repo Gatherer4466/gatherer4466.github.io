@@ -34,6 +34,13 @@
       "description": "Et simpelt Vue eksperiment med fokus på brug af Pinia til state management. Applikationen fungerer som en task liste, hvor man kan tilføje, slette og markere opgaver som færdige. Der bruges getters til at vise statistik over tasks, og hele state håndteres centralt i en store. Produktet er lavet for at få en bedre forståelse af Pinia og strukturering af state i Vue.",
       "link": "https://gatherer4466.github.io/PiniaTesting",
       "preview": "/images/productDemos/web/PiniaPreview.png"
+    },
+    {
+      "id": 6,
+      "title": "Realtime Issue Dashboard (Vue 3 + Pinia)",
+      "description": "Et interaktivt Vue 3 dashboard bygget med Pinia state management, som simulerer et realtime issue tracking system. Applikationen indeholder en stor mængde genererede issues, som løbende opdateres automatisk via en interval-baseret mutation af state. Brugeren kan filtrere issues baseret på status og søge i titler, samt manuelt ændre status direkte gennem UI. Derudover visualiseres både status og prioritet gennem farvekodede badges, og ændringer fremhæves visuelt i realtid for at simulere et dynamisk system. Projektet demonstrerer forståelse for Vue reaktivitet, computed state, komponentbaseret arkitektur samt separation af data- og UI-lag.",
+      "link": "https://gatherer4466.github.io/issueDashboard-Master/",
+      "preview": "/images/productDemos/web/IssueDashboardPreview.png"
     }
   ]
 }
