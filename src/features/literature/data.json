@@ -428,6 +428,32 @@
       "type": "Dokumentation",
       "subjectKey": "web",
       "searchQuery": "Google: React docs"
+    },
+    {
+      "id": 34,
+      "title": "Reactivity Fundamentals | Vue.js",
+      "author": "Vue.js Team",
+      "url": "https://vuejs.org/guide/essentials/reactivity-fundamentals.html",
+      "accessed": "2026-05-11",
+      "note": "Officiel dokumentation for Vue’s reaktivitetssystem, herunder ref(), reactive() og hvordan rendering opdateres automatisk ved state changes.",
+      "validity": 10,
+      "validityNote": "Officiel Vue.js dokumentation.",
+      "type": "Dokumentation",
+      "subjectKey": "web",
+      "searchQuery": "Google: Vue reactivity fundamentals"
+    },
+    {
+      "id": 35,
+      "title": "Performance Best Practices | Vue.js",
+      "author": "Vue.js Team",
+      "url": "https://vuejs.org/guide/best-practices/performance.html",
+      "accessed": "2026-05-11",
+      "note": "Guide til performanceoptimering i Vue, herunder lazy loading, code splitting og reduktion af unødvendige re-renders.",
+      "validity": 10,
+      "validityNote": "Officiel performance guide fra Vue.js.",
+      "type": "Dokumentation",
+      "subjectKey": "web",
+      "searchQuery": "Google: Vue performance best practices"
     }
   ]
 }
