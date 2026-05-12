@@ -4,6 +4,13 @@ export const notFoundView = () => import('@/views/NotFound.vue')
 
 export const routes = [
   {
+    path: '/fremhaevet',
+    name: 'fremhaevet',
+    color: '#ff1493',
+    inMenu: true,
+    component: notFoundView,
+  },
+  {
     path: '/',
     name: 'forside',
     color: '#ff7493',
