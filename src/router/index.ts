@@ -8,7 +8,7 @@ export const routes = [
     name:'fremhaevet',
     color:'#ff1493',
     inMenu: true,
-    component: () => import('@/features/examHighligts/HighlightView.vue')
+    component: notFoundView
   },
   {
     path: '/',
