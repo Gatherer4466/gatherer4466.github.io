@@ -10,21 +10,21 @@
         <h4>Viden</h4>
         <div class="lines">
           <p v-for="(item, i) in normalize(knowledge)" :key="`k-${i}`">
-            {{ item }}
+            • {{ item }}
           </p>
         </div>
 
         <h4>Færdigheder</h4>
         <div class="lines">
           <p v-for="(item, i) in normalize(skills)" :key="`s-${i}`">
-            {{ item }}
+            • {{ item }}
           </p>
         </div>
 
         <h4>Kompetencer</h4>
         <div class="lines">
           <p v-for="(item, i) in normalize(competencies)" :key="`c-${i}`">
-            {{ item }}
+            • {{ item }}
           </p>
         </div>
       </div>
@@ -95,7 +95,7 @@ h4 {
 
 .lines p {
   max-width: 100ch;
-  margin: 0 auto 6px auto;
+  margin: 0 auto 10px auto;
   text-align: left;
 }
 
