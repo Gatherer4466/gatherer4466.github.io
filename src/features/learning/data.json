@@ -21,7 +21,7 @@
           "skills": [
             "Den studerende kan udvikle en Vue-applikation med en klar og modulær komponentstruktur.",
             "Den studerende kan anvende Pinia til at håndtere global state og strukturere stores.",
-            "Den studerende kan implementere CRUD-funktionalitet i en frontend applikation.",
+            "Den studerende kan implementere CRUD-funktionalitet i en Vue-applikation, herunder formularhåndtering, visning af data samt oprettelse, redigering og sletning gennem API-kald.",
             "Den studerende kan integrere API-kald i en Vue-applikation og håndtere data asynkront."
           ],
           "competencies": [
@@ -163,7 +163,8 @@
           "skills": [
             "Den studerende kan opsætte en CI/CD pipeline med GitHub Actions til build, test og deployment af en applikation.",
             "Den studerende kan integrere automatiserede tests i en pipeline.",
-            "Den studerende kan anvende versionsstyring i samarbejde med CI/CD."
+            "Den studerende kan anvende versionsstyring i samarbejde med CI/CD.",
+            "Den studerende kan adskille centrale komponenter i forskellige containers med brug af docker compose."
           ],
           "competencies": [
             "Den studerende kan begrunde valg af værktøjer, workflows og pipeline-struktur i en DevOps-løsning.",
