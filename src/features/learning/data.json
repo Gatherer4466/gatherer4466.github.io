@@ -163,8 +163,7 @@
           "skills": [
             "Den studerende kan opsætte en CI/CD pipeline med GitHub Actions til build, test og deployment af en applikation.",
             "Den studerende kan integrere automatiserede tests i en pipeline.",
-            "Den studerende kan anvende versionsstyring i samarbejde med CI/CD.",
-            "Den studerende kan dokumentere og forklare en pipeline og dens opbygning."
+            "Den studerende kan anvende versionsstyring i samarbejde med CI/CD."
           ],
           "competencies": [
             "Den studerende kan begrunde valg af værktøjer, workflows og pipeline-struktur i en DevOps-løsning.",
