@@ -821,21 +821,21 @@
       ]
     },
     {
-      "id":"log-2026-week-20-day2",
-      "date":"2026-05-12",
-      "title":"Tilpasning af læringsmål",
-      "content":[
+      "id": "log-2026-week-20-day2",
+      "date": "2026-05-12",
+      "title": "Tilpasning af læringsmål",
+      "content": [
         {
-          "type":"text",
+          "type": "text",
           "value": "I dag har jeg ikke lavet så meget arbejde, ud over at tilpasse mine langsigtet læringsmål"
         },
         {
-          "type":"text",
-          "value":"Dette sker på baggrund af noget feedback jeg har fået i løbet af et produkt vejlednings møde"
+          "type": "text",
+          "value": "Dette sker på baggrund af noget feedback jeg har fået i løbet af et produkt vejlednings møde"
         },
         {
-          "type":"text",
-          "value":"Udover dette har jeg fået sikret mig en praktikplads, så der er noget vægt taget af mine skuldre, så der er generelt lidt mindre stress resten af dette sprint."
+          "type": "text",
+          "value": "Udover dette har jeg fået sikret mig en praktikplads, så der er noget vægt taget af mine skuldre, så der er generelt lidt mindre stress resten af dette sprint."
         }
       ]
     }
