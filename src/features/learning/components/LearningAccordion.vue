@@ -9,23 +9,17 @@
       <div v-if="open" class="content">
         <h4>Viden</h4>
         <div class="lines">
-          <p v-for="(item, i) in normalize(knowledge)" :key="`k-${i}`">
-            • {{ item }}
-          </p>
+          <p v-for="(item, i) in normalize(knowledge)" :key="`k-${i}`">• {{ item }}</p>
         </div>
 
         <h4>Færdigheder</h4>
         <div class="lines">
-          <p v-for="(item, i) in normalize(skills)" :key="`s-${i}`">
-            • {{ item }}
-          </p>
+          <p v-for="(item, i) in normalize(skills)" :key="`s-${i}`">• {{ item }}</p>
         </div>
 
         <h4>Kompetencer</h4>
         <div class="lines">
-          <p v-for="(item, i) in normalize(competencies)" :key="`c-${i}`">
-            • {{ item }}
-          </p>
+          <p v-for="(item, i) in normalize(competencies)" :key="`c-${i}`">• {{ item }}</p>
         </div>
       </div>
     </transition>
