@@ -2,8 +2,6 @@
   <div class="card">
     <h3>{{ product.title }}</h3>
 
-    <p v-if="product.date" class="smallMargin"><strong>Dato:</strong> {{ product.date }}</p>
-
     <p v-if="product.description">
       {{ product.description }}
     </p>
@@ -27,6 +25,7 @@ import ImageBlock from './blocks/ImageBlock.vue'
 import VideoBlock from './blocks/VideoBlock.vue'
 import NoteBlock from './blocks/NoteBlock.vue'
 import FileBlock from './blocks/FileBlock.vue'
+import GoalBlock from './blocks/GoalBlock.vue'
 
 const props = defineProps<{ product: ExamInformation }>()
 
@@ -35,6 +34,7 @@ const componentMap = {
   video: VideoBlock,
   note: NoteBlock,
   file: FileBlock,
+  goal: GoalBlock,
 } as const
 
 type BlockType = keyof typeof componentMap
