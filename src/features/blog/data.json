@@ -840,25 +840,25 @@
       ]
     },
     {
-      "id":"log-2026-week-20-day-5",
-      "date":"2026-05-15",
-      "title":"Ny fane, tilpasset læringsmål",
-      "content":[
+      "id": "log-2026-week-20-day-5",
+      "date": "2026-05-15",
+      "title": "Ny fane, tilpasset læringsmål",
+      "content": [
         {
-          "type":"text",
+          "type": "text",
           "value": "I dag har jeg arbejdet hjemme, hvor jeg primært har fokuseret på at udarbejde en ny fane, som indeholder de vigtigste informationer, så en eksaminator nemt kan tilgå dem."
         },
         {
-          "type":"text",
-          "value":"Disse informationer er bl.a. de langsigtet læringsmål for begge mine emner, emne beskrivelser, samt produktvideo, når jeg så på et eller andet tidspunkt får udarbejdet den. Det bliver måske snart, da jeg tænker de nuværende produkter jeg har udarbejdet, passer fint og dækker nogle lunde mine læringsmål."
+          "type": "text",
+          "value": "Disse informationer er bl.a. de langsigtet læringsmål for begge mine emner, emne beskrivelser, samt produktvideo, når jeg så på et eller andet tidspunkt får udarbejdet den. Det bliver måske snart, da jeg tænker de nuværende produkter jeg har udarbejdet, passer fint og dækker nogle lunde mine læringsmål."
         },
         {
-          "type":"text",
-          "value":"Derudover, har jeg også finpusset mine læringsmål til et punkt hvor jeg tror de er meget fornuftige, den feedback jeg får har ihvertifald været meget positiv, og det giver mig lidt ro til at kunne tage de sidste få dage med fred, uden den største stress."
+          "type": "text",
+          "value": "Derudover, har jeg også finpusset mine læringsmål til et punkt hvor jeg tror de er meget fornuftige, den feedback jeg får har ihvertifald været meget positiv, og det giver mig lidt ro til at kunne tage de sidste få dage med fred, uden den største stress."
         },
         {
-          "type":"text",
-          "value":"Den nye fane er dermed også tilgængelig nu, dog fra i dag er der kun mine læringsmål sat ind."
+          "type": "text",
+          "value": "Den nye fane er dermed også tilgængelig nu, dog fra i dag er der kun mine læringsmål sat ind."
         }
       ]
     }
