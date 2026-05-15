@@ -3,13 +3,13 @@ import { createRouter, createWebHashHistory } from 'vue-router'
 export const notFoundView = () => import('@/views/NotFound.vue')
 
 export const routes = [
-  // {
-  //   path: '/fremhaevet',
-  //   name: 'fremhaevet',
-  //   color: '#ff1493',
-  //   inMenu: true,
-  //   component: notFoundView,
-  // },
+  {
+    path: '/fremhaevet',
+    name: 'eksamen',
+    color: '#ff1493',
+    inMenu: true,
+    component: () => import('@/features/exam/ExamRelevantView.vue'),
+  },
   {
     path: '/',
     name: 'forside',
