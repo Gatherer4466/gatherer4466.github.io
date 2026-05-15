@@ -9,6 +9,7 @@ export type ExamBlock =
       preview?: string
       format?: string
     }
+  | { type: 'goal'; knowledge: string[]; skills: string[]; competencies: string[] }
 // | { type: 'text'; content: string }
 // | { type: 'code'; language: string; content: string }
 
@@ -16,6 +17,5 @@ export interface ExamInformation {
   id: number
   title: string
   description?: string
-  date: string
   blocks: ExamBlock[]
 }
