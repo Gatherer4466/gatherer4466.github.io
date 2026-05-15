@@ -1,0 +1,63 @@
+{
+  "ExamInformation": [
+    {
+      "id": 1,
+      "title": "Langsigtet læringsmål for webudvikling med vue",
+      "blocks": [
+        {
+          "type": "goal",
+          "knowledge": [
+            "Den studerende har forståelse for, hvordan Vue 3's reaktivitetssystem fungerer, og hvordan det påvirker rendering, state og performance.",
+            "Den studerende har forståelse for komponentbaseret arkitektur, herunder props, events, slots og dataflow mellem komponenter.",
+            "Den studerende har viden om routing i Single Page Applications med Vue Router, herunder dynamiske routes og navigationsguards.",
+            "Den studerende har viden om state management med Pinia, herunder forskellen på lokal og global state.",
+            "Den studerende har viden om, hvordan frontendapplikationer kommunikerer med backend API'er gennem HTTP og asynkrone kald.",
+            "Den studerende har viden om fordele og ulemper ved forskellige frontend frameworks og biblioteker, herunder Vue, React og Angular, i forhold til kompleksitet, performance, skalerbarhed og udvikleroplevelse.",
+            "Den studerende har viden om, hvordan dokumentation og tekniske ressourcer anvendes til at implementere nye features og løse tekniske problemstillinger."
+          ],
+          "skills": [
+            "Den studerende kan udvikle en Vue-applikation med en klar og modulær komponentstruktur.",
+            "Den studerende kan anvende Pinia til at håndtere global state og strukturere stores.",
+            "Den studerende kan implementere CRUD-funktionalitet i en Vue-applikation, herunder formularhåndtering, visning af data samt oprettelse, redigering og sletning gennem API-kald.",
+            "Den studerende kan integrere API-kald i en Vue-applikation og håndtere data asynkront."
+          ],
+          "competencies": [
+            "Den studerende kan begrunde valg af komponentstruktur, routing og state management i en konkret Vue-løsning.",
+            "Den studerende kan vurdere fordele og ulemper ved forskellige måder at håndtere state, dataflow og komponentkommunikation på.",
+            "Den studerende kan selvstændigt videreudvikle en Vue-applikation og tilpasse arkitektur og komponentstruktur til nye krav.",
+            "Den studerende kan reflektere over, hvordan struktur, komponentdesign og state management påvirker vedligeholdelse, testbarhed og skalerbarhed i frontendapplikationer."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Langsigtet læringsmål for DevOps med fokus på automatisering",
+      "blocks": [
+        {
+          "type": "goal",
+          "knowledge": [
+            "Den studerende har forståelse for, hvad Continuous Integration (CI) og Continuous Delivery/Deployment (CD) er, og hvordan det anvendes i moderne softwareudvikling.",
+            "Den studerende har viden om automatiserede pipelines og deres rolle i build, test og deployment-processer.",
+            "Den studerende har viden om teststrategier i forbindelse med CI/CD, herunder automatiserede tests og validering.",
+            "Den studerende har forståelse for grundlæggende principper inden for containerisering og deployment med værktøjer som Docker.",
+            "Den studerende har viden om versionsstyring og automatisering med værktøjer som Git og GitHub Actions.",
+            "Den studerende har viden om, hvordan en pipeline dokumenteres og forklares, herunder pipeline-trin, workflows, triggers og afhængigheder."
+          ],
+          "skills": [
+            "Den studerende kan opsætte en CI/CD pipeline med GitHub Actions til build, test og deployment af en applikation.",
+            "Den studerende kan integrere automatiserede tests i en pipeline.",
+            "Den studerende kan anvende versionsstyring i samarbejde med CI/CD.",
+            "Den studerende kan adskille centrale komponenter i forskellige containers med brug af docker compose."
+          ],
+          "competencies": [
+            "Den studerende kan begrunde valg af værktøjer, workflows og pipeline-struktur i en DevOps-løsning.",
+            "Den studerende kan vurdere styrker og svagheder ved forskellige DevOps-løsninger, herunder valg af CI/CD-platforme, grad af automatisering, teststrategier og deploymentmetoder.",
+            "Den studerende kan selvstændigt forbedre, udvide og fejlfinde en pipeline ved at tilføje nye workflows, automatiserede tests, deployment-trin eller monitorering.",
+            "Den studerende kan reflektere over, hvordan automatisering, CI/CD og DevOps-principper påvirker kvalitet, samarbejde, stabilitet og udviklingsproces."
+          ]
+        }
+      ]
+    }
+  ]
+}
