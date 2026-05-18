@@ -1,6 +1,7 @@
 export type ExamBlock =
   | { type: 'image'; src: string; caption?: string }
   | { type: 'video'; url: string }
+  | { type: 'youtube'; embedUrl: string }
   | { type: 'note'; content: string }
   | {
       type: 'file'
