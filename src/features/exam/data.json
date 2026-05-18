@@ -1,7 +1,17 @@
 {
   "ExamInformation": [
     {
-      "id": 1,
+      "id":1,
+      "title":"Produkt Video",
+      "blocks": [
+        {
+          "type": "youtube",
+          "embedUrl": "https://www.youtube.com/embed/M_AswYSks0s?si=v4WizVrFqrOURrnx"
+        }
+      ]
+    },
+    {
+      "id": 2,
       "title": "Langsigtet læringsmål for webudvikling med vue",
       "blocks": [
         {
@@ -31,7 +41,7 @@
       ]
     },
     {
-      "id": 2,
+      "id": 3,
       "title": "Langsigtet læringsmål for DevOps med fokus på automatisering",
       "blocks": [
         {
