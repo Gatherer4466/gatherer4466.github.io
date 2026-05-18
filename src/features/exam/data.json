@@ -2,6 +2,26 @@
   "ExamInformation": [
     {
       "id": 1,
+      "title": "Produkt Video",
+      "blocks": [
+        {
+          "type": "youtube",
+          "embedUrl": "https://www.youtube.com/embed/M_AswYSks0s?si=v4WizVrFqrOURrnx"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Beskrivelse af emne: webudivikling med vue",
+      "blocks": [
+        {
+          "type": "note",
+          "content": "Webudvikling med Vue handler om selvstændigt at opbygge kompetencer inden for udvikling af skalerbare frontendapplikationer med Vue.js og TypeScript. TypeScript anvendes frem for JavaScript for at understøtte type-sikkerhed og skabe en mere naturlig overgang fra C#-udvikling til moderne webudvikling."
+        }
+      ]
+    },
+    {
+      "id": 3,
       "title": "Langsigtet læringsmål for webudvikling med vue",
       "blocks": [
         {
@@ -31,7 +51,17 @@
       ]
     },
     {
-      "id": 2,
+      "id": 4,
+      "title": "Beskrivelse af emne: DevOps med fokus på automatisering",
+      "blocks": [
+        {
+          "type": "note",
+          "content": "DevOps med fokus på automatisering handler om selvstændigt at opbygge kompetencer inden for automatisering af udviklings- og deploymentprocesser. Der arbejdes med CI/CD, versionsstyring, containerisering og automatiserede pipelines gennem værktøjer som GitHub Actions og Docker for at skabe mere stabile, skalerbare og effektive udviklingsforløb."
+        }
+      ]
+    },
+    {
+      "id": 5,
       "title": "Langsigtet læringsmål for DevOps med fokus på automatisering",
       "blocks": [
         {

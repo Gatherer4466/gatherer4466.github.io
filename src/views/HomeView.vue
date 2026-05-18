@@ -1,8 +1,8 @@
 <template>
   <div class="wrapper">
     <h1 class="message">
-      Lige nu er der ikke noget for forsiden,<br />
-      klik på en af de der navigations knapper på siden.
+      Leder du efter eksamensrelevant information? (Produkt video, osv)<br />
+      klik <span><a href="/#/fremhaevet">her</a></span> for at navigere til siden
     </h1>
 
     <img
