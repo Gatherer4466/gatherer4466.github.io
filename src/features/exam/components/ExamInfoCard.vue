@@ -26,11 +26,14 @@ import VideoBlock from './blocks/VideoBlock.vue'
 import NoteBlock from './blocks/NoteBlock.vue'
 import FileBlock from './blocks/FileBlock.vue'
 import GoalBlock from './blocks/GoalBlock.vue'
+import YouTubeBlock from './blocks/YoutubeBlock.vue'
+
 
 const props = defineProps<{ product: ExamInformation }>()
 
 const componentMap = {
   image: ImageBlock,
+  youtube: YouTubeBlock,
   video: VideoBlock,
   note: NoteBlock,
   file: FileBlock,
