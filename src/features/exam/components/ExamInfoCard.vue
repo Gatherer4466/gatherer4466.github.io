@@ -28,7 +28,6 @@ import FileBlock from './blocks/FileBlock.vue'
 import GoalBlock from './blocks/GoalBlock.vue'
 import YouTubeBlock from './blocks/YoutubeBlock.vue'
 
-
 const props = defineProps<{ product: ExamInformation }>()
 
 const componentMap = {
