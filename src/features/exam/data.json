@@ -88,6 +88,32 @@
           ]
         }
       ]
+    },
+    {
+      "id": 6,
+      "title": "Endelige refleksioner",
+      "blocks": [
+        {
+          "type": "note",
+          "content": "I løbet af dette semester har jeg opnået flere ting. Blandt andet har jeg fået undersøgt to emner, som jeg personligt fandt interessante, og dermed opnået en god mængde viden inden for disse områder."
+        },
+        {
+          "type": "note",
+          "content": "Derudover har jeg også lært nogle ting om mig selv og min egen arbejdsproces. Jeg har blandt andet indset, at jeg er mere afhængig af struktur, end jeg tidligere har været opmærksom på, samt at jeg til tider kan være lidt for ambitiøs, når jeg sætter mål for mig selv."
+        },
+        {
+          "type": "note",
+          "content": "Overordnet set har jeg haft en generelt positiv oplevelse gennem semestret, selvom der også har været perioder med stress. Jeg synes selv, at jeg har været god til at holde motivationen oppe, blandt andet på grund af et citat fra en underviser i løbet af 3. semester."
+        },
+        {
+          "type": "note",
+          "content": "\"Da du startede dette semester, vidste du nærmest intet om disse emner, men nu, efter få måneder, har du tilegnet dig så meget viden, og du fortsætter stadig. Det er flot.\""
+        },
+        {
+          "type": "note",
+          "content": "I forhold til projektet valgte jeg at træde fra, da jeg ikke følte, at jeg fik særligt meget læringsudbytte ud af det, samtidig med at det tilføjede unødigt meget pres."
+        }
+      ]
     }
   ]
 }
