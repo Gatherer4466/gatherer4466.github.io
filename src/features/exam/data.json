@@ -2,6 +2,7 @@
   "ExamInformation": [
     {
       "id": 1,
+      "slug":"product-video",
       "title": "Produkt Video",
       "blocks": [
         {
