@@ -22,6 +22,7 @@
     },
     {
       "id": 3,
+      "slug": "web-goals",
       "title": "Langsigtet læringsmål for webudvikling med vue",
       "blocks": [
         {
@@ -62,6 +63,7 @@
     },
     {
       "id": 5,
+      "slug": "devops-goals",
       "title": "Langsigtet læringsmål for DevOps med fokus på automatisering",
       "blocks": [
         {
