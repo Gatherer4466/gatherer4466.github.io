@@ -16,6 +16,7 @@ export type ExamBlock =
 
 export interface ExamInformation {
   id: number
+  slug?: string
   title: string
   description?: string
   blocks: ExamBlock[]
