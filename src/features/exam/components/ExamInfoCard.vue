@@ -52,13 +52,20 @@ type BlockType = keyof typeof componentMap
 
 const getComponent = (type: BlockType) => componentMap[type]
 
+const highlightedSlug = computed(() => {
+  return typeof route.query.highlight === 'string'
+    ? route.query.highlight
+    : ''
+})
+
 const isHighlighted = computed(() => {
-  return route.hash.replace('#', '') === props.product.slug
+  return !!props.product.slug &&
+    highlightedSlug.value === props.product.slug
 })
 
 onMounted(() => {
-  if (isHighlighted.value && props.product.slug) {
-    const el = document.getElementById(props.product.slug)
+  if (isHighlighted.value) {
+    const el = document.getElementById(props.product.slug!)
 
     el?.scrollIntoView({
       behavior: 'smooth',
@@ -80,5 +87,4 @@ onMounted(() => {
     0 0 12px hotpink,
     0 0 24px hotpink;
 }
-
 </style>
