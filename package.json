@@ -30,7 +30,7 @@
     "eslint-plugin-oxlint": "~1.43.0",
     "eslint-plugin-vue": "~10.8.0",
     "jiti": "^2.6.1",
-    "npm-run-all2": "^8.0.4",
+    "npm-run-all2": "^9.0.1",
     "oxlint": "~1.50.0",
     "prettier": "3.8.1",
     "typescript": "~5.9.3",
