@@ -1,7 +1,7 @@
 <template>
   <div class="wrapper">
     <h1 class="message">
-      Leder du efter eksamensrelevant information? (Produkt video, osv)<br />
+      Leder du efter eksamensrelevant information?<br />
       klik <span><a href="/#/fremhaevet">her</a></span> for at navigere til siden
     </h1>
 

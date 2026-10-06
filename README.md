@@ -1,48 +1,83 @@
 # uniPortfolio
 
-This template should help get you started developing with Vue 3 in Vite.
+[![Vue.js](https://img.shields.io/badge/Vue.js-3-4FC08D?logo=vuedotjs&logoColor=white)](https://vuejs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.9-3178C6?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![Vite](https://img.shields.io/badge/Vite-7-646CFF?logo=vite&logoColor=white)](https://vite.dev/)
+[![License](https://img.shields.io/badge/license-personal%20project-lightgrey)](#licens)
 
-## Recommended IDE Setup
+> En personlig portfolio og eksamensplatform bygget med Vue 3, TypeScript og Vite.
 
-[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+## Om projektet
 
-## Recommended Browser Setup
+uniPortfolio samler læringsmål, faglige refleksioner, litteratur og udviklingsprodukter i én overskuelig webapplikation. Indholdet er organiseret som datafiler og genanvendelige Vue-komponenter, så portfolioen er nem at udvide og vedligeholde.
 
-- Chromium-based browsers (Chrome, Edge, Brave, etc.):
-  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd)
-  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
-- Firefox:
-  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
-  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
+## Funktioner
 
-## Type Support for `.vue` Imports in TS
+- **Eksamensinformation** – emnebeskrivelser, læringsmål og afsluttende refleksioner.
+- **Webudvikling** – produkter og eksempler fra Vue- og frontendarbejde.
+- **DevOps** – dokumentation af automatisering, containere og CI/CD-relaterede produkter.
+- **Læringslog** – kronologiske refleksioner og udviklingsnoter.
+- **Litteratur** – kuraterede ressourcer og faglige kilder.
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
+## Teknologier
 
-## Customize configuration
+- [Vue 3](https://vuejs.org/) med Composition API
+- [TypeScript](https://www.typescriptlang.org/)
+- [Vite](https://vite.dev/)
+- [Vue Router](https://router.vuejs.org/)
+- [Highlight.js](https://highlightjs.org/)
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+## Kom i gang
 
-## Project Setup
+### Forudsætninger
+
+- Node.js `20.19+` eller `22.12+`
+- npm
+
+### Installation
 
 ```sh
 npm install
 ```
 
-### Compile and Hot-Reload for Development
+### Udvikling
+
+Start den lokale udviklingsserver med hot reload:
 
 ```sh
 npm run dev
 ```
 
-### Type-Check, Compile and Minify for Production
+### Produktion
+
+Byg projektet til produktion:
 
 ```sh
 npm run build
 ```
 
-### Lint with [ESLint](https://eslint.org/)
+Forhåndsvis produktionsbygget lokalt:
 
 ```sh
-npm run lint
+npm run preview
 ```
+
+## Projektstruktur
+
+```text
+src/
+├── components/       Genanvendelige UI-komponenter
+├── features/         Funktionsområder med komponenter, typer og data
+├── router/           Applikationens routes
+├── styles/            Globale og responsive styles
+└── views/             Overordnede sider
+public/                Statiske billeder og øvrige assets
+```
+
+## Indhold
+
+Det meste portfolioindhold ligger i JSON-filer under `src/features/`. Når nyt indhold skal tilføjes, bør det placeres i det relevante featureområde og følge de eksisterende typer og komponentmønstre.
+
+## Licens
+
+Projektet er et personligt portfolioarbejde og er ikke udgivet under en separat open source-licens.

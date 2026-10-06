@@ -2,17 +2,6 @@
   "ExamInformation": [
     {
       "id": 1,
-      "slug":"product-video",
-      "title": "Produkt Video",
-      "blocks": [
-        {
-          "type": "youtube",
-          "embedUrl": "https://www.youtube.com/embed/M_AswYSks0s?si=v4WizVrFqrOURrnx"
-        }
-      ]
-    },
-    {
-      "id": 2,
       "title": "Beskrivelse af emne: webudivikling med vue",
       "blocks": [
         {
